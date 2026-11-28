@@ -1,0 +1,5982 @@
+{
+ "version": 2,
+ "pack": "trip-tours",
+ "built": "2026-11-28T19:40:45+11:00",
+ "catalogueVersion": 9,
+ "locations": [
+  {
+   "id": "start-here",
+   "title": "Start here",
+   "city": "Start here",
+   "day": 1,
+   "order": 1,
+   "summary": "Play this first: how Trip Tours works.",
+   "showFrom": "2026-12-12"
+  },
+  {
+   "id": "london-primer",
+   "title": "London: the big picture",
+   "city": "London",
+   "day": 1,
+   "order": 2,
+   "summary": "Two thousand years of London in a few minutes, and what we will be getting up to.",
+   "date": "2026-12-13",
+   "showFrom": "2026-12-12"
+  },
+  {
+   "id": "tower-of-london",
+   "title": "Tower of London",
+   "city": "London",
+   "day": 1,
+   "order": 3,
+   "summary": "Nine hundred years of palace, fortress, zoo and prison beside the Thames.",
+   "spot": {
+    "lat": 51.507064,
+    "lng": -0.076058,
+    "radius": 30,
+    "name": "Tower Wharf, below the White Tower",
+    "look": {
+     "lat": 51.508184,
+     "lng": -0.0759
+    },
+    "text": "Stand on Tower Wharf, the riverside walk outside the Tower's walls, before you go in. Face north, away from the river: the big square White Tower with four corner turrets rises behind the outer wall."
+   },
+   "date": "2026-12-13"
+  },
+  {
+   "id": "tower-bridge",
+   "title": "Tower Bridge",
+   "city": "London",
+   "day": 1,
+   "order": 4,
+   "summary": "The Victorian lifting bridge everyone mistakes for London Bridge.",
+   "spot": {
+    "lat": 51.50619,
+    "lng": -0.077243,
+    "radius": 30,
+    "name": "North bank path, west of Tower Bridge",
+    "look": {
+     "lat": 51.505516,
+     "lng": -0.075367
+    },
+    "text": "Stand on the riverside path on the north bank, just west of Tower Bridge, near the Tower of London. Face the bridge side-on so you can see both towers and the high walkways."
+   },
+   "date": "2026-12-13"
+  },
+  {
+   "id": "somerset-house",
+   "title": "Somerset House",
+   "city": "London",
+   "day": 1,
+   "order": 5,
+   "summary": "A Georgian palace of offices, with an ice rink in winter.",
+   "spot": {
+    "lat": 51.511135,
+    "lng": -0.117,
+    "radius": 50,
+    "name": "Somerset House courtyard",
+    "text": "Stand in the middle of the Somerset House courtyard, through the arch from the Strand. The buildings surround you on all sides; the rink fills the courtyard in winter."
+   },
+   "date": "2026-12-13"
+  },
+  {
+   "id": "buckingham-palace",
+   "title": "Buckingham Palace",
+   "city": "London",
+   "day": 2,
+   "order": 1,
+   "summary": "The King's London home, with the most famous balcony in the world.",
+   "spot": {
+    "lat": 51.50178,
+    "lng": -0.140752,
+    "radius": 50,
+    "name": "Victoria Memorial, facing the Palace",
+    "look": {
+     "lat": 51.5014,
+     "lng": -0.1419
+    },
+    "text": "Roughly by the Victoria Memorial, the big white statue with the gold winged figure in front of the palace. Stand on its palace side and face the long grey front with the balcony."
+   },
+   "date": "2026-12-14"
+  },
+  {
+   "id": "parliament-square",
+   "title": "Parliament Square",
+   "city": "London",
+   "day": 2,
+   "order": 2,
+   "summary": "Big Ben, the Houses of Parliament and Britain's statues of freedom.",
+   "spot": {
+    "lat": 51.500842,
+    "lng": -0.126431,
+    "radius": 30,
+    "name": "Parliament Square, by the Churchill statue",
+    "look": {
+     "lat": 51.500694,
+     "lng": -0.124575
+    },
+    "text": "Stand on the Parliament Square green, near the big statue of Churchill in his greatcoat. Face east, the way he is looking, towards the clock tower and the Houses of Parliament."
+   },
+   "date": "2026-12-14"
+  },
+  {
+   "id": "westminster-abbey",
+   "title": "Westminster Abbey",
+   "city": "London",
+   "day": 2,
+   "order": 3,
+   "summary": "Every coronation since ten sixty-six, and the resting place of kings, poets and scientists.",
+   "spot": {
+    "lat": 51.499399,
+    "lng": -0.129125,
+    "radius": 30,
+    "name": "Broad Sanctuary, facing the Abbey's west front",
+    "look": {
+     "lat": 51.499399,
+     "lng": -0.128402
+    },
+    "text": "Stand on the wide pavement of Broad Sanctuary, in front of Westminster Abbey. Step back far enough to see both square towers and the great west door between them."
+   },
+   "date": "2026-12-14"
+  },
+  {
+   "id": "downing-street",
+   "title": "Downing Street",
+   "city": "London",
+   "day": 2,
+   "order": 4,
+   "summary": "The most famous front door in Britain, behind a set of black gates.",
+   "spot": {
+    "lat": 51.503402,
+    "lng": -0.126113,
+    "radius": 30,
+    "name": "Whitehall, opposite the gates of Downing Street",
+    "look": {
+     "lat": 51.503488,
+     "lng": -0.127696
+    },
+    "text": "Stand on the Whitehall pavement opposite the black gates of Downing Street. Look through the gates down the narrow street: Number 10 is the black door on the right."
+   },
+   "date": "2026-12-14"
+  },
+  {
+   "id": "churchill-war-rooms",
+   "title": "Churchill War Rooms",
+   "city": "London",
+   "day": 2,
+   "order": 5,
+   "summary": "The secret bunker under Whitehall where Britain's war was run.",
+   "spot": {
+    "lat": 51.50222,
+    "lng": -0.127842,
+    "radius": 30,
+    "name": "King Charles Street, by the War Rooms",
+    "look": {
+     "lat": 51.50221,
+     "lng": -0.129252
+    },
+    "text": "Stand on King Charles Street near the Clive Steps, the stone steps under the statue of Clive at the park end of the street. The War Rooms entrance is at the bottom of the steps."
+   },
+   "date": "2026-12-14"
+  },
+  {
+   "id": "piccadilly-circus",
+   "title": "Piccadilly Circus",
+   "city": "London",
+   "day": 2,
+   "order": 6,
+   "summary": "London's famous junction of lights, and a statue that isn't who you think.",
+   "spot": {
+    "lat": 51.510036,
+    "lng": -0.134624,
+    "radius": 30,
+    "name": "Piccadilly Circus, by the Shaftesbury Memorial fountain",
+    "look": {
+     "lat": 51.51029,
+     "lng": -0.134772
+    },
+    "text": "Stand near the fountain with the winged archer on top, at Piccadilly Circus. Face the curved wall of giant lit screens."
+   },
+   "date": "2026-12-14"
+  },
+  {
+   "id": "trafalgar-square",
+   "title": "Trafalgar Square",
+   "city": "London",
+   "day": 2,
+   "order": 7,
+   "summary": "Nelson's Column, four bronze lions, and a Christmas tree from Norway.",
+   "spot": {
+    "lat": 51.508262,
+    "lng": -0.127878,
+    "radius": 50,
+    "name": "Trafalgar Square, between the fountains and the National Gallery",
+    "look": {
+     "lat": 51.507757,
+     "lng": -0.127931
+    },
+    "text": "Stand in Trafalgar Square between the fountains, with the National Gallery's columns behind you. Nelson's Column and the Christmas tree are in front of you."
+   },
+   "date": "2026-12-14"
+  },
+  {
+   "id": "british-museum",
+   "title": "British Museum",
+   "city": "London",
+   "day": 3,
+   "order": 1,
+   "summary": "The world's first national public museum, home of the Rosetta Stone.",
+   "spot": {
+    "lat": 51.518323,
+    "lng": -0.126705,
+    "radius": 30,
+    "name": "British Museum forecourt",
+    "look": {
+     "lat": 51.518682,
+     "lng": -0.126705
+    },
+    "text": "Stand in the forecourt in front of the British Museum, inside the railings. Face the big columns and the triangle of sculpture on top."
+   },
+   "date": "2026-12-15"
+  },
+  {
+   "id": "natural-history-museum",
+   "title": "Natural History Museum",
+   "city": "London",
+   "day": 3,
+   "order": 2,
+   "summary": "A cathedral to nature, with a blue whale hanging in the hall.",
+   "spot": {
+    "lat": 51.495459,
+    "lng": -0.176042,
+    "radius": 30,
+    "name": "Cromwell Road, facing the Natural History Museum",
+    "look": {
+     "lat": 51.495971,
+     "lng": -0.176002
+    },
+    "text": "Stand on the Cromwell Road side, in front of the Natural History Museum. Face the long cathedral-like front with its two towers and arched entrance."
+   },
+   "date": "2026-12-15"
+  },
+  {
+   "id": "hyde-park",
+   "title": "Hyde Park",
+   "city": "London",
+   "day": 3,
+   "order": 3,
+   "summary": "Henry the Eighth's hunting ground, now home to Winter Wonderland.",
+   "spot": {
+    "lat": 51.5041,
+    "lng": -0.1524,
+    "radius": 50,
+    "name": "Hyde Park Corner, Queen Elizabeth Gate",
+    "text": "Roughly at Hyde Park Corner, by the Queen Elizabeth Gate. Winter Wonderland is just inside the park: follow the crowds and the lights. The real entrance can move each year."
+   },
+   "date": "2026-12-15"
+  },
+  {
+   "id": "abbey-road",
+   "title": "Abbey Road",
+   "city": "London",
+   "day": 4,
+   "order": 1,
+   "summary": "The most famous zebra crossing in the world.",
+   "spot": {
+    "lat": 51.532067,
+    "lng": -0.177488,
+    "radius": 50,
+    "name": "Abbey Road, beside the crossing",
+    "look": {
+     "lat": 51.532,
+     "lng": -0.1773
+    },
+    "text": "Roughly beside the zebra crossing on Abbey Road, on the footpath, near the white studio building. Stay on the footpath while you listen; cross only when it is safe."
+   },
+   "date": "2026-12-16"
+  },
+  {
+   "id": "berlin-primer",
+   "title": "Berlin: the big picture",
+   "city": "Berlin",
+   "day": 5,
+   "order": 1,
+   "summary": "Kings, emperors, a dictatorship, a wall, and a city that put itself back together.",
+   "date": "2026-12-17",
+   "showFrom": "2026-12-16"
+  },
+  {
+   "id": "alexanderplatz",
+   "title": "Alexanderplatz and the TV Tower",
+   "city": "Berlin",
+   "day": 5,
+   "order": 2,
+   "summary": "East Berlin's showpiece square, under the tallest structure in Germany.",
+   "spot": {
+    "lat": 52.521176,
+    "lng": 13.41349,
+    "radius": 30,
+    "name": "Alexanderplatz, by the World Clock",
+    "look": {
+     "lat": 52.520828,
+     "lng": 13.409421
+    },
+    "text": "Stand by the World Clock in Alexanderplatz, the round clock with planets on top. Look up and slightly west: the TV Tower's needle and silver ball are hard to miss."
+   },
+   "date": "2026-12-17"
+  },
+  {
+   "id": "tv-tower-deck",
+   "title": "The view from the top",
+   "city": "Berlin",
+   "day": 5,
+   "order": 3,
+   "summary": "Arnold on the observation deck: what you are looking at in every direction.",
+   "spot": {
+    "text": "Go up to the observation deck. Find the big green dome of Berlin Cathedral: that is roughly west. Face it: north is on your right, south on your left, east behind you. Pick the window for the direction you want."
+   },
+   "date": "2026-12-17"
+  },
+  {
+   "id": "stasi-primer",
+   "title": "The Stasi",
+   "city": "Berlin",
+   "day": 6,
+   "order": 1,
+   "summary": "East Germany's secret police, and the prison that did not appear on any map.",
+   "date": "2026-12-18"
+  },
+  {
+   "id": "reichstag",
+   "title": "Reichstag",
+   "city": "Berlin",
+   "day": 7,
+   "order": 1,
+   "summary": "Germany's parliament: fire, war, a divided city, and a glass dome.",
+   "spot": {
+    "lat": 52.5186,
+    "lng": 13.373765,
+    "radius": 50,
+    "name": "Platz der Republik, west of the Reichstag",
+    "look": {
+     "lat": 52.5186,
+     "lng": 13.3748
+    },
+    "text": "Stand on the lawn west of the Reichstag, near the West Portal where the tour meets. Face the columns and the words Dem Deutschen Volke above them."
+   },
+   "date": "2026-12-19"
+  },
+  {
+   "id": "brandenburg-gate",
+   "title": "Brandenburg Gate",
+   "city": "Berlin",
+   "day": 7,
+   "order": 2,
+   "summary": "Berlin's great gate: a stolen statue, a wall, and the night it reopened.",
+   "spot": {
+    "lat": 52.51627,
+    "lng": 13.379033,
+    "radius": 30,
+    "name": "Pariser Platz, facing the Brandenburg Gate",
+    "look": {
+     "lat": 52.51627,
+     "lng": 13.377703
+    },
+    "text": "Stand in Pariser Platz, the square on the east side of the Brandenburg Gate. Face the gate and the four horses on top."
+   },
+   "date": "2026-12-19"
+  },
+  {
+   "id": "holocaust-memorial",
+   "title": "Memorial to the Murdered Jews of Europe",
+   "city": "Berlin",
+   "day": 7,
+   "order": 3,
+   "summary": "A field of grey concrete blocks remembering six million people.",
+   "spot": {
+    "lat": 52.514604,
+    "lng": 13.377533,
+    "radius": 30,
+    "name": "North-west corner of the Memorial field",
+    "look": {
+     "lat": 52.513873,
+     "lng": 13.378735
+    },
+    "text": "Stand at the north-west corner of the field of grey concrete blocks, near the Brandenburg Gate end. Listen here, at the edge, before you walk in."
+   },
+   "date": "2026-12-19"
+  },
+  {
+   "id": "fuehrerbunker-site",
+   "title": "Führerbunker site",
+   "city": "Berlin",
+   "day": 7,
+   "order": 4,
+   "summary": "An ordinary car park above the place where Hitler's regime ended.",
+   "spot": {
+    "lat": 52.513014,
+    "lng": 13.38049,
+    "radius": 50,
+    "name": "Gertrud-Kolmar-Straße, by the information board",
+    "text": "Roughly on Gertrud-Kolmar-Strasse, near the information board about the bunker. There is nothing to see above ground but a car park; the board marks the place."
+   },
+   "date": "2026-12-19"
+  },
+  {
+   "id": "topography-of-terror",
+   "title": "Topography of Terror",
+   "city": "Berlin",
+   "day": 7,
+   "order": 5,
+   "summary": "The site of the Gestapo and SS headquarters, beside a surviving stretch of the Wall.",
+   "spot": {
+    "lat": 52.5069,
+    "lng": 13.3835,
+    "radius": 50,
+    "name": "Topography of Terror outdoor trench, beside the Wall",
+    "text": "Roughly at the Topography of Terror outdoor exhibition, beside the surviving stretch of the Wall and the trench below it. Find the long section of grey Wall."
+   },
+   "date": "2026-12-19"
+  },
+  {
+   "id": "checkpoint-charlie",
+   "title": "Checkpoint Charlie",
+   "city": "Berlin",
+   "day": 7,
+   "order": 6,
+   "summary": "The most famous crossing point between East and West Berlin.",
+   "spot": {
+    "lat": 52.507444,
+    "lng": 13.390255,
+    "radius": 30,
+    "name": "Pavement beside the Checkpoint Charlie guardhouse",
+    "look": {
+     "lat": 52.507432,
+     "lng": 13.390381
+    },
+    "text": "Stand on the pavement beside the guardhouse replica in the middle of Friedrichstrasse, near the big sign about leaving the American sector."
+   },
+   "date": "2026-12-19"
+  },
+  {
+   "id": "spy-museum",
+   "title": "Leipziger Platz and the Spy Museum",
+   "city": "Berlin",
+   "day": 7,
+   "order": 7,
+   "summary": "Once Europe's busiest square, then a death strip, then a spy museum.",
+   "spot": {
+    "lat": 52.509686,
+    "lng": 13.379201,
+    "radius": 50,
+    "name": "Leipziger Platz, facing the Spy Museum",
+    "look": {
+     "lat": 52.509012,
+     "lng": 13.379294
+    },
+    "text": "Stand in Leipziger Platz, the octagon-shaped square next to Potsdamer Platz. The Spy Museum is on the square's south side."
+   },
+   "date": "2026-12-19"
+  },
+  {
+   "id": "bernauer-strasse",
+   "title": "Bernauer Strasse",
+   "city": "Berlin",
+   "day": 8,
+   "order": 1,
+   "summary": "The Berlin Wall Memorial, with the last preserved stretch of the death strip.",
+   "spot": {
+    "lat": 52.5353,
+    "lng": 13.3902,
+    "radius": 50,
+    "name": "Bernauer Straße, Documentation Centre",
+    "text": "Roughly at the Documentation Centre on Bernauer Strasse, across from the preserved strip of the Wall. If you go up the viewing tower, look down into the death strip."
+   },
+   "date": "2026-12-20"
+  },
+  {
+   "id": "window-of-remembrance",
+   "title": "Window of Remembrance",
+   "city": "Berlin",
+   "day": 8,
+   "order": 2,
+   "summary": "Portraits of those who died at the Wall, and a chapel where a church once stood.",
+   "spot": {
+    "lat": 52.5354,
+    "lng": 13.3898,
+    "radius": 50,
+    "name": "Bernauer Straße, Window of Remembrance",
+    "text": "Roughly on Bernauer Strasse near the Chapel of Reconciliation, the round building, and the Window of Remembrance, the wall of small photographs."
+   },
+   "date": "2026-12-20"
+  },
+  {
+   "id": "nordbahnhof",
+   "title": "Nordbahnhof ghost station",
+   "city": "Berlin",
+   "day": 8,
+   "order": 3,
+   "summary": "An underground station where trains passed through without stopping.",
+   "spot": {
+    "lat": 52.5318,
+    "lng": 13.3874,
+    "radius": 50,
+    "name": "Nordbahnhof station",
+    "text": "Roughly at Nordbahnhof station. The exhibition about the ghost stations is inside the station hall, down the steps. Phone location may be poor here."
+   },
+   "date": "2026-12-20"
+  },
+  {
+   "id": "bebelplatz",
+   "title": "Bebelplatz",
+   "city": "Berlin",
+   "day": 8,
+   "order": 4,
+   "summary": "The square where the Nazis burned books in nineteen thirty-three.",
+   "spot": {
+    "lat": 52.516487,
+    "lng": 13.393826,
+    "radius": 50,
+    "name": "Bebelplatz, glass panel",
+    "text": "Stand in the middle of Bebelplatz, by the glass panel set into the ground. Look down through the glass at the empty white bookshelves below."
+   },
+   "date": "2026-12-20"
+  },
+  {
+   "id": "train-berlin-dresden",
+   "title": "Train to Dresden",
+   "city": "Dresden",
+   "day": 10,
+   "order": 1,
+   "summary": "Two hours south through the old East Germany to the capital of Saxony.",
+   "date": "2026-12-22"
+  },
+  {
+   "id": "striezelmarkt",
+   "title": "Striezelmarkt",
+   "city": "Dresden",
+   "day": 10,
+   "order": 2,
+   "summary": "One of Germany's oldest Christmas markets, home of the Dresden Stollen.",
+   "spot": {
+    "lat": 51.049627,
+    "lng": 13.73788,
+    "radius": 50,
+    "name": "Altmarkt, Striezelmarkt",
+    "text": "Stand in the Altmarkt, the big square where the Striezelmarkt is held. Look for the tall wooden Christmas pyramid."
+   },
+   "date": "2026-12-22"
+  },
+  {
+   "id": "frauenkirche",
+   "title": "Frauenkirche",
+   "city": "Dresden",
+   "day": 10,
+   "order": 3,
+   "summary": "The great domed church destroyed in nineteen forty-five and rebuilt from its own ruins.",
+   "spot": {
+    "lat": 51.052307,
+    "lng": 13.741063,
+    "radius": 30,
+    "name": "Neumarkt, north-west of the Frauenkirche",
+    "look": {
+     "lat": 51.051957,
+     "lng": 13.741619
+    },
+    "text": "Stand on Neumarkt, the square north-west of the Frauenkirche, near the statue of Martin Luther. Face the great stone dome."
+   },
+   "date": "2026-12-22"
+  },
+  {
+   "id": "fuerstenzug",
+   "title": "Fürstenzug",
+   "city": "Dresden",
+   "day": 10,
+   "order": 4,
+   "summary": "A hundred metres of Saxon rulers on porcelain tiles that survived the war.",
+   "spot": {
+    "lat": 51.052858,
+    "lng": 13.738981,
+    "radius": 30,
+    "name": "Augustusstraße, across from the Fürstenzug",
+    "look": {
+     "lat": 51.05275,
+     "lng": 13.738981
+    },
+    "text": "Stand across Augustusstrasse from the long painted tile wall of the Procession of Princes. Face the wall and walk along it."
+   },
+   "date": "2026-12-22"
+  },
+  {
+   "id": "bruehls-terrace",
+   "title": "Brühl's Terrace",
+   "city": "Dresden",
+   "day": 10,
+   "order": 5,
+   "summary": "The Balcony of Europe, high above the river Elbe.",
+   "spot": {
+    "lat": 51.053289,
+    "lng": 13.742377,
+    "radius": 30,
+    "name": "Brühl's Terrace",
+    "text": "Stand on the top of Brühl's Terrace, the raised promenade above the river Elbe. Face the river."
+   },
+   "date": "2026-12-22"
+  },
+  {
+   "id": "train-dresden-prague",
+   "title": "Train to Prague",
+   "city": "Prague",
+   "day": 10,
+   "order": 6,
+   "summary": "Along the Elbe, through sandstone mountains, into Bohemia.",
+   "date": "2026-12-22"
+  },
+  {
+   "id": "prague-primer",
+   "title": "Prague: the big picture",
+   "city": "Prague",
+   "day": 10,
+   "order": 7,
+   "summary": "A fairy-tale city that survived the twentieth century almost intact.",
+   "date": "2026-12-22"
+  },
+  {
+   "id": "prague-castle-courtyard",
+   "title": "Prague Castle: First Courtyard",
+   "city": "Prague",
+   "day": 11,
+   "order": 1,
+   "summary": "A thousand years of kings, emperors and presidents on one hilltop.",
+   "spot": {
+    "lat": 50.0906,
+    "lng": 14.4002,
+    "radius": 50,
+    "name": "Prague Castle, First Courtyard",
+    "text": "Roughly in the First Courtyard of Prague Castle, just inside the main gate from Hradčany Square, where the guards stand. The Matthias Gate is at the far end."
+   },
+   "date": "2026-12-23"
+  },
+  {
+   "id": "st-vitus-cathedral",
+   "title": "Saint Vitus Cathedral",
+   "city": "Prague",
+   "day": 11,
+   "order": 2,
+   "summary": "The Gothic cathedral that took six hundred years to finish.",
+   "spot": {
+    "lat": 50.090707,
+    "lng": 14.398943,
+    "radius": 30,
+    "name": "Third Courtyard, facing St Vitus Cathedral",
+    "look": {
+     "lat": 50.090817,
+     "lng": 14.399733
+    },
+    "text": "Stand in the Third Courtyard, in front of the west end of St Vitus Cathedral. Step back to see both spires."
+   },
+   "date": "2026-12-23"
+  },
+  {
+   "id": "golden-lane",
+   "title": "Golden Lane",
+   "city": "Prague",
+   "day": 11,
+   "order": 3,
+   "summary": "A lane of tiny painted houses built into the castle wall.",
+   "spot": {
+    "lat": 50.0912,
+    "lng": 14.4034,
+    "radius": 50,
+    "name": "Golden Lane",
+    "text": "Roughly in Golden Lane, the row of tiny painted houses inside the castle grounds. It is part of the paid castle circuit. Find number 22, the blue house."
+   },
+   "date": "2026-12-23"
+  },
+  {
+   "id": "nerudova-street",
+   "title": "Nerudova Street",
+   "city": "Prague",
+   "day": 11,
+   "order": 4,
+   "summary": "A steep street of palaces and painted house signs, on the old royal route.",
+   "spot": {
+    "lat": 50.088601,
+    "lng": 14.402063,
+    "radius": 30,
+    "name": "Nerudova Street",
+    "text": "Stand anywhere along Nerudova Street, the steep street leading up to the castle. Look up above the doorways for the house signs."
+   },
+   "date": "2026-12-23"
+  },
+  {
+   "id": "old-town-hall-orloj",
+   "title": "Old Town Hall and the Astronomical Clock",
+   "city": "Prague",
+   "day": 11,
+   "order": 5,
+   "summary": "The six-hundred-year-old Astronomical Clock, and the square where Prague's history played out.",
+   "spot": {
+    "lat": 50.086665,
+    "lng": 14.420714,
+    "radius": 50,
+    "name": "Old Town Square, facing the Orloj",
+    "look": {
+     "lat": 50.08698,
+     "lng": 14.420714
+    },
+    "text": "Stand in Old Town Square facing the south wall of the Old Town Hall tower, where the Astronomical Clock is. Look up at the two clock faces."
+   },
+   "date": "2026-12-23"
+  },
+  {
+   "id": "old-town-hall-tower",
+   "title": "Old Town Hall Tower",
+   "city": "Prague",
+   "day": 11,
+   "order": 6,
+   "summary": "The viewing platform of the Old Town Hall Tower, forty metres above the square, with Sir David watching Prague.",
+   "spot": {
+    "text": "Go up the Old Town Hall Tower to the viewing platform. Face the two big dark spires of Týn Church: that is east. The river and Prague Castle are behind you, to the west. Pick the track for the direction you are facing."
+   },
+   "date": "2026-12-23"
+  },
+  {
+   "id": "charles-bridge",
+   "title": "Charles Bridge",
+   "city": "Prague",
+   "day": 11,
+   "order": 7,
+   "summary": "Prague's medieval stone bridge, lined with saints and lit by gas lamps.",
+   "spot": {
+    "lat": 50.086156,
+    "lng": 14.414178,
+    "radius": 30,
+    "name": "Křižovnické náměstí, by the Charles IV statue",
+    "look": {
+     "lat": 50.086175,
+     "lng": 14.413609
+    },
+    "text": "Stand near the Charles IV statue in the small square at the Old Town end of Charles Bridge. Face the tall Gothic tower at the start of the bridge."
+   },
+   "date": "2026-12-23"
+  },
+  {
+   "id": "old-town-square-tree",
+   "title": "Old Town Square and Týn Church",
+   "city": "Prague",
+   "day": 11,
+   "order": 8,
+   "summary": "Prague's great square, with the twin black spires of Týn Church and the Christmas tree.",
+   "spot": {
+    "lat": 50.087816,
+    "lng": 14.421081,
+    "radius": 50,
+    "name": "Old Town Square, by the Jan Hus Memorial",
+    "look": {
+     "lat": 50.087721,
+     "lng": 14.422695
+    },
+    "text": "Stand near the Jan Hus Memorial in Old Town Square. Face the two black spires of the Týn Church; the Christmas tree is nearby."
+   },
+   "date": "2026-12-23"
+  },
+  {
+   "id": "josefov",
+   "title": "Josefov, the Jewish Quarter",
+   "city": "Prague",
+   "day": 12,
+   "order": 1,
+   "summary": "Prague's old Jewish town: Europe's oldest active synagogue, an ancient cemetery, and the legend of the Golem.",
+   "spot": {
+    "lat": 50.089667,
+    "lng": 14.420041,
+    "radius": 30,
+    "name": "Široká street, by the Old-New Synagogue",
+    "look": {
+     "lat": 50.089983,
+     "lng": 14.41844
+    },
+    "text": "Stand on the street beside the Old-New Synagogue, the small Gothic building with the tall saw-toothed brick gable."
+   },
+   "date": "2026-12-24"
+  },
+  {
+   "id": "municipal-house",
+   "title": "Municipal House",
+   "city": "Prague",
+   "day": 13,
+   "order": 1,
+   "summary": "Prague's Art Nouveau palace, where Czechoslovakia was born.",
+   "spot": {
+    "lat": 50.088208,
+    "lng": 14.428913,
+    "radius": 50,
+    "name": "Republic Square, facing the Municipal House",
+    "look": {
+     "lat": 50.087756,
+     "lng": 14.427764
+    },
+    "text": "Stand in Republic Square, in front of the Municipal House. Face the big curved mosaic above the entrance."
+   },
+   "date": "2026-12-25"
+  },
+  {
+   "id": "petrin-tower",
+   "title": "Petřín Lookout Tower",
+   "city": "Prague",
+   "day": 13,
+   "order": 2,
+   "summary": "Prague's little Eiffel Tower, on a hill above the city.",
+   "spot": {
+    "lat": 50.083241,
+    "lng": 14.394852,
+    "radius": 50,
+    "name": "Petřín Lookout Tower, base",
+    "text": "Roughly at the base of the Petřín Lookout Tower, the small Eiffel Tower on top of Petřín Hill. You cannot miss it."
+   },
+   "date": "2026-12-25"
+  },
+  {
+   "id": "st-nicholas-lesser-town",
+   "title": "Saint Nicholas Church, Lesser Town",
+   "city": "Prague",
+   "day": 13,
+   "order": 3,
+   "summary": "Prague's great Baroque church, with a dome, a concert and a spy's lookout.",
+   "spot": {
+    "lat": 50.08797,
+    "lng": 14.402339,
+    "radius": 30,
+    "name": "Malostranské náměstí, facing St Nicholas",
+    "look": {
+     "lat": 50.087976,
+     "lng": 14.403222
+    },
+    "text": "Stand in Malostranské náměstí, the Lesser Town Square, beside St Nicholas Church. Face the great green dome and the bell tower."
+   },
+   "date": "2026-12-25"
+  },
+  {
+   "id": "night-train-prague-krakow",
+   "title": "Night train to Kraków",
+   "city": "Kraków",
+   "day": 14,
+   "order": 1,
+   "summary": "Overnight from Prague across the border into Poland.",
+   "date": "2026-12-26"
+  },
+  {
+   "id": "krakow-primer",
+   "title": "Kraków: the big picture",
+   "city": "Kraków",
+   "day": 15,
+   "order": 1,
+   "summary": "Poland's royal city: kings, a dragon, and the darkest chapter of the war.",
+   "date": "2026-12-27",
+   "showFrom": "2026-12-26"
+  },
+  {
+   "id": "krakow-market-square",
+   "title": "Kraków Market Square",
+   "city": "Kraków",
+   "day": 15,
+   "order": 2,
+   "summary": "Europe's largest medieval market square, with a trumpet call that stops mid-note.",
+   "spot": {
+    "lat": 50.061576,
+    "lng": 19.938053,
+    "radius": 50,
+    "name": "Market Square, beside the Cloth Hall",
+    "look": {
+     "lat": 50.061655,
+     "lng": 19.939449
+    },
+    "text": "Stand beside the Cloth Hall, the long building in the middle of the Main Market Square. Face St Mary's Basilica, the brick church with two different towers."
+   },
+   "date": "2026-12-27"
+  },
+  {
+   "id": "schindler-factory",
+   "title": "Schindler's Factory",
+   "city": "Kraków",
+   "day": 15,
+   "order": 3,
+   "summary": "The enamel factory where Oskar Schindler protected his Jewish workers.",
+   "spot": {
+    "lat": 50.0476,
+    "lng": 19.9618,
+    "radius": 50,
+    "name": "Schindler's Factory gate",
+    "text": "Roughly at the gate of Schindler's Factory, the museum on Lipowa Street. Look for the factory front and the entrance gate."
+   },
+   "date": "2026-12-27"
+  },
+  {
+   "id": "ghetto-heroes-square",
+   "title": "Ghetto Heroes Square",
+   "city": "Kraków",
+   "day": 15,
+   "order": 4,
+   "summary": "The square of empty chairs, at the heart of the wartime Jewish ghetto.",
+   "spot": {
+    "lat": 50.046764,
+    "lng": 19.954233,
+    "radius": 30,
+    "name": "Ghetto Heroes Square, Chairs Memorial",
+    "text": "Stand in Ghetto Heroes Square, among the large metal chairs that fill the square."
+   },
+   "date": "2026-12-27"
+  },
+  {
+   "id": "eagle-pharmacy",
+   "title": "Eagle Pharmacy",
+   "city": "Kraków",
+   "day": 15,
+   "order": 5,
+   "summary": "The pharmacy whose owner stayed inside the ghetto to help.",
+   "spot": {
+    "lat": 50.046236,
+    "lng": 19.953798,
+    "radius": 30,
+    "name": "Ghetto Heroes Square, opposite the Eagle Pharmacy",
+    "look": {
+     "lat": 50.046236,
+     "lng": 19.954148
+    },
+    "text": "Stand in Ghetto Heroes Square, facing the corner building that houses the Eagle Pharmacy museum."
+   },
+   "date": "2026-12-27"
+  },
+  {
+   "id": "ghetto-wall",
+   "title": "Ghetto wall fragment",
+   "city": "Kraków",
+   "day": 15,
+   "order": 6,
+   "summary": "A surviving piece of the wall that enclosed the Kraków ghetto.",
+   "spot": {
+    "lat": 50.0472,
+    "lng": 19.9547,
+    "radius": 50,
+    "name": "ul. Lwowska, ghetto wall fragment",
+    "text": "Roughly on Lwowska Street, by the surviving piece of the ghetto wall with the rounded tops and the plaque."
+   },
+   "date": "2026-12-27"
+  },
+  {
+   "id": "ride-to-auschwitz",
+   "title": "Ride to Auschwitz-Birkenau",
+   "city": "Kraków",
+   "day": 16,
+   "order": 1,
+   "summary": "The journey west from Kraków to the former German death camp.",
+   "date": "2026-12-28"
+  },
+  {
+   "id": "wawel",
+   "title": "Wawel Hill",
+   "city": "Kraków",
+   "day": 17,
+   "order": 1,
+   "summary": "The royal castle and cathedral of Poland's kings, and the lair of a dragon.",
+   "spot": {
+    "lat": 50.054256,
+    "lng": 19.936888,
+    "radius": 50,
+    "name": "Foot of Wawel Hill",
+    "look": {
+     "lat": 50.054,
+     "lng": 19.9354
+    },
+    "text": "Roughly at the foot of Wawel Hill, near the path that leads up to the castle gate. Look up at the castle walls on the hill."
+   },
+   "date": "2026-12-29"
+  },
+  {
+   "id": "wawel-dragon",
+   "title": "Wawel Dragon statue",
+   "city": "Kraków",
+   "day": 17,
+   "order": 2,
+   "summary": "A bronze dragon by the river that breathes real fire.",
+   "spot": {
+    "lat": 50.053106,
+    "lng": 19.93361,
+    "radius": 30,
+    "name": "Wawel Dragon statue",
+    "look": {
+     "lat": 50.053016,
+     "lng": 19.933588
+    },
+    "text": "Stand on the riverside below Wawel Hill, near the bronze dragon by the cave entrance. Wait a few minutes for the fire."
+   },
+   "date": "2026-12-29"
+  },
+  {
+   "id": "night-train-krakow-budapest",
+   "title": "Night train to Budapest",
+   "city": "Budapest",
+   "day": 17,
+   "order": 3,
+   "summary": "Overnight from Kraków, across Slovakia, to Budapest.",
+   "date": "2026-12-29"
+  },
+  {
+   "id": "budapest-primer",
+   "title": "Budapest: the big picture",
+   "city": "Budapest",
+   "day": 18,
+   "order": 1,
+   "summary": "Two cities on the Danube, hot springs underneath, and a revolution against tanks.",
+   "date": "2026-12-30",
+   "showFrom": "2026-12-29"
+  },
+  {
+   "id": "chain-bridge",
+   "title": "Chain Bridge",
+   "city": "Budapest",
+   "day": 18,
+   "order": 2,
+   "summary": "The first permanent bridge between Buda and Pest, guarded by stone lions.",
+   "spot": {
+    "lat": 47.49959,
+    "lng": 19.047255,
+    "radius": 30,
+    "name": "Széchenyi István tér, Pest bridgehead",
+    "look": {
+     "lat": 47.498979,
+     "lng": 19.043649
+    },
+    "text": "Stand in Széchenyi István tér, the square at the Pest end of the Chain Bridge. Face the bridge and the stone lions."
+   },
+   "date": "2026-12-30"
+  },
+  {
+   "id": "fishermans-bastion",
+   "title": "Fisherman's Bastion",
+   "city": "Budapest",
+   "day": 18,
+   "order": 3,
+   "summary": "A fairy-tale terrace of white towers with the best view of Parliament.",
+   "spot": {
+    "lat": 47.5022,
+    "lng": 19.0348,
+    "radius": 50,
+    "name": "Fisherman's Bastion",
+    "look": {
+     "lat": 47.50705,
+     "lng": 19.045919
+    },
+    "text": "Roughly on the terraces of Fisherman's Bastion, the white towers beside Matthias Church on Castle Hill. Look east across the Danube: the Parliament is the huge building on the far bank."
+   },
+   "date": "2026-12-30"
+  },
+  {
+   "id": "danube-cruise",
+   "title": "The Danube",
+   "city": "Budapest",
+   "day": 18,
+   "order": 4,
+   "summary": "Europe's great river, flowing through ten countries and four capital cities.",
+   "spot": {
+    "lat": 47.495371,
+    "lng": 19.04905,
+    "radius": 50,
+    "name": "Vigadó tér, Dock 7",
+    "text": "Roughly at the riverside on the Pest side near Vigadó tér, where the cruise boats moor. Check the booking for the pier: Dock 7."
+   },
+   "date": "2026-12-30"
+  },
+  {
+   "id": "hungarian-parliament",
+   "title": "Hungarian Parliament",
+   "city": "Budapest",
+   "day": 19,
+   "order": 1,
+   "summary": "Hungary's enormous Gothic parliament, home of the Holy Crown.",
+   "spot": {
+    "lat": 47.505663,
+    "lng": 19.046584,
+    "radius": 50,
+    "name": "Kossuth Lajos tér, facing Parliament",
+    "look": {
+     "lat": 47.50705,
+     "lng": 19.045919
+    },
+    "text": "Stand in Kossuth Lajos tér, the big square in front of the Parliament. Face the building and its dome."
+   },
+   "date": "2026-12-31"
+  },
+  {
+   "id": "shoes-on-the-danube",
+   "title": "Shoes on the Danube Bank",
+   "city": "Budapest",
+   "day": 19,
+   "order": 2,
+   "summary": "Sixty pairs of iron shoes on the riverbank, remembering those murdered here.",
+   "spot": {
+    "lat": 47.5068,
+    "lng": 19.0471,
+    "radius": 50,
+    "name": "Shoes on the Danube Bank",
+    "text": "Roughly on the riverside promenade south of the Parliament, at the iron shoes along the water's edge. Stand back from the edge. This is a memorial."
+   },
+   "date": "2026-12-31"
+  },
+  {
+   "id": "batthyany-ter",
+   "title": "Batthyány tér",
+   "city": "Budapest",
+   "day": 19,
+   "order": 3,
+   "summary": "The postcard view of Parliament from the Buda bank.",
+   "spot": {
+    "lat": 47.5066,
+    "lng": 19.0385,
+    "radius": 50,
+    "name": "Buda embankment, Batthyány tér",
+    "look": {
+     "lat": 47.50705,
+     "lng": 19.045919
+    },
+    "text": "Roughly on the Buda embankment by Batthyány tér, facing across the Danube. The Parliament stretches along the opposite bank."
+   },
+   "date": "2026-12-31"
+  },
+  {
+   "id": "vajdahunyad-castle",
+   "title": "Vajdahunyad Castle and City Park",
+   "city": "Budapest",
+   "day": 20,
+   "order": 1,
+   "summary": "A castle built for a party, beside one of Europe's oldest ice rinks.",
+   "spot": {
+    "lat": 47.5155,
+    "lng": 19.0827,
+    "radius": 50,
+    "name": "City Park lake, facing Vajdahunyad Castle",
+    "look": {
+     "lat": 47.515355,
+     "lng": 19.081875
+    },
+    "text": "Roughly by the lake in City Park, facing Vajdahunyad Castle, the castle of many styles. In winter the lake is the ice rink."
+   },
+   "date": "2027-01-01"
+  },
+  {
+   "id": "heroes-square",
+   "title": "Heroes' Square",
+   "city": "Budapest",
+   "day": 20,
+   "order": 2,
+   "summary": "Hungary's great monument to a thousand years of history.",
+   "spot": {
+    "lat": 47.514886,
+    "lng": 19.077766,
+    "radius": 50,
+    "name": "Heroes' Square",
+    "look": {
+     "lat": 47.515141,
+     "lng": 19.078171
+    },
+    "text": "Stand in Heroes' Square, in front of the tall column with the angel on top and the seven horsemen at its base."
+   },
+   "date": "2027-01-01"
+  },
+  {
+   "id": "szechenyi-baths",
+   "title": "Széchenyi Baths",
+   "city": "Budapest",
+   "day": 20,
+   "order": 3,
+   "summary": "One of Europe's largest thermal baths, open to the sky in winter.",
+   "spot": {
+    "lat": 47.51873,
+    "lng": 19.081174,
+    "radius": 50,
+    "name": "Széchenyi Baths, outside the yellow façade",
+    "text": "Roughly outside the big yellow building of the Széchenyi Baths in City Park."
+   },
+   "date": "2027-01-01"
+  },
+  {
+   "id": "egypt-primer",
+   "title": "Egypt: the big picture",
+   "city": "Cairo",
+   "day": 21,
+   "order": 1,
+   "summary": "Five thousand years of pharaohs, pyramids and the river that made it all possible.",
+   "date": "2027-01-02",
+   "showFrom": "2027-01-01"
+  },
+  {
+   "id": "saqqara-dahshur",
+   "title": "Saqqara and Dahshur",
+   "city": "Cairo",
+   "day": 22,
+   "order": 1,
+   "summary": "The first pyramid ever built, and the pyramids where the builders learned their craft.",
+   "date": "2027-01-03"
+  },
+  {
+   "id": "giza",
+   "title": "Giza Pyramids and Khan el-Khalili",
+   "city": "Cairo",
+   "day": 23,
+   "order": 1,
+   "summary": "The Great Pyramid, the Sphinx, and Cairo's great bazaar.",
+   "date": "2027-01-04"
+  },
+  {
+   "id": "grand-egyptian-museum",
+   "title": "Grand Egyptian Museum and the royal mummies",
+   "city": "Cairo",
+   "day": 24,
+   "order": 1,
+   "summary": "The world's biggest museum of a single civilisation, and the hall of the royal mummies.",
+   "date": "2027-01-05"
+  },
+  {
+   "id": "aswan-nubia",
+   "title": "Aswan and Nubia",
+   "city": "Aswan",
+   "day": 25,
+   "order": 1,
+   "summary": "Egypt's southern frontier, granite quarries, and the land of the Nubians.",
+   "date": "2027-01-06"
+  },
+  {
+   "id": "abu-simbel",
+   "title": "Abu Simbel",
+   "city": "Aswan",
+   "day": 26,
+   "order": 1,
+   "summary": "Ramesses the Second's colossal temples, cut out of a mountain and moved to save them.",
+   "date": "2027-01-07"
+  },
+  {
+   "id": "philae",
+   "title": "Philae and the Unfinished Obelisk",
+   "city": "Aswan",
+   "day": 27,
+   "order": 1,
+   "summary": "The island temple of Isis, the last of the old religion, and the obelisk that cracked.",
+   "date": "2027-01-08"
+  },
+  {
+   "id": "kom-ombo-edfu",
+   "title": "Kom Ombo and Edfu",
+   "city": "Nile cruise",
+   "day": 28,
+   "order": 1,
+   "summary": "A temple for two gods, and the best-preserved temple in Egypt.",
+   "date": "2027-01-09"
+  },
+  {
+   "id": "nile-sailing",
+   "title": "Sailing the Nile",
+   "city": "Nile cruise",
+   "day": 28,
+   "order": 2,
+   "summary": "Life on the banks from the deck: Aswan's islands, the river's gift, the lock at Esna, and the arrival at Luxor.",
+   "spot": {
+    "text": "On the sun deck or at a window of the ship, with the river bank in view. No spot needed: play these as the ship sails north from Aswan to Luxor, and pick the track that matches what you can see."
+   },
+   "date": "2027-01-09"
+  },
+  {
+   "id": "karnak-luxor",
+   "title": "Karnak and Luxor Temple",
+   "city": "Luxor",
+   "day": 29,
+   "order": 1,
+   "summary": "The greatest temple complex ever built, and the temple at the heart of Luxor.",
+   "date": "2027-01-10"
+  },
+  {
+   "id": "valley-of-the-kings",
+   "title": "Valley of the Kings",
+   "city": "Luxor",
+   "day": 30,
+   "order": 1,
+   "summary": "The hidden royal tombs of the West Bank, the woman pharaoh, and the singing statue.",
+   "date": "2027-01-11"
+  },
+  {
+   "id": "valley-of-the-queens-deir-el-medina",
+   "title": "Valley of the Queens and the workers' village",
+   "city": "Luxor",
+   "day": 31,
+   "order": 1,
+   "summary": "Nefertari's painted tomb, the village of the tomb builders, and Ramesses' fallen giant.",
+   "date": "2027-01-12"
+  },
+  {
+   "id": "istanbul-primer",
+   "title": "Istanbul: the big picture",
+   "city": "Istanbul",
+   "day": 32,
+   "order": 1,
+   "summary": "One city, two continents, three empires.",
+   "date": "2027-01-13",
+   "showFrom": "2027-01-12"
+  },
+  {
+   "id": "suleymaniye-mosque",
+   "title": "Süleymaniye Mosque",
+   "city": "Istanbul",
+   "day": 32,
+   "order": 2,
+   "summary": "The great mosque of Süleyman the Magnificent, by the architect Sinan, above the Golden Horn.",
+   "spot": {
+    "lat": 41.016642,
+    "lng": 28.96441,
+    "radius": 50,
+    "name": "Süleymaniye Mosque terrace",
+    "text": "Roughly on the terrace of the Süleymaniye Mosque, on the Golden Horn side of the grounds. Look out over the water."
+   },
+   "date": "2027-01-13"
+  },
+  {
+   "id": "hagia-sophia",
+   "title": "Hagia Sophia",
+   "city": "Istanbul",
+   "day": 33,
+   "order": 1,
+   "summary": "Fifteen hundred years as a church, a mosque, a museum, and a mosque again.",
+   "spot": {
+    "lat": 41.0074,
+    "lng": 28.978986,
+    "radius": 50,
+    "name": "Sultanahmet Park, facing Hagia Sophia",
+    "look": {
+     "lat": 41.008505,
+     "lng": 28.980011
+    },
+    "text": "Stand in Sultanahmet Park, the gardens between Hagia Sophia and the Blue Mosque. Face Hagia Sophia, the huge dome with four minarets."
+   },
+   "date": "2027-01-14"
+  },
+  {
+   "id": "topkapi-palace",
+   "title": "Topkapı Palace",
+   "city": "Istanbul",
+   "day": 33,
+   "order": 2,
+   "summary": "The palace of the Ottoman sultans for four hundred years.",
+   "spot": {
+    "lat": 41.008165,
+    "lng": 28.981187,
+    "radius": 50,
+    "name": "Outside the Imperial Gate",
+    "look": {
+     "lat": 41.008613,
+     "lng": 28.981464
+    },
+    "text": "Roughly in the square in front of the Imperial Gate of Topkapı Palace, near the ornate fountain, behind Hagia Sophia."
+   },
+   "date": "2027-01-14"
+  },
+  {
+   "id": "basilica-cistern",
+   "title": "Basilica Cistern",
+   "city": "Istanbul",
+   "day": 33,
+   "order": 3,
+   "summary": "A vast underground Roman water reservoir, with upside-down Medusa heads.",
+   "spot": {
+    "lat": 41.008458,
+    "lng": 28.977726,
+    "radius": 50,
+    "name": "Basilica Cistern entrance",
+    "text": "Roughly at the entrance building of the Basilica Cistern, near Hagia Sophia. Phone location may be poor once you go underground."
+   },
+   "date": "2027-01-14"
+  },
+  {
+   "id": "grand-bazaar",
+   "title": "Grand Bazaar",
+   "city": "Istanbul",
+   "day": 33,
+   "order": 4,
+   "summary": "One of the oldest and largest covered markets in the world.",
+   "spot": {
+    "lat": 41.010339,
+    "lng": 28.969911,
+    "radius": 50,
+    "name": "Grand Bazaar, Nuruosmaniye gate",
+    "look": {
+     "lat": 41.010339,
+     "lng": 28.970388
+    },
+    "text": "Roughly near the Nuruosmaniye gate of the Grand Bazaar, beside the Nuruosmaniye Mosque. Look for the big arched gateway into the bazaar."
+   },
+   "date": "2027-01-14"
+  },
+  {
+   "id": "gallipoli-ride-out",
+   "title": "Gallipoli: the ride out",
+   "city": "Istanbul",
+   "day": 34,
+   "order": 1,
+   "summary": "The long road to the Gallipoli peninsula, where Australians, New Zealanders, Turks and others fought in nineteen fifteen.",
+   "date": "2027-01-15"
+  },
+  {
+   "id": "gallipoli-ride-home",
+   "title": "Gallipoli: the ride home",
+   "city": "Istanbul",
+   "day": 34,
+   "order": 2,
+   "summary": "A quiet reflection on the long road back to Istanbul.",
+   "date": "2027-01-15"
+  },
+  {
+   "id": "blue-mosque",
+   "title": "The Blue Mosque",
+   "city": "Istanbul",
+   "day": 35,
+   "order": 1,
+   "summary": "Sultan Ahmed's great mosque, with its six minarets and twenty thousand tiles.",
+   "spot": {
+    "lat": 41.005405,
+    "lng": 28.974842,
+    "radius": 30,
+    "name": "Hippodrome, looking at the Blue Mosque",
+    "look": {
+     "lat": 41.005384,
+     "lng": 28.976853
+    },
+    "text": "Stand in the Hippodrome near the ancient obelisks. Face the Blue Mosque with its cascade of domes and six minarets."
+   },
+   "date": "2027-01-16"
+  },
+  {
+   "id": "hippodrome-obelisk",
+   "title": "Hippodrome and the Egyptian Obelisk",
+   "city": "Istanbul",
+   "day": 35,
+   "order": 2,
+   "summary": "The old chariot-racing track of Constantinople, with an obelisk from Karnak.",
+   "spot": {
+    "lat": 41.00556,
+    "lng": 28.975703,
+    "radius": 50,
+    "name": "Hippodrome, by the Obelisk of Theodosius",
+    "look": {
+     "lat": 41.00556,
+     "lng": 28.97556
+    },
+    "text": "Roughly beside the Obelisk of Theodosius, the carved Egyptian obelisk in the Hippodrome, with its picture-covered marble base."
+   },
+   "date": "2027-01-16"
+  }
+ ],
+ "sessions": [
+  {
+   "id": "start-here-1",
+   "locationId": "start-here",
+   "number": 1,
+   "title": "Start here",
+   "summary": "How this works, why there will be a test, and why everything that goes wrong is somebody else's fault.",
+   "listenAt": "First. On the flight, or any time before London.",
+   "tone": "fun",
+   "order": 1,
+   "showFrom": "2026-12-12",
+   "kind": "start"
+  },
+  {
+   "id": "london-primer-1",
+   "locationId": "london-primer",
+   "number": 1,
+   "title": "London: the big picture",
+   "summary": "Sir David on how London grew, from a Roman bridge to a global city, the war that nearly destroyed it, and what the next four days hold.",
+   "listenAt": "On the flight, or on arrival in London.",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-13",
+   "showFrom": "2026-12-12",
+   "kind": "primer"
+  },
+  {
+   "id": "tower-of-london-1",
+   "locationId": "tower-of-london",
+   "number": 1,
+   "title": "The fortress by the river",
+   "summary": "Sir David observes the White Tower, the royal zoo and the ravens, then hands you to the Tower's own guide.",
+   "listenAt": "Tower Wharf, by the river wall just west of the White Tower",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-13"
+  },
+  {
+   "id": "tower-bridge-1",
+   "locationId": "tower-bridge",
+   "number": 1,
+   "title": "The bridge that lifts",
+   "summary": "How Tower Bridge works, why it is dressed up as a castle, and the bus that jumped it.",
+   "listenAt": "North bank riverside path, just west of the north tower",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-13"
+  },
+  {
+   "id": "somerset-house-1",
+   "locationId": "somerset-house",
+   "number": 1,
+   "title": "Skating in a palace courtyard",
+   "summary": "The palace that became government offices, and the river that used to reach its doors.",
+   "listenAt": "Under the Strand arch, courtyard centre before skating (16:00)",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-13"
+  },
+  {
+   "id": "buckingham-palace-1",
+   "locationId": "buckingham-palace",
+   "number": 1,
+   "title": "The palace and the guards",
+   "summary": "Whose house it was first, how to tell if the King is home, and how to tell the guards apart.",
+   "listenAt": "Victoria Memorial steps, facing the palace front (or on the Mall for the guard approach)",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-14"
+  },
+  {
+   "id": "parliament-square-1",
+   "locationId": "parliament-square",
+   "number": 1,
+   "title": "Big Ben, um, sorry",
+   "summary": "Hugh tries to talk about the clock tower without saying anything unfortunate, then the statues around the square.",
+   "listenAt": "Parliament Square green, near the Churchill statue",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-14"
+  },
+  {
+   "id": "westminster-abbey-1",
+   "locationId": "westminster-abbey",
+   "number": 1,
+   "title": "The coronation church",
+   "summary": "Hugh on the Abbey's front, the modern martyrs above the door, and what to find inside.",
+   "listenAt": "Broad Sanctuary, facing the west front",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-14"
+  },
+  {
+   "id": "downing-street-1",
+   "locationId": "downing-street",
+   "number": 1,
+   "title": "The door at Number Ten",
+   "summary": "Hugh on the street, the man it is named after, the door that cannot be opened from outside, and a confession.",
+   "listenAt": "On Whitehall, opposite the Downing Street gates.",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-14"
+  },
+  {
+   "id": "churchill-war-rooms-1",
+   "locationId": "churchill-war-rooms",
+   "number": 1,
+   "title": "The bunker under your feet",
+   "summary": "Hugh on the secret rooms beneath this street, Churchill's onesie, and Dad's war cabinet.",
+   "listenAt": "King Charles Street, outside the entrance",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-14"
+  },
+  {
+   "id": "piccadilly-circus-1",
+   "locationId": "piccadilly-circus",
+   "number": 1,
+   "title": "Lights and ruffles",
+   "summary": "Sir David returns for the evening lights: a frilly collar, a famous archer, and the screens.",
+   "listenAt": "Beside the Eros fountain",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-14"
+  },
+  {
+   "id": "trafalgar-square-1",
+   "locationId": "trafalgar-square",
+   "number": 1,
+   "title": "Nelson, lions and a Norwegian tree",
+   "summary": "Who stands on top of the column, the tree from Oslo, and the true centre of London.",
+   "listenAt": "In front of the National Gallery steps",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-14"
+  },
+  {
+   "id": "british-museum-1",
+   "locationId": "british-museum",
+   "number": 1,
+   "title": "Night at the British Museum",
+   "summary": "Two familiar-sounding museum regulars take over: the front of the building, a film connection, and the stone that unlocked ancient Egypt.",
+   "listenAt": "Forecourt, facing the Greek Revival portico",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-15"
+  },
+  {
+   "id": "natural-history-museum-1",
+   "locationId": "natural-history-museum",
+   "number": 1,
+   "title": "The cathedral of nature",
+   "summary": "Sir David is finally in his element, and Ben and Owen are not: carved animals, the man who named the dinosaurs, and the whale.",
+   "listenAt": "Cromwell Road forecourt, facing the main facade",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-15"
+  },
+  {
+   "id": "hyde-park-1",
+   "locationId": "hyde-park",
+   "number": 1,
+   "title": "A king's hunting ground",
+   "summary": "How Hyde Park began, the Great Exhibition of eighteen fifty-one, and a word about the weather at home.",
+   "listenAt": "At the main entrance near Hyde Park Corner",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-15"
+  },
+  {
+   "id": "abbey-road-1",
+   "locationId": "abbey-road",
+   "number": 1,
+   "title": "Four guys, one crossing",
+   "summary": "The ten-minute photo shoot that made a road crossing famous, and goodbye to London.",
+   "listenAt": "Pavement on the St John's Wood side, off the road",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-16"
+  },
+  {
+   "id": "berlin-primer-1",
+   "locationId": "berlin-primer",
+   "number": 1,
+   "title": "Berlin: the big picture",
+   "summary": "Arnold on how Berlin became Germany's capital, Sir Laurence on the twentieth century, and what the next few days hold.",
+   "listenAt": "The evening before, or on the flight to Berlin.",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-17",
+   "showFrom": "2026-12-16",
+   "kind": "primer"
+  },
+  {
+   "id": "alexanderplatz-1",
+   "locationId": "alexanderplatz",
+   "number": 1,
+   "title": "Arnold arrives",
+   "summary": "Arnold introduces himself, Berlin, the TV Tower, the Pope's revenge, and the kids' new bank cards.",
+   "listenAt": "By the World Clock (Weltzeituhr), looking up",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-17"
+  },
+  {
+   "id": "tv-tower-deck-1",
+   "locationId": "tv-tower-deck",
+   "number": 1,
+   "title": "Arnold's view from the top",
+   "summary": "Find your way round the deck, then north, east, south and west, finishing with the sunset.",
+   "listenAt": "Up on the observation deck of the TV Tower, 203 metres above Alexanderplatz.",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-17"
+  },
+  {
+   "id": "stasi-primer-1",
+   "locationId": "stasi-primer",
+   "number": 1,
+   "title": "Before Hohenschönhausen",
+   "summary": "A quiet introduction to the Stasi and the prison you are about to visit with a guide.",
+   "listenAt": "Tram/bus or on the walk in",
+   "tone": "sombre",
+   "order": 1,
+   "date": "2026-12-18"
+  },
+  {
+   "id": "reichstag-1",
+   "locationId": "reichstag",
+   "number": 1,
+   "title": "The waiting thirty minutes",
+   "summary": "Arnold tells the Reichstag's story while you wait for the tour: the inscription, the fire, the flag, the Wall, the wrapping, and the dome.",
+   "listenAt": "Platz der Republik lawn, west of the building, facing the West Portal (meet 11:30)",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-19"
+  },
+  {
+   "id": "brandenburg-gate-1",
+   "locationId": "brandenburg-gate",
+   "number": 1,
+   "title": "The gate in no-man's land",
+   "summary": "The chariot on top, Napoleon's theft, the Wall, and why the twenty-second of December matters here.",
+   "listenAt": "Pariser Platz, centre of the square",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-19"
+  },
+  {
+   "id": "holocaust-memorial-1",
+   "locationId": "holocaust-memorial",
+   "number": 1,
+   "title": "The field of stones",
+   "summary": "What this memorial is, and how to walk through it.",
+   "listenAt": "North-west corner of the field, then a few steps in",
+   "tone": "sombre",
+   "order": 1,
+   "date": "2026-12-19"
+  },
+  {
+   "id": "fuehrerbunker-site-1",
+   "locationId": "fuehrerbunker-site",
+   "number": 1,
+   "title": "The end, underground",
+   "summary": "Why there is nothing to see here, and why that was deliberate.",
+   "listenAt": "At the information board on Gertrud-Kolmar-Strasse",
+   "tone": "sombre",
+   "order": 1,
+   "date": "2026-12-19"
+  },
+  {
+   "id": "topography-of-terror-1",
+   "locationId": "topography-of-terror",
+   "number": 1,
+   "title": "The headquarters of terror",
+   "summary": "What stood here, what was found beneath the rubble, and the Wall that runs alongside.",
+   "listenAt": "Outdoor trench beside the surviving Wall, Niederkirchnerstrasse",
+   "tone": "sombre",
+   "order": 1,
+   "date": "2026-12-19"
+  },
+  {
+   "id": "checkpoint-charlie-1",
+   "locationId": "checkpoint-charlie",
+   "number": 1,
+   "title": "Two spies at the border",
+   "summary": "Arnold on the checkpoint, the tank stand-off, the escapes and the fake soldiers, with a very polite spy from London.",
+   "listenAt": "On Friedrichstrasse by the guardhouse replica",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-19"
+  },
+  {
+   "id": "spy-museum-1",
+   "locationId": "spy-museum",
+   "number": 1,
+   "title": "Capital of spies",
+   "summary": "Arnold on Potsdamer Platz, Berlin's Cold War spy games and the secret tunnel, with polite interruptions from London.",
+   "listenAt": "Outside the Spy Museum on Leipziger Platz",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-19"
+  },
+  {
+   "id": "bernauer-strasse-1",
+   "locationId": "bernauer-strasse",
+   "number": 1,
+   "title": "The street that was cut in two",
+   "summary": "How the Wall split this street overnight, and what the border really looked like.",
+   "listenAt": "On the documentation centre's viewing tower, looking down",
+   "tone": "sombre",
+   "order": 1,
+   "date": "2026-12-20"
+  },
+  {
+   "id": "window-of-remembrance-1",
+   "locationId": "window-of-remembrance",
+   "number": 1,
+   "title": "The faces and the chapel",
+   "summary": "The people who died at the Wall, and the church that was blown up because it stood in the way.",
+   "listenAt": "Stand at the Window, then the chapel",
+   "tone": "sombre",
+   "order": 1,
+   "date": "2026-12-20"
+  },
+  {
+   "id": "nordbahnhof-1",
+   "locationId": "nordbahnhof",
+   "number": 1,
+   "title": "Ghost stations",
+   "summary": "Why West Berlin's trains ran under East Berlin without stopping.",
+   "listenAt": "At the Nordbahnhof S-Bahn exhibition",
+   "tone": "sombre",
+   "order": 1,
+   "date": "2026-12-20"
+  },
+  {
+   "id": "bebelplatz-1",
+   "locationId": "bebelplatz",
+   "number": 1,
+   "title": "Where they burn books",
+   "summary": "The book burning of the tenth of May, nineteen thirty-three, and the empty library beneath your feet.",
+   "listenAt": "On the glass panel at the centre of the square",
+   "tone": "sombre",
+   "order": 1,
+   "date": "2026-12-20"
+  },
+  {
+   "id": "train-berlin-dresden-1",
+   "locationId": "train-berlin-dresden",
+   "number": 1,
+   "title": "Arnold on the train",
+   "summary": "Arnold's guide to Saxony: a king called the Strong, an alchemist who failed to make gold, and the city you are about to see.",
+   "listenAt": "On the train",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-22"
+  },
+  {
+   "id": "striezelmarkt-1",
+   "locationId": "striezelmarkt",
+   "number": 1,
+   "title": "The oldest Christmas market",
+   "summary": "Arnold on the market, the Christmas cake called Stollen, the giant pyramid, and some important strudel business.",
+   "listenAt": "Entrance to the market on Altmarkt",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-22"
+  },
+  {
+   "id": "frauenkirche-1",
+   "locationId": "frauenkirche",
+   "number": 1,
+   "title": "The church that came back",
+   "summary": "How the Frauenkirche fell, lay in ruins for fifty years, and was rebuilt with its own stones.",
+   "listenAt": "Neumarkt, near the north-west corner by the Luther statue",
+   "tone": "sombre",
+   "order": 1,
+   "date": "2026-12-22"
+  },
+  {
+   "id": "fuerstenzug-1",
+   "locationId": "fuerstenzug",
+   "number": 1,
+   "title": "The procession of princes",
+   "summary": "Arnold on the porcelain parade of Saxon rulers, with a spotting challenge.",
+   "listenAt": "Augustusstrasse, directly under the long wall",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-22"
+  },
+  {
+   "id": "bruehls-terrace-1",
+   "locationId": "bruehls-terrace",
+   "number": 1,
+   "title": "The balcony of Europe",
+   "summary": "Arnold on the terrace, the river, and Dad's sense of direction.",
+   "listenAt": "Top of the stairs overlooking the Elbe",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-22"
+  },
+  {
+   "id": "train-dresden-prague-1",
+   "locationId": "train-dresden-prague",
+   "number": 1,
+   "title": "Rick and Lisa join the trip",
+   "summary": "Rick and Lisa are back, the Elbe valley, the border, and a Czech Christmas.",
+   "listenAt": "On the train",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-22"
+  },
+  {
+   "id": "prague-primer-1",
+   "locationId": "prague-primer",
+   "number": 1,
+   "title": "Prague: the big picture",
+   "summary": "Rick and Lisa on Bohemia's kings, the city that escaped the bombs, Sir Laurence on occupation and communism, and a Prague Christmas.",
+   "listenAt": "On the train to Prague, after Rick and Lisa's train session.",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-22",
+   "kind": "primer"
+  },
+  {
+   "id": "prague-castle-courtyard-1",
+   "locationId": "prague-castle-courtyard",
+   "number": 1,
+   "title": "The biggest castle in the world",
+   "summary": "Rick and Lisa on the castle's size and age, the gate, and the guards' Oscar-winning uniforms.",
+   "listenAt": "First Courtyard inside the main gate, before noon",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-23"
+  },
+  {
+   "id": "st-vitus-cathedral-1",
+   "locationId": "st-vitus-cathedral",
+   "number": 1,
+   "title": "Six hundred years in the making",
+   "summary": "Indy on the cathedral's long construction, Good King Wenceslas, the crown jewels behind seven locks, and the window out of which history was thrown.",
+   "listenAt": "Third Courtyard, in front of the cathedral",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-23"
+  },
+  {
+   "id": "golden-lane-1",
+   "locationId": "golden-lane",
+   "number": 1,
+   "title": "The tiny houses",
+   "summary": "Indy on who lived in Golden Lane: guards, goldsmiths, an emperor's alchemists, a fortune teller, and Franz Kafka.",
+   "listenAt": "Outside Kafka's No. 22",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-23"
+  },
+  {
+   "id": "nerudova-street-1",
+   "locationId": "nerudova-street",
+   "number": 1,
+   "title": "Red eagles and golden horseshoes",
+   "summary": "Sir David on why the houses have signs instead of numbers, a poet who lent his name to another poet, and a spotting game.",
+   "listenAt": "Halfway down Nerudova",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-23"
+  },
+  {
+   "id": "old-town-hall-orloj-1",
+   "locationId": "old-town-hall-orloj",
+   "number": 1,
+   "title": "The clock and the skeleton",
+   "summary": "How to read the Orloj, who the figures are, the legend of the clockmaker, and the crosses in the ground.",
+   "listenAt": "Old Town Square, facing the south wall of the Town Hall",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-23"
+  },
+  {
+   "id": "old-town-hall-tower-1",
+   "locationId": "old-town-hall-tower",
+   "number": 1,
+   "title": "Sir David on the tower",
+   "summary": "Sir David watches Prague from the platform: the crowd in the square, the spires, the river, the castle, and the lights coming on at sunset.",
+   "listenAt": "Up on the viewing platform of the Old Town Hall Tower, about forty metres above the square.",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-23"
+  },
+  {
+   "id": "charles-bridge-1",
+   "locationId": "charles-bridge",
+   "number": 1,
+   "title": "The lamplighter",
+   "summary": "The bridge's magic-number start, the statues, the saint thrown into the river, and the man who lights the lamps by hand.",
+   "listenAt": "Křižovnické náměstí by the Charles IV statue, from about 16:00",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-23"
+  },
+  {
+   "id": "old-town-square-tree-1",
+   "locationId": "old-town-square-tree",
+   "number": 1,
+   "title": "Spires, a tree and a famous nose",
+   "summary": "The fairy-tale spires of Týn, the astronomer with a metal nose, and Mum's nose.",
+   "listenAt": "Front of the Christmas tree facing Týn Church",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-23"
+  },
+  {
+   "id": "josefov-1",
+   "locationId": "josefov",
+   "number": 1,
+   "title": "The Old-New Synagogue",
+   "summary": "The history of Prague's Jewish community, the Golem legend, and what the quarter remembers.",
+   "listenAt": "Široká street outside the Old-New Synagogue",
+   "tone": "sombre",
+   "order": 1,
+   "date": "2026-12-24"
+  },
+  {
+   "id": "municipal-house-1",
+   "locationId": "municipal-house",
+   "number": 1,
+   "title": "Art Nouveau and lunch",
+   "summary": "Hugh on Christmas Day: the building's dazzling style, the birth of Czechoslovakia, and a word about lunch.",
+   "listenAt": "Náměstí Republiky, facing the facade",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-25"
+  },
+  {
+   "id": "petrin-tower-1",
+   "locationId": "petrin-tower",
+   "number": 1,
+   "title": "The little Eiffel Tower",
+   "summary": "Arnold is back: why Prague has its own Eiffel Tower, two hundred and ninety-nine steps, the Hunger Wall, and the view.",
+   "listenAt": "At the tower base or the top",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-25"
+  },
+  {
+   "id": "st-nicholas-lesser-town-1",
+   "locationId": "st-nicholas-lesser-town",
+   "number": 1,
+   "title": "Baroque and the bell tower spies",
+   "summary": "Ben and Owen on the Baroque masterpiece, its music, and what the secret police did in its tower.",
+   "listenAt": "In front of the church",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-25"
+  },
+  {
+   "id": "night-train-prague-krakow-1",
+   "locationId": "night-train-prague-krakow",
+   "number": 1,
+   "title": "Goodnight from Rick and Lisa",
+   "summary": "A short goodnight, a first taste of Poland, and a bet on who falls asleep first.",
+   "listenAt": "On the train",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-26"
+  },
+  {
+   "id": "krakow-primer-1",
+   "locationId": "krakow-primer",
+   "number": 1,
+   "title": "Kraków: the big picture",
+   "summary": "Sir David on the old royal capital and its legends, Sir Laurence on the war and the years after, and what the next three days hold.",
+   "listenAt": "On the night train, or on arrival in Kraków.",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-27",
+   "showFrom": "2026-12-26",
+   "kind": "primer"
+  },
+  {
+   "id": "krakow-market-square-1",
+   "locationId": "krakow-market-square",
+   "number": 1,
+   "title": "The broken trumpet call",
+   "summary": "Rick and Lisa on the giant square, the Cloth Hall, the two unequal towers, and the trumpeter who never finishes his tune.",
+   "listenAt": "In front of the Cloth Hall facing St Mary's",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-27"
+  },
+  {
+   "id": "schindler-factory-1",
+   "locationId": "schindler-factory",
+   "number": 1,
+   "title": "The factory gate",
+   "summary": "Who Oskar Schindler was, and what the museum inside tells.",
+   "listenAt": "Outside the Lipowa 4 gate",
+   "tone": "sombre",
+   "order": 1,
+   "date": "2026-12-27"
+  },
+  {
+   "id": "ghetto-heroes-square-1",
+   "locationId": "ghetto-heroes-square",
+   "number": 1,
+   "title": "The empty chairs",
+   "summary": "The Kraków ghetto, and the memorial of empty chairs.",
+   "listenAt": "At the empty chairs",
+   "tone": "sombre",
+   "order": 1,
+   "date": "2026-12-27"
+  },
+  {
+   "id": "eagle-pharmacy-1",
+   "locationId": "eagle-pharmacy",
+   "number": 1,
+   "title": "The pharmacist",
+   "summary": "Tadeusz Pankiewicz, the only Pole who ran a business inside the ghetto.",
+   "listenAt": "Opposite the chairs",
+   "tone": "sombre",
+   "order": 1,
+   "date": "2026-12-27"
+  },
+  {
+   "id": "ghetto-wall-1",
+   "locationId": "ghetto-wall",
+   "number": 1,
+   "title": "The shape of the wall",
+   "summary": "A fragment of the ghetto wall, and the meaning of its shape.",
+   "listenAt": "In front of the wall",
+   "tone": "sombre",
+   "order": 1,
+   "date": "2026-12-27"
+  },
+  {
+   "id": "ride-to-auschwitz-1",
+   "locationId": "ride-to-auschwitz",
+   "number": 1,
+   "title": "Before Auschwitz",
+   "summary": "A calm introduction to what you are going to see, and how to be there.",
+   "listenAt": "In the van",
+   "tone": "sombre",
+   "order": 1,
+   "date": "2026-12-28"
+  },
+  {
+   "id": "wawel-1",
+   "locationId": "wawel",
+   "number": 1,
+   "title": "Kings, bones and a dragon",
+   "summary": "Indy on Wawel's kings, the cathedral, the giant bell, and the mysterious bones by the door.",
+   "listenAt": "Foot of the hill at the Wawel gate",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-29"
+  },
+  {
+   "id": "wawel-dragon-1",
+   "locationId": "wawel-dragon",
+   "number": 1,
+   "title": "Smok",
+   "summary": "The fire-breathing dragon statue, observed by an expert in wildlife.",
+   "listenAt": "At the river path below the hill",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-29"
+  },
+  {
+   "id": "night-train-krakow-budapest-1",
+   "locationId": "night-train-krakow-budapest",
+   "number": 1,
+   "title": "Hungary in a nutshell",
+   "summary": "The night shift takes the night train: a few amazing things about Hungary before you wake up there.",
+   "listenAt": "On the train",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-29"
+  },
+  {
+   "id": "budapest-primer-1",
+   "locationId": "budapest-primer",
+   "number": 1,
+   "title": "Budapest: the big picture",
+   "summary": "Sir David on Buda, Pest and the Magyars, Sir Laurence on the war and the uprising of nineteen fifty-six, and New Year on the Danube.",
+   "listenAt": "On the night train, or on arrival in Budapest.",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-30",
+   "showFrom": "2026-12-29",
+   "kind": "primer"
+  },
+  {
+   "id": "chain-bridge-1",
+   "locationId": "chain-bridge",
+   "number": 1,
+   "title": "The bridge that made Budapest",
+   "summary": "Why a count built a bridge, the British connection, the lions' tongues, and the bridge's destruction and return.",
+   "listenAt": "Pest-side lion on the Széchenyi bridge head",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-30"
+  },
+  {
+   "id": "fishermans-bastion-1",
+   "locationId": "fishermans-bastion",
+   "number": 1,
+   "title": "Seven towers for seven tribes",
+   "summary": "Ben and Owen at the fairy-tale bastion: its seven towers, Matthias Church, and the best photo in Budapest.",
+   "listenAt": "On the terrace",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-30"
+  },
+  {
+   "id": "danube-cruise-1",
+   "locationId": "danube-cruise",
+   "number": 1,
+   "title": "Hugh on the river",
+   "summary": "Hugh on the Danube at night, then the sights in the order you pass them: Buda castle, the quiet shoes, Parliament, Margaret Island, and the bridges south.",
+   "listenAt": "On the dock",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-30"
+  },
+  {
+   "id": "hungarian-parliament-1",
+   "locationId": "hungarian-parliament",
+   "number": 1,
+   "title": "The number ninety-six",
+   "summary": "Hugh on Hungary's giant Parliament, the one it was modelled on, its secret numbers, and the crown that went to America.",
+   "listenAt": "Kossuth Lajos tér, centre of the square",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-31"
+  },
+  {
+   "id": "shoes-on-the-danube-1",
+   "locationId": "shoes-on-the-danube",
+   "number": 1,
+   "title": "The shoes",
+   "summary": "What happened on this riverbank in nineteen forty-four and forty-five.",
+   "listenAt": "At the river's edge by the shoes",
+   "tone": "sombre",
+   "order": 1,
+   "date": "2026-12-31"
+  },
+  {
+   "id": "batthyany-ter-1",
+   "locationId": "batthyany-ter",
+   "number": 1,
+   "title": "The postcard view",
+   "summary": "Sir David on the view of Parliament across the river, and who the square is named after.",
+   "listenAt": "Buda embankment at Batthyány tér",
+   "tone": "fun",
+   "order": 1,
+   "date": "2026-12-31"
+  },
+  {
+   "id": "vajdahunyad-castle-1",
+   "locationId": "vajdahunyad-castle",
+   "number": 1,
+   "title": "The castle made for a party",
+   "summary": "The castle that was meant to be temporary, the hooded statue that brings writers luck, and the ice rink.",
+   "listenAt": "Lake edge facing the castle",
+   "tone": "fun",
+   "order": 1,
+   "date": "2027-01-01"
+  },
+  {
+   "id": "heroes-square-1",
+   "locationId": "heroes-square",
+   "number": 1,
+   "title": "Chieftains and kings",
+   "summary": "Arnold on the Millennium Monument, the seven chieftains, and the old metro beneath your feet.",
+   "listenAt": "Centre of the square",
+   "tone": "fun",
+   "order": 1,
+   "date": "2027-01-01"
+  },
+  {
+   "id": "szechenyi-baths-1",
+   "locationId": "szechenyi-baths",
+   "number": 1,
+   "title": "The city of baths",
+   "summary": "Why Budapest is a city of hot springs, and the chess players in the steaming pools.",
+   "listenAt": "Outside the yellow facade",
+   "tone": "fun",
+   "order": 1,
+   "date": "2027-01-01"
+  },
+  {
+   "id": "egypt-primer-1",
+   "locationId": "egypt-primer",
+   "number": 1,
+   "title": "Egypt: the big picture",
+   "summary": "Indy on the Nile, the pharaohs and their tombs, how we learned to read hieroglyphs, and the twelve days ahead.",
+   "listenAt": "On the flight to Cairo, or on arrival.",
+   "tone": "fun",
+   "order": 1,
+   "date": "2027-01-02",
+   "showFrom": "2027-01-01",
+   "kind": "primer"
+  },
+  {
+   "id": "saqqara-dahshur-1",
+   "locationId": "saqqara-dahshur",
+   "number": 1,
+   "title": "How to build a pyramid, version one",
+   "summary": "The first real day in Egypt: the Step Pyramid, its architect, and the bent and red pyramids of Dahshur.",
+   "listenAt": "On the drive/flight",
+   "tone": "fun",
+   "order": 1,
+   "date": "2027-01-03"
+  },
+  {
+   "id": "giza-1",
+   "locationId": "giza",
+   "number": 1,
+   "title": "The last wonder",
+   "summary": "Who built the pyramids, how long the Great Pyramid held its record, what really happened to the Sphinx's nose, and the bazaar.",
+   "listenAt": "On the drive/flight",
+   "tone": "fun",
+   "order": 1,
+   "date": "2027-01-04"
+  },
+  {
+   "id": "grand-egyptian-museum-1",
+   "locationId": "grand-egyptian-museum",
+   "number": 1,
+   "title": "It belongs in a museum",
+   "summary": "The giant statue of Ramesses, Tutankhamun's treasures, the boat buried beside the Great Pyramid, and the pharaohs' parade.",
+   "listenAt": "On the drive/flight",
+   "tone": "fun",
+   "order": 1,
+   "date": "2027-01-05"
+  },
+  {
+   "id": "aswan-nubia-1",
+   "locationId": "aswan-nubia",
+   "number": 1,
+   "title": "The southern frontier",
+   "summary": "Aswan, the ancient kingdom of Kush, the great dam, and the Nubian people.",
+   "listenAt": "On the drive/flight",
+   "tone": "fun",
+   "order": 1,
+   "date": "2027-01-06"
+  },
+  {
+   "id": "abu-simbel-1",
+   "locationId": "abu-simbel",
+   "number": 1,
+   "title": "The temple that moved",
+   "summary": "A very early start, Ramesses' giant statues, the queen who stood equal to him, and the temple moved block by block.",
+   "listenAt": "On the drive/flight",
+   "tone": "fun",
+   "order": 1,
+   "date": "2027-01-07"
+  },
+  {
+   "id": "philae-1",
+   "locationId": "philae",
+   "number": 1,
+   "title": "The goddess and the crack",
+   "summary": "The temple of Isis, the last hieroglyphs ever written, and the giant obelisk that broke in the quarry.",
+   "listenAt": "On the drive/flight",
+   "tone": "fun",
+   "order": 1,
+   "date": "2027-01-08"
+  },
+  {
+   "id": "kom-ombo-edfu-1",
+   "locationId": "kom-ombo-edfu",
+   "number": 1,
+   "title": "Crocodiles and falcons",
+   "summary": "The double temple of the crocodile god and the falcon god, and the temple that was buried up to its roof.",
+   "listenAt": "On the drive/flight",
+   "tone": "fun",
+   "order": 1,
+   "date": "2027-01-09"
+  },
+  {
+   "id": "nile-sailing-1",
+   "locationId": "nile-sailing",
+   "number": 1,
+   "title": "The river, bank by bank",
+   "summary": "What passes your window between Aswan and Luxor: islands, farmland, the lock at Esna, and the arrival in Luxor.",
+   "listenAt": "On deck, as the ship sails north from Aswan. Pick the track that matches what you can see.",
+   "tone": "fun",
+   "order": 1,
+   "date": "2027-01-09"
+  },
+  {
+   "id": "karnak-luxor-1",
+   "locationId": "karnak-luxor",
+   "number": 1,
+   "title": "Columns as big as trees",
+   "summary": "Karnak's forest of columns, the woman pharaoh's obelisk, the lucky scarab, Luxor Temple, and the missing obelisk in Paris.",
+   "listenAt": "On the drive/flight",
+   "tone": "fun",
+   "order": 1,
+   "date": "2027-01-10"
+  },
+  {
+   "id": "valley-of-the-kings-1",
+   "locationId": "valley-of-the-kings",
+   "number": 1,
+   "title": "Tombs, a woman pharaoh, and a singing statue",
+   "summary": "Why the kings hid their tombs, Tutankhamun's tomb, Hatshepsut's terraced temple, and the Colossi of Memnon.",
+   "listenAt": "On the drive/flight",
+   "tone": "fun",
+   "order": 1,
+   "date": "2027-01-11"
+  },
+  {
+   "id": "valley-of-the-queens-deir-el-medina-1",
+   "locationId": "valley-of-the-queens-deir-el-medina",
+   "number": 1,
+   "title": "Sick notes and fallen kings",
+   "summary": "The most beautiful tomb in Egypt, the tomb-builders' village and their excuses for missing work, Medinet Habu, and the statue that inspired a famous poem.",
+   "listenAt": "On the drive/flight",
+   "tone": "fun",
+   "order": 1,
+   "date": "2027-01-12"
+  },
+  {
+   "id": "istanbul-primer-1",
+   "locationId": "istanbul-primer",
+   "number": 1,
+   "title": "Istanbul: the big picture",
+   "summary": "Indy on Byzantium, Constantinople and the Ottomans, Sir Laurence on Gallipoli, and the last three days of the trip.",
+   "listenAt": "On the flight to Istanbul, or on arrival.",
+   "tone": "fun",
+   "order": 1,
+   "date": "2027-01-13",
+   "showFrom": "2027-01-12",
+   "kind": "primer"
+  },
+  {
+   "id": "suleymaniye-mosque-1",
+   "locationId": "suleymaniye-mosque",
+   "number": 1,
+   "title": "Welcome to Istanbul",
+   "summary": "Indy on Sinan's masterpiece and the view over the Golden Horn.",
+   "listenAt": "Terrace overlooking the Golden Horn",
+   "tone": "fun",
+   "order": 1,
+   "date": "2027-01-13"
+  },
+  {
+   "id": "hagia-sophia-1",
+   "locationId": "hagia-sophia",
+   "number": 1,
+   "title": "The great dome",
+   "summary": "How Hagia Sophia was built after a riot, the dome that seemed to hang from heaven, and its many lives.",
+   "listenAt": "In the park between Hagia Sophia and the Blue Mosque",
+   "tone": "fun",
+   "order": 1,
+   "date": "2027-01-14"
+  },
+  {
+   "id": "topkapi-palace-1",
+   "locationId": "topkapi-palace",
+   "number": 1,
+   "title": "The sultan's palace",
+   "summary": "The gate, the courtyards, the window where the sultan listened in secret, the treasury, and Ottoman record-keeping.",
+   "listenAt": "At the Imperial Gate",
+   "tone": "fun",
+   "order": 1,
+   "date": "2027-01-14"
+  },
+  {
+   "id": "basilica-cistern-1",
+   "locationId": "basilica-cistern",
+   "number": 1,
+   "title": "The sunken palace",
+   "summary": "The underground forest of columns, how it was rediscovered, and the mystery of the Medusa heads.",
+   "listenAt": "Outside the entrance",
+   "tone": "fun",
+   "order": 1,
+   "date": "2027-01-14"
+  },
+  {
+   "id": "grand-bazaar-1",
+   "locationId": "grand-bazaar",
+   "number": 1,
+   "title": "Into the maze",
+   "summary": "The bazaar's history, how to haggle, and a final reckoning of the kids' bank cards.",
+   "listenAt": "At the gate",
+   "tone": "fun",
+   "order": 1,
+   "date": "2027-01-14"
+  },
+  {
+   "id": "gallipoli-ride-out-1",
+   "locationId": "gallipoli-ride-out",
+   "number": 1,
+   "title": "Gallipoli, part one",
+   "summary": "Why the Allies came to the Dardanelles, and what happened on the twenty-fifth of April, nineteen fifteen.",
+   "listenAt": "On the coach",
+   "tone": "sombre",
+   "order": 1,
+   "date": "2027-01-15"
+  },
+  {
+   "id": "gallipoli-ride-home-1",
+   "locationId": "gallipoli-ride-home",
+   "number": 1,
+   "title": "Gallipoli, part two",
+   "summary": "The words on the memorial, and the Ode of Remembrance.",
+   "listenAt": "On the coach",
+   "tone": "sombre",
+   "order": 1,
+   "date": "2027-01-15"
+  },
+  {
+   "id": "blue-mosque-1",
+   "locationId": "blue-mosque",
+   "number": 1,
+   "title": "Six minarets",
+   "summary": "The young sultan's mosque, the six-minaret scandal, and the blue tiles inside.",
+   "listenAt": "On the Hippodrome side, plenty of space",
+   "tone": "fun",
+   "order": 1,
+   "date": "2027-01-16"
+  },
+  {
+   "id": "hippodrome-obelisk-1",
+   "locationId": "hippodrome-obelisk",
+   "number": 1,
+   "title": "The last stop",
+   "summary": "A callback to Karnak, the column of the snakes, and the whole cast signs off the trip.",
+   "listenAt": "Beside the obelisk",
+   "tone": "fun",
+   "order": 1,
+   "date": "2027-01-16"
+  }
+ ],
+ "tracks": [
+  {
+   "id": "start-here-1-01",
+   "sessionId": "start-here-1",
+   "number": 1,
+   "title": "Welcome aboard",
+   "summary": "Sir David opens the tour.",
+   "file": "audio/1c241e2c5f79-start-here-1-01.mp3",
+   "dur": 36,
+   "size": 217652,
+   "sha256": "1c241e2c5f79709586b75273d70e27006e4aaecd27f3662657c77195192bb550"
+  },
+  {
+   "id": "start-here-1-02",
+   "sessionId": "start-here-1",
+   "number": 2,
+   "title": "How it works",
+   "summary": "Sessions, spots, and the lock.",
+   "file": "audio/92d51907e8a7-start-here-1-02.mp3",
+   "dur": 57,
+   "size": 343796,
+   "sha256": "92d51907e8a77b3809e62943aa685b3bf0af0c980935945bb9e1a332627e90cb"
+  },
+  {
+   "id": "start-here-1-03",
+   "sessionId": "start-here-1",
+   "number": 3,
+   "title": "A warning",
+   "summary": "It may be glitchy. It may be cringe. Whose fault that is.",
+   "file": "audio/4bed23e4eb96-start-here-1-03.mp3",
+   "dur": 69,
+   "size": 416516,
+   "sha256": "4bed23e4eb964f39a27e73c9f894f63051ee72604bf47509a9e5242a87699943"
+  },
+  {
+   "id": "start-here-1-04",
+   "sessionId": "start-here-1",
+   "number": 4,
+   "title": "There will be a test",
+   "summary": "The facts in these sessions turn up in the family phone games.",
+   "file": "audio/b13b82cdc3f8-start-here-1-04.mp3",
+   "dur": 65,
+   "size": 390596,
+   "sha256": "b13b82cdc3f8dd1ec7ae0a049da681f6d642d13662db921fa5a1bcbcd22ab5be"
+  },
+  {
+   "id": "start-here-1-05",
+   "sessionId": "start-here-1",
+   "number": 5,
+   "title": "Who else",
+   "summary": "A small warning about company.",
+   "file": "audio/f8d84b574864-start-here-1-05.mp3",
+   "dur": 18,
+   "size": 108356,
+   "sha256": "f8d84b574864285fe3dde746fa82f66c268f1b262c15824532d70431cd92614f"
+  },
+  {
+   "id": "start-here-1-06",
+   "sessionId": "start-here-1",
+   "number": 6,
+   "title": "Before you land",
+   "summary": "When to press play next.",
+   "file": "audio/ab450dcb8c72-start-here-1-06.mp3",
+   "dur": 24,
+   "size": 147524,
+   "sha256": "ab450dcb8c7218c9ac50f32459c509ed735a566d7e8cdfe2a23691310a893598"
+  },
+  {
+   "id": "london-primer-1-01",
+   "sessionId": "london-primer-1",
+   "number": 1,
+   "title": "A city on a river",
+   "summary": "The big picture.",
+   "file": "audio/ccf331d47e03-london-primer-1-01.mp3",
+   "dur": 49,
+   "size": 294836,
+   "sha256": "ccf331d47e03342e3e44116da0c98b867489378b95733c68035bfa4ce2f6c272"
+  },
+  {
+   "id": "london-primer-1-02",
+   "sessionId": "london-primer-1",
+   "number": 2,
+   "title": "Romans, Normans and a great fire",
+   "summary": "How London grew.",
+   "file": "audio/34b18795403b-london-primer-1-02.mp3",
+   "dur": 114,
+   "size": 684644,
+   "sha256": "34b18795403b03e5e3a5167feb3f1a382dac01d566d6ab3edef896c6314c7617"
+  },
+  {
+   "id": "london-primer-1-03",
+   "sessionId": "london-primer-1",
+   "number": 3,
+   "title": "The Blitz",
+   "summary": "Sir Laurence on the bombing of London in the Second World War.",
+   "file": "audio/2171f7fc6f75-london-primer-1-03.mp3",
+   "dur": 67,
+   "size": 402836,
+   "sha256": "2171f7fc6f75890ce607a982833e051116abcc3480fa029049843a40aa9f1092"
+  },
+  {
+   "id": "london-primer-1-04",
+   "sessionId": "london-primer-1",
+   "number": 4,
+   "title": "What we will be getting up to",
+   "summary": "A preview of the four London days.",
+   "file": "audio/86cde87d45ff-london-primer-1-04.mp3",
+   "dur": 79,
+   "size": 475988,
+   "sha256": "86cde87d45ff640f1e05e81f86e57998c729231ed03d21f9a3c4ba9834c9f5d1"
+  },
+  {
+   "id": "london-primer-1-05",
+   "sessionId": "london-primer-1",
+   "number": 5,
+   "title": "Things to spot",
+   "summary": "Little things to look out for all over London.",
+   "file": "audio/ec077c3011cd-london-primer-1-05.mp3",
+   "dur": 45,
+   "size": 272372,
+   "sha256": "ec077c3011cdc22a4d0006c0e8e2803780dd0629292cd26969fd4528d91b52c1"
+  },
+  {
+   "id": "tower-of-london-1-01",
+   "sessionId": "tower-of-london-1",
+   "number": 1,
+   "title": "A rare sighting",
+   "summary": "Sir David spots the family in the wild.",
+   "file": "audio/bb30712e37e8-tower-of-london-1-01.mp3",
+   "dur": 37,
+   "size": 221828,
+   "sha256": "bb30712e37e81a593bfaac6183aed181c7efe0a833b9790e083300e5af9a9916"
+  },
+  {
+   "id": "tower-of-london-1-02",
+   "sessionId": "tower-of-london-1",
+   "number": 2,
+   "title": "The White Tower",
+   "summary": "What to look at first, and why William the Conqueror built it.",
+   "file": "audio/cfc474f90d66-tower-of-london-1-02.mp3",
+   "dur": 75,
+   "size": 449348,
+   "sha256": "cfc474f90d66604239f82859dcdae08762e6394ca6be9090635c777399380a57"
+  },
+  {
+   "id": "tower-of-london-1-03",
+   "sessionId": "tower-of-london-1",
+   "number": 3,
+   "title": "Lions, ravens, and a polar bear",
+   "summary": "The royal zoo, and the birds that guard the kingdom.",
+   "file": "audio/96a83d84c559-tower-of-london-1-03.mp3",
+   "dur": 65,
+   "size": 392900,
+   "sha256": "96a83d84c559d53822d8299f140c244411f9bcd8e61913f850fc2bdee85ff51f"
+  },
+  {
+   "id": "tower-of-london-1-04",
+   "sessionId": "tower-of-london-1",
+   "number": 4,
+   "title": "Over to the experts",
+   "summary": "What to look for inside, then hand over to the Tower's own audio guide.",
+   "file": "audio/cde09d6775e7-tower-of-london-1-04.mp3",
+   "dur": 49,
+   "size": 295556,
+   "sha256": "cde09d6775e7a0e9ceaaa5b6d9c39a4e2b07fb49b9d57e23e0ee7db9e38f30c5"
+  },
+  {
+   "id": "tower-bridge-1-01",
+   "sessionId": "tower-bridge-1",
+   "number": 1,
+   "title": "Not London Bridge",
+   "summary": "Get your bearings and clear up the classic mix-up.",
+   "file": "audio/b9048a3a039e-tower-bridge-1-01.mp3",
+   "dur": 51,
+   "size": 308660,
+   "sha256": "b9048a3a039e0e7447f193abe04766cf99b0f35e0dd50fb28169dae83ffe62d8"
+  },
+  {
+   "id": "tower-bridge-1-02",
+   "sessionId": "tower-bridge-1",
+   "number": 2,
+   "title": "A see-saw for ships",
+   "summary": "Why the road splits in half and lifts.",
+   "file": "audio/40318d6c039e-tower-bridge-1-02.mp3",
+   "dur": 78,
+   "size": 466628,
+   "sha256": "40318d6c039eb24dc8a9e76c05e92cf0342032baef26be404661af94f6426c89"
+  },
+  {
+   "id": "tower-bridge-1-03",
+   "sessionId": "tower-bridge-1",
+   "number": 3,
+   "title": "The jumping bus",
+   "summary": "The day a double-decker bus leapt the gap.",
+   "file": "audio/0eee6972fad5-tower-bridge-1-03.mp3",
+   "dur": 31,
+   "size": 186836,
+   "sha256": "0eee6972fad596f6905e177a5eeedbeb999e74953dc12eb63e9fd4935a6c83a5"
+  },
+  {
+   "id": "tower-bridge-1-04",
+   "sessionId": "tower-bridge-1",
+   "number": 4,
+   "title": "Maximum tourist",
+   "summary": "Sir David observes the man with the camera on a stick.",
+   "file": "audio/2725cd9f7a9f-tower-bridge-1-04.mp3",
+   "dur": 50,
+   "size": 300596,
+   "sha256": "2725cd9f7a9f8e94fa27e189f1fd8cd742c3becd763ff6fab8ab02fdf0ac7d56"
+  },
+  {
+   "id": "somerset-house-1-01",
+   "sessionId": "somerset-house-1",
+   "number": 1,
+   "title": "Before you skate",
+   "summary": "Whose house this was, and where the river used to be.",
+   "file": "audio/6ee09d1bc494-somerset-house-1-01.mp3",
+   "dur": 91,
+   "size": 547268,
+   "sha256": "6ee09d1bc4947223da53506fa6a54d8197a2a1d94116186bda3ceeb9acdf5411"
+  },
+  {
+   "id": "buckingham-palace-1-01",
+   "sessionId": "buckingham-palace-1",
+   "number": 1,
+   "title": "A gentleman arrives",
+   "summary": "Hugh introduces himself, and says hello to Mum.",
+   "file": "audio/10a7a58f96f0-buckingham-palace-1-01.mp3",
+   "dur": 36,
+   "size": 217076,
+   "sha256": "10a7a58f96f09b1e23564a79ab6ea420da47d9f7c54175f8c9540919faa7f90f"
+  },
+  {
+   "id": "buckingham-palace-1-02",
+   "sessionId": "buckingham-palace-1",
+   "number": 2,
+   "title": "The Queen's House",
+   "summary": "Who built it, and the Charlotte connection.",
+   "file": "audio/e5c4416ddd55-buckingham-palace-1-02.mp3",
+   "dur": 58,
+   "size": 349556,
+   "sha256": "e5c4416ddd55a829c9707d2e9135b69a6927c535def8e0b502a5060f406d35cf"
+  },
+  {
+   "id": "buckingham-palace-1-03",
+   "sessionId": "buckingham-palace-1",
+   "number": 3,
+   "title": "Is the King home?",
+   "summary": "The flag and the balcony.",
+   "file": "audio/7ea2fb89aa6e-buckingham-palace-1-03.mp3",
+   "dur": 54,
+   "size": 323636,
+   "sha256": "7ea2fb89aa6efbdd86a18c34653344d473286945903974085e8882f8ba1cb5a4"
+  },
+  {
+   "id": "buckingham-palace-1-04",
+   "sessionId": "buckingham-palace-1",
+   "number": 4,
+   "title": "Spot the guard",
+   "summary": "A secret code on the guards' tunics.",
+   "file": "audio/14d6d1b4d673-buckingham-palace-1-04.mp3",
+   "dur": 36,
+   "size": 218660,
+   "sha256": "14d6d1b4d6738f2a9235d53c940f8f62a806f8e67748253999b28256371d642c"
+  },
+  {
+   "id": "buckingham-palace-1-05",
+   "sessionId": "buckingham-palace-1",
+   "number": 5,
+   "title": "The photo",
+   "summary": "A word about Mum and the camera.",
+   "file": "audio/b2bcae2abd3f-buckingham-palace-1-05.mp3",
+   "dur": 31,
+   "size": 184244,
+   "sha256": "b2bcae2abd3f7fbc6ea5a0fa326a500e2e92ce6c1a6349b0fc8292457f008a7e"
+  },
+  {
+   "id": "parliament-square-1-01",
+   "sessionId": "parliament-square-1",
+   "number": 1,
+   "title": "The tower",
+   "summary": "Hugh on the tower and the bell, choosing his words very carefully.",
+   "file": "audio/ea63ad65c4c9-parliament-square-1-01.mp3",
+   "dur": 101,
+   "size": 604580,
+   "sha256": "ea63ad65c4c95bac551d56ba4040419e7a1aa7c3caee1bdce682d12774acd15c"
+  },
+  {
+   "id": "parliament-square-1-02",
+   "sessionId": "parliament-square-1",
+   "number": 2,
+   "title": "Pennies and tally sticks",
+   "summary": "Two small secrets about the clock and the palace.",
+   "file": "audio/fcc270e82b9a-parliament-square-1-02.mp3",
+   "dur": 66,
+   "size": 396788,
+   "sha256": "fcc270e82b9a804d6c8cc82b69729f5a4b9b220d12490cc475f6fbb59422ec2b"
+  },
+  {
+   "id": "parliament-square-1-03",
+   "sessionId": "parliament-square-1",
+   "number": 3,
+   "title": "The square",
+   "summary": "The statues around you, and the man in the greatcoat.",
+   "file": "audio/865cf9793182-parliament-square-1-03.mp3",
+   "dur": 105,
+   "size": 633524,
+   "sha256": "865cf9793182ef9da72913cf7781768eab283985c1b3305e9c606f2c1ce9a033"
+  },
+  {
+   "id": "westminster-abbey-1-01",
+   "sessionId": "westminster-abbey-1",
+   "number": 1,
+   "title": "A thousand years of crowns",
+   "summary": "Why the Abbey matters.",
+   "file": "audio/b6543fa005f1-westminster-abbey-1-01.mp3",
+   "dur": 68,
+   "size": 411188,
+   "sha256": "b6543fa005f13dab6d7bfab38dd812657455054382e365633536e9930efe866c"
+  },
+  {
+   "id": "westminster-abbey-1-02",
+   "sessionId": "westminster-abbey-1",
+   "number": 2,
+   "title": "Look above the door",
+   "summary": "Ten modern heroes in stone.",
+   "file": "audio/0200ad52866a-westminster-abbey-1-02.mp3",
+   "dur": 32,
+   "size": 193460,
+   "sha256": "0200ad52866a25fdacc8a68629425ec50a69b4582a9348925b336fa23d73deac"
+  },
+  {
+   "id": "westminster-abbey-1-03",
+   "sessionId": "westminster-abbey-1",
+   "number": 3,
+   "title": "What to find inside",
+   "summary": "A short treasure hunt for the Abbey's own guide.",
+   "file": "audio/b14f0ec8b38a-westminster-abbey-1-03.mp3",
+   "dur": 92,
+   "size": 551012,
+   "sha256": "b14f0ec8b38ac14195fe8dbdec98fc4f5d9b18bc763bd9fffe06a0d2186e55f4"
+  },
+  {
+   "id": "downing-street-1-01",
+   "sessionId": "downing-street-1",
+   "number": 1,
+   "title": "Through the gates",
+   "summary": "What you can see from Whitehall.",
+   "file": "audio/6021270f3b77-downing-street-1-01.mp3",
+   "dur": 51,
+   "size": 306932,
+   "sha256": "6021270f3b773935b5ba3cf995ea5bb83964597840e05d8f0af5040be1ea88b3"
+  },
+  {
+   "id": "downing-street-1-02",
+   "sessionId": "downing-street-1",
+   "number": 2,
+   "title": "Mister Downing",
+   "summary": "The slippery man who built the street.",
+   "file": "audio/a7a3a55e3cd0-downing-street-1-02.mp3",
+   "dur": 69,
+   "size": 413492,
+   "sha256": "a7a3a55e3cd0519980bd54c342ebede9d4793311fa6bd84b0e6d33561c67622b"
+  },
+  {
+   "id": "downing-street-1-03",
+   "sessionId": "downing-street-1",
+   "number": 3,
+   "title": "The door",
+   "summary": "Three things about the most photographed door in Britain.",
+   "file": "audio/8d1d2fd1dc42-downing-street-1-03.mp3",
+   "dur": 56,
+   "size": 335444,
+   "sha256": "8d1d2fd1dc4205f84f824bd76b098a0584de878a831bd2db452de64bed52dd9c"
+  },
+  {
+   "id": "downing-street-1-04",
+   "sessionId": "downing-street-1",
+   "number": 4,
+   "title": "A small confession",
+   "summary": "Hugh admits he once played a Prime Minister.",
+   "file": "audio/180c6285c41d-downing-street-1-04.mp3",
+   "dur": 61,
+   "size": 365396,
+   "sha256": "180c6285c41d977db08d97324edfd3090e9a8309b9a57699485cd835d94fbbd4"
+  },
+  {
+   "id": "churchill-war-rooms-1-01",
+   "sessionId": "churchill-war-rooms-1",
+   "number": 1,
+   "title": "Under Whitehall",
+   "summary": "What is hidden below this building.",
+   "file": "audio/1732dee7c8c6-churchill-war-rooms-1-01.mp3",
+   "dur": 54,
+   "size": 323492,
+   "sha256": "1732dee7c8c62cd0c865f9c38ae4596473ef1c74d07de9af4657989a842d3b31"
+  },
+  {
+   "id": "churchill-war-rooms-1-02",
+   "sessionId": "churchill-war-rooms-1",
+   "number": 2,
+   "title": "Things to find",
+   "summary": "A treasure hunt for the museum's own guide.",
+   "file": "audio/3e60977ca723-churchill-war-rooms-1-02.mp3",
+   "dur": 63,
+   "size": 378932,
+   "sha256": "3e60977ca723a5cfc062af32ab69ae9d2a3cd3fa4056734e94a858ce15f9d714"
+  },
+  {
+   "id": "churchill-war-rooms-1-03",
+   "sessionId": "churchill-war-rooms-1",
+   "number": 3,
+   "title": "The war cabinet of Dad",
+   "summary": "Hugh recognises a fellow commander.",
+   "file": "audio/959277ff8e64-churchill-war-rooms-1-03.mp3",
+   "dur": 52,
+   "size": 309956,
+   "sha256": "959277ff8e644e9461adf9d4076bf137dfc2f0e06449305ffb248782844ced69"
+  },
+  {
+   "id": "piccadilly-circus-1-01",
+   "sessionId": "piccadilly-circus-1",
+   "number": 1,
+   "title": "The glowing wall",
+   "summary": "Sir David on the screens and the name.",
+   "file": "audio/0407691af793-piccadilly-circus-1-01.mp3",
+   "dur": 66,
+   "size": 394772,
+   "sha256": "0407691af793c2c7cd50fff60203034c2bfba5bfc81391cbb7c42a3a921e621e"
+  },
+  {
+   "id": "piccadilly-circus-1-02",
+   "sessionId": "piccadilly-circus-1",
+   "number": 2,
+   "title": "The statue that isn't Eros",
+   "summary": "The winged archer and what he really stands for.",
+   "file": "audio/6e3ff409d082-piccadilly-circus-1-02.mp3",
+   "dur": 71,
+   "size": 429476,
+   "sha256": "6e3ff409d082b768ad38e68027319057cd0d7f22c9b082b94bda48542fce9935"
+  },
+  {
+   "id": "trafalgar-square-1-01",
+   "sessionId": "trafalgar-square-1",
+   "number": 1,
+   "title": "Nelson",
+   "summary": "The admiral on the column, and the brandy barrel.",
+   "file": "audio/41f5e2a80e91-trafalgar-square-1-01.mp3",
+   "dur": 67,
+   "size": 400820,
+   "sha256": "41f5e2a80e91c9dc136626bdc7fa2139f8467aa07fc92fe5f35c8465c8b6a5b2"
+  },
+  {
+   "id": "trafalgar-square-1-02",
+   "sessionId": "trafalgar-square-1",
+   "number": 2,
+   "title": "The tree and the centre of London",
+   "summary": "A gift every year, and the spot where London's distances are measured.",
+   "file": "audio/15f895cc6daa-trafalgar-square-1-02.mp3",
+   "dur": 67,
+   "size": 400964,
+   "sha256": "15f895cc6daaffe0641ba27f00563236a16acb71a3d0826c942f433e759e9387"
+  },
+  {
+   "id": "british-museum-1-01",
+   "sessionId": "british-museum-1",
+   "number": 1,
+   "title": "The night shift",
+   "summary": "Sir David hands over to two museum regulars.",
+   "file": "audio/4adc7932ba7b-british-museum-1-01.mp3",
+   "dur": 25,
+   "size": 150548,
+   "sha256": "4adc7932ba7b2fc2908ef38f06975848e67b0799af99a7d8fde4aeeed40539d8"
+  },
+  {
+   "id": "british-museum-1-02",
+   "sessionId": "british-museum-1",
+   "number": 2,
+   "title": "The temple of stuff",
+   "summary": "The front of the building and how the museum began.",
+   "file": "audio/2e1a26a7f4f5-british-museum-1-02.mp3",
+   "dur": 43,
+   "size": 258404,
+   "sha256": "2e1a26a7f4f562ba1c086a5adc4929f64fd2f96e02edae2a1473c6693d8a7de7"
+  },
+  {
+   "id": "british-museum-1-03",
+   "sessionId": "british-museum-1",
+   "number": 3,
+   "title": "Been here before",
+   "summary": "A film connection, and a strict rule.",
+   "file": "audio/8018cd098461-british-museum-1-03.mp3",
+   "dur": 41,
+   "size": 249044,
+   "sha256": "8018cd098461a969227d11425666cb7d9fc8f1eb0a8de94e284ae63946f0c2df"
+  },
+  {
+   "id": "british-museum-1-04",
+   "sessionId": "british-museum-1",
+   "number": 4,
+   "title": "The Rosetta Stone",
+   "summary": "The most famous object inside, and why it matters for January.",
+   "file": "audio/30546163b0be-british-museum-1-04.mp3",
+   "dur": 74,
+   "size": 447044,
+   "sha256": "30546163b0bee2441869a3e7c4c8a971308cac7b2698812bbb7bddaef8de90de"
+  },
+  {
+   "id": "natural-history-museum-1-01",
+   "sessionId": "natural-history-museum-1",
+   "number": 1,
+   "title": "Home turf",
+   "summary": "Sir David arrives, and so do the night shift.",
+   "file": "audio/2615e05c3312-natural-history-museum-1-01.mp3",
+   "dur": 15,
+   "size": 92804,
+   "sha256": "2615e05c3312e4b77e3f9a56ec67aec766667c19455678652c1c08d81ebdfe7b"
+  },
+  {
+   "id": "natural-history-museum-1-02",
+   "sessionId": "natural-history-museum-1",
+   "number": 2,
+   "title": "Look at the walls",
+   "summary": "A building covered in carved creatures.",
+   "file": "audio/5eb872d4126c-natural-history-museum-1-02.mp3",
+   "dur": 66,
+   "size": 394772,
+   "sha256": "5eb872d4126c25a02c5aba3a87e4e8a503fb351e004041103380d609c3e06620"
+  },
+  {
+   "id": "natural-history-museum-1-03",
+   "sessionId": "natural-history-museum-1",
+   "number": 3,
+   "title": "The man who named the dinosaurs",
+   "summary": "Richard Owen and the whale called Hope.",
+   "file": "audio/85cfcdf05a2d-natural-history-museum-1-03.mp3",
+   "dur": 73,
+   "size": 437828,
+   "sha256": "85cfcdf05a2da5da92e786cb2a95a4694ca9b290a0a570a31c3d172d006bbc8d"
+  },
+  {
+   "id": "hyde-park-1-01",
+   "sessionId": "hyde-park-1",
+   "number": 1,
+   "title": "Henry's deer park",
+   "summary": "From royal hunting to rollercoasters.",
+   "file": "audio/43457d884424-hyde-park-1-01.mp3",
+   "dur": 68,
+   "size": 408596,
+   "sha256": "43457d88442452cab9eb2632107b6a31528d7d334f3de13e3bbc1df887823593"
+  },
+  {
+   "id": "hyde-park-1-02",
+   "sessionId": "hyde-park-1",
+   "number": 2,
+   "title": "Meanwhile, in Sydney",
+   "summary": "A quick weather comparison.",
+   "file": "audio/b852c3ce24d3-hyde-park-1-02.mp3",
+   "dur": 30,
+   "size": 180932,
+   "sha256": "b852c3ce24d3e42b8425f7b868fe4560b4fc73a81cdd9fac08c0dc8029e99807"
+  },
+  {
+   "id": "abbey-road-1-01",
+   "sessionId": "abbey-road-1",
+   "number": 1,
+   "title": "The crossing",
+   "summary": "How the album cover was shot.",
+   "file": "audio/cbb8576eb6f6-abbey-road-1-01.mp3",
+   "dur": 73,
+   "size": 441428,
+   "sha256": "cbb8576eb6f60521675b4cc7f3bebd6eb7917f572bceca87d8ac2bda25814fe0"
+  },
+  {
+   "id": "abbey-road-1-02",
+   "sessionId": "abbey-road-1",
+   "number": 2,
+   "title": "A warning, and goodbye",
+   "summary": "Cross carefully, then say goodbye to London.",
+   "file": "audio/6f0158c97f25-abbey-road-1-02.mp3",
+   "dur": 51,
+   "size": 304196,
+   "sha256": "6f0158c97f257c67949065696d5f4ffd0398f6164d38004d747c2b37ccb25d97"
+  },
+  {
+   "id": "berlin-primer-1-01",
+   "sessionId": "berlin-primer-1",
+   "number": 1,
+   "title": "Welcome to Berlin",
+   "summary": "Arnold introduces himself and the city.",
+   "file": "audio/d0e6218130c2-berlin-primer-1-01.mp3",
+   "dur": 34,
+   "size": 205988,
+   "sha256": "d0e6218130c220ba6687ac719b47e235e3043f9d62bcea1e42d1d3809fe45e30"
+  },
+  {
+   "id": "berlin-primer-1-02",
+   "sessionId": "berlin-primer-1",
+   "number": 2,
+   "title": "Kings and emperors",
+   "summary": "How Berlin became a capital.",
+   "file": "audio/374b7d859d5e-berlin-primer-1-02.mp3",
+   "dur": 58,
+   "size": 347108,
+   "sha256": "374b7d859d5e5cf721af9ea9b7088acbfca0cf2dc0113b2ff2925140f8161755"
+  },
+  {
+   "id": "berlin-primer-1-03",
+   "sessionId": "berlin-primer-1",
+   "number": 3,
+   "title": "The darkest years, and the Wall",
+   "summary": "Sir Laurence on Nazi Germany, the war, and the divided city.",
+   "file": "audio/883e5b46844c-berlin-primer-1-03.mp3",
+   "dur": 96,
+   "size": 575348,
+   "sha256": "883e5b46844cecf2727abe3652ab84e9a82dcd97cd59569d05972c1fcbe0bfd3"
+  },
+  {
+   "id": "berlin-primer-1-04",
+   "sessionId": "berlin-primer-1",
+   "number": 4,
+   "title": "What we will be getting up to",
+   "summary": "A preview of the Berlin days.",
+   "file": "audio/27c8dff1511d-berlin-primer-1-04.mp3",
+   "dur": 52,
+   "size": 314420,
+   "sha256": "27c8dff1511d84354ebe1adc0e1421e311452445f67edb7fc3809e44fc88d0e7"
+  },
+  {
+   "id": "berlin-primer-1-05",
+   "sessionId": "berlin-primer-1",
+   "number": 5,
+   "title": "Things to spot, and two words",
+   "summary": "Little Berlin details, and some German to use.",
+   "file": "audio/238cbec88e34-berlin-primer-1-05.mp3",
+   "dur": 53,
+   "size": 316292,
+   "sha256": "238cbec88e34e803b4653c3a3fda84e3ec9cf17221fa0fe2d67b6966f8850107"
+  },
+  {
+   "id": "alexanderplatz-1-01",
+   "sessionId": "alexanderplatz-1",
+   "number": 1,
+   "title": "I am here",
+   "summary": "Arnold introduces himself.",
+   "file": "audio/402e210f2fed-alexanderplatz-1-01.mp3",
+   "dur": 21,
+   "size": 124916,
+   "sha256": "402e210f2fed9b70f5f4402641636ec4b652dec1f583f533fe13f96b1daf418d"
+  },
+  {
+   "id": "alexanderplatz-1-02",
+   "sessionId": "alexanderplatz-1",
+   "number": 2,
+   "title": "The tower",
+   "summary": "Why East Germany built it, and the cross that appears in the sun.",
+   "file": "audio/d5c2cf99256a-alexanderplatz-1-02.mp3",
+   "dur": 61,
+   "size": 368852,
+   "sha256": "d5c2cf99256a30066c3de639d02504b516a461ec2f8a992f6d623f48bd49d7e1"
+  },
+  {
+   "id": "alexanderplatz-1-03",
+   "sessionId": "alexanderplatz-1",
+   "number": 3,
+   "title": "Alexanderplatz",
+   "summary": "The square, the World Clock, and the biggest protest in East German history.",
+   "file": "audio/a04a2641eea3-alexanderplatz-1-03.mp3",
+   "dur": 33,
+   "size": 197204,
+   "sha256": "a04a2641eea3e1543bf2d455707e65f946c8fefc436b97ad581c4c5aaa00948b"
+  },
+  {
+   "id": "alexanderplatz-1-04",
+   "sessionId": "alexanderplatz-1",
+   "number": 4,
+   "title": "Your money",
+   "summary": "A word to Charlotte and Jack about their bank cards.",
+   "file": "audio/3e8db0b19180-alexanderplatz-1-04.mp3",
+   "dur": 42,
+   "size": 250340,
+   "sha256": "3e8db0b19180be53ee0b196a7cc0af0392bd814b11fed80741b07cbc4867a576"
+  },
+  {
+   "id": "tv-tower-deck-1-01",
+   "sessionId": "tv-tower-deck-1",
+   "number": 1,
+   "title": "Up here",
+   "summary": "How tall it is, how to find west, and the plan.",
+   "file": "audio/968993bfa078-tv-tower-deck-1-01.mp3",
+   "dur": 79,
+   "size": 475124,
+   "sha256": "968993bfa078feb8bf15b9e800f3f5e358155c2e357cf50bef51e59665021f90"
+  },
+  {
+   "id": "tv-tower-deck-1-02",
+   "sessionId": "tv-tower-deck-1",
+   "number": 2,
+   "title": "Right below you",
+   "summary": "The church, the fountain and the red town hall at the foot of the tower.",
+   "file": "audio/f5a1315461ae-tv-tower-deck-1-02.mp3",
+   "dur": 65,
+   "size": 389876,
+   "sha256": "f5a1315461aea974ed405e88c917d26b3c7a795d826446be330bba7b03cdcb24"
+  },
+  {
+   "id": "tv-tower-deck-1-03",
+   "sessionId": "tv-tower-deck-1",
+   "number": 3,
+   "title": "North: old streets and the Wall",
+   "summary": "Apartment streets, and the line where the Berlin Wall once ran.",
+   "file": "audio/7fdcc9ae2f9d-tv-tower-deck-1-03.mp3",
+   "dur": 47,
+   "size": 282020,
+   "sha256": "7fdcc9ae2f9d5292efbe343d139f5b9dec4a1da1aac02eb7f663b47dd990e93b"
+  },
+  {
+   "id": "tv-tower-deck-1-04",
+   "sessionId": "tv-tower-deck-1",
+   "number": 4,
+   "title": "East: the wedding cakes",
+   "summary": "Karl-Marx-Allee, the huge boulevard East Germany built to show off.",
+   "file": "audio/bf465fcc31ff-tv-tower-deck-1-04.mp3",
+   "dur": 73,
+   "size": 437540,
+   "sha256": "bf465fcc31ff66add652d79df219869d7529090fed0d012565c6ba1ebcf219ee"
+  },
+  {
+   "id": "tv-tower-deck-1-05",
+   "sessionId": "tv-tower-deck-1",
+   "number": 5,
+   "title": "South: the runway park",
+   "summary": "The old Tempelhof airport, and the Berlin Airlift.",
+   "file": "audio/71069b4a649a-tv-tower-deck-1-05.mp3",
+   "dur": 76,
+   "size": 454388,
+   "sha256": "71069b4a649a6fb66a28e644af6619e6358b91df83046316bfd33c7262fc57c0"
+  },
+  {
+   "id": "tv-tower-deck-1-06",
+   "sessionId": "tv-tower-deck-1",
+   "number": 6,
+   "title": "West: the grand finale",
+   "summary": "Museum Island, the Brandenburg Gate, the Reichstag, the golden angel, and the sunset.",
+   "file": "audio/a0114fa80745-tv-tower-deck-1-06.mp3",
+   "dur": 97,
+   "size": 584852,
+   "sha256": "a0114fa80745d00ee399a44b22ccf5bfe0ea01d98437b41193d8bc74f4cfa275"
+  },
+  {
+   "id": "stasi-primer-1-01",
+   "sessionId": "stasi-primer-1",
+   "number": 1,
+   "title": "The shield and the sword",
+   "summary": "What the Stasi was.",
+   "file": "audio/0a6ce29a7cb1-stasi-primer-1-01.mp3",
+   "dur": 52,
+   "size": 314996,
+   "sha256": "0a6ce29a7cb150cd07455d84c55f6d22ee127d2cddea9aaba48faeafd4075163"
+  },
+  {
+   "id": "stasi-primer-1-02",
+   "sessionId": "stasi-primer-1",
+   "number": 2,
+   "title": "A prison that was not there",
+   "summary": "The history of Hohenschönhausen.",
+   "file": "audio/464e2fdc2e99-stasi-primer-1-02.mp3",
+   "dur": 59,
+   "size": 353876,
+   "sha256": "464e2fdc2e994afcbfa37523b9c3eabc1d0c7b72f8971f91399917624380e731"
+  },
+  {
+   "id": "reichstag-1-01",
+   "sessionId": "reichstag-1",
+   "number": 1,
+   "title": "Waiting with Arnold",
+   "summary": "Arnold fills the wait, and spots the spreadsheet.",
+   "file": "audio/bb3ac3a50ec8-reichstag-1-01.mp3",
+   "dur": 27,
+   "size": 159908,
+   "sha256": "bb3ac3a50ec8d8b81692d88d25e755ed753970e964f4a709fa89d651f4b16b0c"
+  },
+  {
+   "id": "reichstag-1-02",
+   "sessionId": "reichstag-1",
+   "number": 2,
+   "title": "To the German people",
+   "summary": "The building and the words over the door.",
+   "file": "audio/b4fec828be8f-reichstag-1-02.mp3",
+   "dur": 48,
+   "size": 290948,
+   "sha256": "b4fec828be8f6e628d6379a6331971e37514db6ab513d73c0d8795da94a304f2"
+  },
+  {
+   "id": "reichstag-1-03",
+   "sessionId": "reichstag-1",
+   "number": 3,
+   "title": "The fire",
+   "summary": "The night in nineteen thirty-three that changed everything.",
+   "file": "audio/271c10d7757f-reichstag-1-03.mp3",
+   "dur": 47,
+   "size": 280724,
+   "sha256": "271c10d7757fc0eb10fa37eb7419f2528c7c5c6fe2efa06a150fdb91c0abb5c8"
+  },
+  {
+   "id": "reichstag-1-04",
+   "sessionId": "reichstag-1",
+   "number": 4,
+   "title": "The flag on the roof",
+   "summary": "The end of the war, and the graffiti that survives inside.",
+   "file": "audio/8ea04275fa5e-reichstag-1-04.mp3",
+   "dur": 55,
+   "size": 329684,
+   "sha256": "8ea04275fa5e837d6702c07881b7a021c1e48b1d3fca526d99d33563c7629d64"
+  },
+  {
+   "id": "reichstag-1-05",
+   "sessionId": "reichstag-1",
+   "number": 5,
+   "title": "The Wall and the wrapping",
+   "summary": "A building on the border, and the year it was gift-wrapped.",
+   "file": "audio/7eb9d309915b-reichstag-1-05.mp3",
+   "dur": 40,
+   "size": 241556,
+   "sha256": "7eb9d309915b21046f0fdd944ed7878434c8fc54cbd3dfcd064d3f3acac81141"
+  },
+  {
+   "id": "reichstag-1-06",
+   "sessionId": "reichstag-1",
+   "number": 6,
+   "title": "A visitor from Westminster",
+   "summary": "Someone from London drops in to compare parliaments.",
+   "file": "audio/7ebd259ed720-reichstag-1-06.mp3",
+   "dur": 73,
+   "size": 436100,
+   "sha256": "7ebd259ed7202177333c74c742b5b98646a0e55d4645a4eecc890aa1803eacf8"
+  },
+  {
+   "id": "reichstag-1-07",
+   "sessionId": "reichstag-1",
+   "number": 7,
+   "title": "The dome",
+   "summary": "What you are about to see.",
+   "file": "audio/b8efe4230624-reichstag-1-07.mp3",
+   "dur": 46,
+   "size": 275972,
+   "sha256": "b8efe42306248a1bcbe9f432c209c205f5a4b33faf53c30293ccb9afde467a88"
+  },
+  {
+   "id": "brandenburg-gate-1-01",
+   "sessionId": "brandenburg-gate-1",
+   "number": 1,
+   "title": "Shirt check",
+   "summary": "An urgent safety announcement before filming.",
+   "file": "audio/3e3c10e67a99-brandenburg-gate-1-01.mp3",
+   "dur": 34,
+   "size": 205124,
+   "sha256": "3e3c10e67a99071d2fdaeedd838dad6a15c3c2b45db42ef68610a25379efdf3c"
+  },
+  {
+   "id": "brandenburg-gate-1-02",
+   "sessionId": "brandenburg-gate-1",
+   "number": 2,
+   "title": "The chariot on top",
+   "summary": "The gate and the goddess.",
+   "file": "audio/86a1d92b84d9-brandenburg-gate-1-02.mp3",
+   "dur": 46,
+   "size": 273812,
+   "sha256": "86a1d92b84d9a8409d6fbbaafd419f4b5fba2153013244371e3f7bef9c1dbb02"
+  },
+  {
+   "id": "brandenburg-gate-1-03",
+   "sessionId": "brandenburg-gate-1",
+   "number": 3,
+   "title": "The Wall",
+   "summary": "Twenty-eight years when nobody could walk through.",
+   "file": "audio/0287195ddc90-brandenburg-gate-1-03.mp3",
+   "dur": 62,
+   "size": 375620,
+   "sha256": "0287195ddc90f2a037ba6b2aa1ad649207890b0f0697538adc3fda12daf31b06"
+  },
+  {
+   "id": "holocaust-memorial-1-01",
+   "sessionId": "holocaust-memorial-1",
+   "number": 1,
+   "title": "Six million",
+   "summary": "What the memorial remembers.",
+   "file": "audio/ba5f0df250e4-holocaust-memorial-1-01.mp3",
+   "dur": 38,
+   "size": 229892,
+   "sha256": "ba5f0df250e47a0ad2365bb25a814ce248890670afe48eb9d6f5303f76d43748"
+  },
+  {
+   "id": "holocaust-memorial-1-02",
+   "sessionId": "holocaust-memorial-1",
+   "number": 2,
+   "title": "Walking in",
+   "summary": "An invitation to walk through, alone.",
+   "file": "audio/29a4f3f50868-holocaust-memorial-1-02.mp3",
+   "dur": 30,
+   "size": 181652,
+   "sha256": "29a4f3f50868213bef02be82674d34c6796cb8f8e30b24a50e75c32bfe06c801"
+  },
+  {
+   "id": "fuehrerbunker-site-1-01",
+   "sessionId": "fuehrerbunker-site-1",
+   "number": 1,
+   "title": "Nothing to see",
+   "summary": "The bunker and its deliberate erasure.",
+   "file": "audio/5c04b5867d2e-fuehrerbunker-site-1-01.mp3",
+   "dur": 62,
+   "size": 374900,
+   "sha256": "5c04b5867d2e1f197229e6c2b527d0bc84e9e74d5b875e3205a55a7f0efaab2b"
+  },
+  {
+   "id": "topography-of-terror-1-01",
+   "sessionId": "topography-of-terror-1",
+   "number": 1,
+   "title": "What stood here",
+   "summary": "The offices that planned persecution across Europe.",
+   "file": "audio/ef8f2092b805-topography-of-terror-1-01.mp3",
+   "dur": 57,
+   "size": 342356,
+   "sha256": "ef8f2092b80536e7b42b28ac2e49c5de28e8386edfb8dc1da5cf9c2c1524e9c7"
+  },
+  {
+   "id": "topography-of-terror-1-02",
+   "sessionId": "topography-of-terror-1",
+   "number": 2,
+   "title": "The Wall beside it",
+   "summary": "One history laid over another.",
+   "file": "audio/10262d7c9592-topography-of-terror-1-02.mp3",
+   "dur": 26,
+   "size": 159620,
+   "sha256": "10262d7c9592c76f86988f2f8f8ed88e3227e0101309254486a9d9c82fa7328e"
+  },
+  {
+   "id": "checkpoint-charlie-1-01",
+   "sessionId": "checkpoint-charlie-1",
+   "number": 1,
+   "title": "Agents meet",
+   "summary": "Two old spies meet at the border.",
+   "file": "audio/66fe6931965b-checkpoint-charlie-1-01.mp3",
+   "dur": 43,
+   "size": 260132,
+   "sha256": "66fe6931965bbeb4d436a4e1beecb9f7cddc81ec0337d1a7cfc4df42ab9ff690"
+  },
+  {
+   "id": "checkpoint-charlie-1-02",
+   "sessionId": "checkpoint-charlie-1",
+   "number": 2,
+   "title": "The border",
+   "summary": "What the checkpoint was for.",
+   "file": "audio/5fedba9e771e-checkpoint-charlie-1-02.mp3",
+   "dur": 63,
+   "size": 381092,
+   "sha256": "5fedba9e771e956e039d0e299ec2dd7550d278e5f8ad0fb80cb40a2d0147ebd4"
+  },
+  {
+   "id": "checkpoint-charlie-1-03",
+   "sessionId": "checkpoint-charlie-1",
+   "number": 3,
+   "title": "Escapes",
+   "summary": "How people tried to get through.",
+   "file": "audio/0cb5d9d8b93e-checkpoint-charlie-1-03.mp3",
+   "dur": 28,
+   "size": 170708,
+   "sha256": "0cb5d9d8b93ed46e5fad1a0adad17fbef5d789ff9035611541ebf553eb4fd64e"
+  },
+  {
+   "id": "checkpoint-charlie-1-04",
+   "sessionId": "checkpoint-charlie-1",
+   "number": 4,
+   "title": "The fake soldiers",
+   "summary": "A warning about the actors.",
+   "file": "audio/d568b9309206-checkpoint-charlie-1-04.mp3",
+   "dur": 53,
+   "size": 315572,
+   "sha256": "d568b930920615c37f8dc377ee698b59213fc5a5c2179629ab97301861912d83"
+  },
+  {
+   "id": "spy-museum-1-01",
+   "sessionId": "spy-museum-1",
+   "number": 1,
+   "title": "The busiest square in Europe",
+   "summary": "The square that vanished and came back.",
+   "file": "audio/3e9b124bded2-spy-museum-1-01.mp3",
+   "dur": 52,
+   "size": 311828,
+   "sha256": "3e9b124bded2f202dd81a7ddb6f9787695dcc15410fb0923be5799f149c83107"
+  },
+  {
+   "id": "spy-museum-1-02",
+   "sessionId": "spy-museum-1",
+   "number": 2,
+   "title": "Capital of spies",
+   "summary": "Why Berlin was the spy city of the Cold War.",
+   "file": "audio/4e750594762e-spy-museum-1-02.mp3",
+   "dur": 57,
+   "size": 339908,
+   "sha256": "4e750594762e918c91ebc50fa759fa69b9ef2d7389753037a7cb43ee7eb17cfa"
+  },
+  {
+   "id": "spy-museum-1-03",
+   "sessionId": "spy-museum-1",
+   "number": 3,
+   "title": "Gadgets",
+   "summary": "What to look for in the museum.",
+   "file": "audio/a7643024605a-spy-museum-1-03.mp3",
+   "dur": 34,
+   "size": 202532,
+   "sha256": "a7643024605aa032ab67d3ca20356f58ca93cec37a45e49268be24facab09637"
+  },
+  {
+   "id": "bernauer-strasse-1-01",
+   "sessionId": "bernauer-strasse-1",
+   "number": 1,
+   "title": "Overnight",
+   "summary": "The thirteenth of August, nineteen sixty-one.",
+   "file": "audio/d78b897a426c-bernauer-strasse-1-01.mp3",
+   "dur": 71,
+   "size": 424148,
+   "sha256": "d78b897a426c6f4fedc1d3e9394340dd3a3a1780a6dcb86ddc15668a02477100"
+  },
+  {
+   "id": "bernauer-strasse-1-02",
+   "sessionId": "bernauer-strasse-1",
+   "number": 2,
+   "title": "Anatomy of a border",
+   "summary": "What each part of the death strip was for.",
+   "file": "audio/5452aebbe1e3-bernauer-strasse-1-02.mp3",
+   "dur": 42,
+   "size": 254084,
+   "sha256": "5452aebbe1e3dca5f55d9a914cc0fad05a9cd685cd365826bf7c05d916009c65"
+  },
+  {
+   "id": "window-of-remembrance-1-01",
+   "sessionId": "window-of-remembrance-1",
+   "number": 1,
+   "title": "The faces",
+   "summary": "The Window of Remembrance.",
+   "file": "audio/ea249eadb222-window-of-remembrance-1-01.mp3",
+   "dur": 32,
+   "size": 192020,
+   "sha256": "ea249eadb2222c42df6a60875a7386b8711c5fd11d162278c3105ed7d8066fb8"
+  },
+  {
+   "id": "window-of-remembrance-1-02",
+   "sessionId": "window-of-remembrance-1",
+   "number": 2,
+   "title": "The church in the death strip",
+   "summary": "The Chapel of Reconciliation.",
+   "file": "audio/b9ad7d7cb9e2-window-of-remembrance-1-02.mp3",
+   "dur": 43,
+   "size": 258836,
+   "sha256": "b9ad7d7cb9e237d555cbe8b9e9165e76feaf86dce5442c9687f120bacb1d1fe4"
+  },
+  {
+   "id": "nordbahnhof-1-01",
+   "sessionId": "nordbahnhof-1",
+   "number": 1,
+   "title": "Trains that did not stop",
+   "summary": "The ghost stations of divided Berlin.",
+   "file": "audio/5dfd931eef1e-nordbahnhof-1-01.mp3",
+   "dur": 56,
+   "size": 335444,
+   "sha256": "5dfd931eef1e53693fdbeea7bf3665e8d11044d63a7f0501f30f6ac9ef413c83"
+  },
+  {
+   "id": "bebelplatz-1-01",
+   "sessionId": "bebelplatz-1",
+   "number": 1,
+   "title": "The empty library",
+   "summary": "What is under the glass.",
+   "file": "audio/74448f001c50-bebelplatz-1-01.mp3",
+   "dur": 55,
+   "size": 332708,
+   "sha256": "74448f001c50b38b707109e2b9b9c8f35abaf791959cad9f16578120e6c86d4a"
+  },
+  {
+   "id": "bebelplatz-1-02",
+   "sessionId": "bebelplatz-1",
+   "number": 2,
+   "title": "A warning from the past",
+   "summary": "The words on the plaque.",
+   "file": "audio/c7ddc8fecd6d-bebelplatz-1-02.mp3",
+   "dur": 19,
+   "size": 115268,
+   "sha256": "c7ddc8fecd6d8c609a48f3e451939216a21345883e08d19bdd16908b50e9fa27"
+  },
+  {
+   "id": "train-berlin-dresden-1-01",
+   "sessionId": "train-berlin-dresden-1",
+   "number": 1,
+   "title": "Leaving Berlin",
+   "summary": "What you are travelling through.",
+   "file": "audio/2737fc702e1c-train-berlin-dresden-1-01.mp3",
+   "dur": 35,
+   "size": 212756,
+   "sha256": "2737fc702e1c2faa491d17b1bfb2f35f7b689da4999c6eb422b85fa434d05e71"
+  },
+  {
+   "id": "train-berlin-dresden-1-02",
+   "sessionId": "train-berlin-dresden-1",
+   "number": 2,
+   "title": "Augustus the Strong",
+   "summary": "The ruler who made Dresden magnificent.",
+   "file": "audio/f893a2f521ed-train-berlin-dresden-1-02.mp3",
+   "dur": 38,
+   "size": 229892,
+   "sha256": "f893a2f521ed096e55813668f9d963c5d3ca3b100a199f604c6af7cff9027717"
+  },
+  {
+   "id": "train-berlin-dresden-1-03",
+   "sessionId": "train-berlin-dresden-1",
+   "number": 3,
+   "title": "The alchemist",
+   "summary": "How a failed gold-maker invented European porcelain.",
+   "file": "audio/67fd41f00235-train-berlin-dresden-1-03.mp3",
+   "dur": 55,
+   "size": 333572,
+   "sha256": "67fd41f002357c121c4e213c42009613c25f91e21479b0a05c1106ffefcb14aa"
+  },
+  {
+   "id": "train-berlin-dresden-1-04",
+   "sessionId": "train-berlin-dresden-1",
+   "number": 4,
+   "title": "The bombing",
+   "summary": "What happened to Dresden in nineteen forty-five.",
+   "file": "audio/cb5f8c85c28e-train-berlin-dresden-1-04.mp3",
+   "dur": 39,
+   "size": 235508,
+   "sha256": "cb5f8c85c28e15e94a66a926a7bc8865a645b866298116513c929eb79bebd5d4"
+  },
+  {
+   "id": "train-berlin-dresden-1-05",
+   "sessionId": "train-berlin-dresden-1",
+   "number": 5,
+   "title": "A small emergency",
+   "summary": "An update on the family's technology.",
+   "file": "audio/4deeac1feee8-train-berlin-dresden-1-05.mp3",
+   "dur": 29,
+   "size": 175892,
+   "sha256": "4deeac1feee8ab0489c6b3d5e25f31a8198c329df1378cb4b3f53a6a443b1ba9"
+  },
+  {
+   "id": "striezelmarkt-1-01",
+   "sessionId": "striezelmarkt-1",
+   "number": 1,
+   "title": "Since fourteen thirty-four",
+   "summary": "What makes this market special.",
+   "file": "audio/b1e408089ffa-striezelmarkt-1-01.mp3",
+   "dur": 40,
+   "size": 238964,
+   "sha256": "b1e408089ffaaadfb625a8bb1a0894aa2e148788db7bc7dd8896aa588943cd50"
+  },
+  {
+   "id": "striezelmarkt-1-02",
+   "sessionId": "striezelmarkt-1",
+   "number": 2,
+   "title": "The pyramid",
+   "summary": "The giant wooden Christmas pyramid and the prune people.",
+   "file": "audio/90dc2bfdab9f-striezelmarkt-1-02.mp3",
+   "dur": 38,
+   "size": 228884,
+   "sha256": "90dc2bfdab9f265f5b72970bba1ab3d331534eca2dd9bbdd0e49d84e72e01f58"
+  },
+  {
+   "id": "striezelmarkt-1-03",
+   "sessionId": "striezelmarkt-1",
+   "number": 3,
+   "title": "Visitors from Prague",
+   "summary": "Two familiar voices drop in for the market.",
+   "file": "audio/37d717128808-striezelmarkt-1-03.mp3",
+   "dur": 46,
+   "size": 278708,
+   "sha256": "37d7171288086d32eff6c7551dbeada9fb04177ba97262abbe83febace2dee3a"
+  },
+  {
+   "id": "striezelmarkt-1-04",
+   "sessionId": "striezelmarkt-1",
+   "number": 4,
+   "title": "Arnold's business",
+   "summary": "Food, money, and a small matter of strudel.",
+   "file": "audio/ee509f2e9a81-striezelmarkt-1-04.mp3",
+   "dur": 50,
+   "size": 301172,
+   "sha256": "ee509f2e9a81df1b4dc446294b07f33243266622c0035d358d4064caf3754cef"
+  },
+  {
+   "id": "frauenkirche-1-01",
+   "sessionId": "frauenkirche-1",
+   "number": 1,
+   "title": "The stone bell",
+   "summary": "The church before the war.",
+   "file": "audio/367c26992e6f-frauenkirche-1-01.mp3",
+   "dur": 27,
+   "size": 161492,
+   "sha256": "367c26992e6fa832285d8bb1d84d148315316fb241efa4f14db8fd1e9c6e8f04"
+  },
+  {
+   "id": "frauenkirche-1-02",
+   "sessionId": "frauenkirche-1",
+   "number": 2,
+   "title": "The fall",
+   "summary": "February nineteen forty-five.",
+   "file": "audio/96899fccd92f-frauenkirche-1-02.mp3",
+   "dur": 40,
+   "size": 238820,
+   "sha256": "96899fccd92f60de6302fa426e137e72b7fd0a6d75da4a7ddd809827b1abcd01"
+  },
+  {
+   "id": "frauenkirche-1-03",
+   "sessionId": "frauenkirche-1",
+   "number": 3,
+   "title": "Rebuilt",
+   "summary": "The great jigsaw, and the gift from Britain.",
+   "file": "audio/fa5a4d4ace2e-frauenkirche-1-03.mp3",
+   "dur": 58,
+   "size": 348260,
+   "sha256": "fa5a4d4ace2eeabb7244dcd9dfebc942c98728cec37b2c997febbd8543739bcc"
+  },
+  {
+   "id": "fuerstenzug-1-01",
+   "sessionId": "fuerstenzug-1",
+   "number": 1,
+   "title": "The porcelain parade",
+   "summary": "What you are looking at.",
+   "file": "audio/c500bacf0418-fuerstenzug-1-01.mp3",
+   "dur": 51,
+   "size": 305060,
+   "sha256": "c500bacf04183e1f1c125ff99a32953346659684e08109cc3bfed960fb34acae"
+  },
+  {
+   "id": "fuerstenzug-1-02",
+   "sessionId": "fuerstenzug-1",
+   "number": 2,
+   "title": "Spotting challenge",
+   "summary": "Find these in the parade.",
+   "file": "audio/0720cabb74a2-fuerstenzug-1-02.mp3",
+   "dur": 33,
+   "size": 200660,
+   "sha256": "0720cabb74a2b47780e732aa7429273b1642a51e7864255128aefb96e1da1035"
+  },
+  {
+   "id": "bruehls-terrace-1-01",
+   "sessionId": "bruehls-terrace-1",
+   "number": 1,
+   "title": "The balcony",
+   "summary": "What this terrace was, and what you can see from it.",
+   "file": "audio/0ff469014d54-bruehls-terrace-1-01.mp3",
+   "dur": 50,
+   "size": 301028,
+   "sha256": "0ff469014d547569007b9ddc9691c1520e2f46abfac075011e569d48a1f495aa"
+  },
+  {
+   "id": "bruehls-terrace-1-02",
+   "sessionId": "bruehls-terrace-1",
+   "number": 2,
+   "title": "Which way, Dad?",
+   "summary": "A word about navigation.",
+   "file": "audio/365a67ea4cef-bruehls-terrace-1-02.mp3",
+   "dur": 45,
+   "size": 272660,
+   "sha256": "365a67ea4ceff559e7fc011ca274d8037f344d3dc8c1fb2b9294e32fa3d12c0c"
+  },
+  {
+   "id": "train-dresden-prague-1-01",
+   "sessionId": "train-dresden-prague-1",
+   "number": 1,
+   "title": "Hello, travellers",
+   "summary": "Rick and Lisa say hello.",
+   "file": "audio/723c8c12402f-train-dresden-prague-1-01.mp3",
+   "dur": 52,
+   "size": 309812,
+   "sha256": "723c8c12402fab763aa909e014cbf24c252cc073839fd309c7f9ff93af5703dd"
+  },
+  {
+   "id": "train-dresden-prague-1-02",
+   "sessionId": "train-dresden-prague-1",
+   "number": 2,
+   "title": "The Elbe valley",
+   "summary": "What to look for out of the window.",
+   "file": "audio/a8405104cf22-train-dresden-prague-1-02.mp3",
+   "dur": 45,
+   "size": 268052,
+   "sha256": "a8405104cf229c4d8c2019a77b3496ecff426e0556155c86a29dc70d9ee50a2f"
+  },
+  {
+   "id": "train-dresden-prague-1-03",
+   "sessionId": "train-dresden-prague-1",
+   "number": 3,
+   "title": "The border",
+   "summary": "Leaving Germany, entering Czechia, and a family memory.",
+   "file": "audio/a067b228d3e6-train-dresden-prague-1-03.mp3",
+   "dur": 35,
+   "size": 210596,
+   "sha256": "a067b228d3e6bac1db3c4041580d75e5bbadb5be01a6446b487e6123a6312947"
+  },
+  {
+   "id": "train-dresden-prague-1-04",
+   "sessionId": "train-dresden-prague-1",
+   "number": 4,
+   "title": "A Czech Christmas",
+   "summary": "How the Czechs celebrate.",
+   "file": "audio/38362bce8576-train-dresden-prague-1-04.mp3",
+   "dur": 69,
+   "size": 412484,
+   "sha256": "38362bce8576d524159aabb22c94d6dbc327f42a96978aaaf7a6cc2340e42eeb"
+  },
+  {
+   "id": "prague-primer-1-01",
+   "sessionId": "prague-primer-1",
+   "number": 1,
+   "title": "Welcome to Bohemia",
+   "summary": "The big picture.",
+   "file": "audio/6dabdc37bb7d-prague-primer-1-01.mp3",
+   "dur": 54,
+   "size": 322628,
+   "sha256": "6dabdc37bb7df86a1f6f5c36bab0a2c07896285894f03d8055daf2c383c6cc98"
+  },
+  {
+   "id": "prague-primer-1-02",
+   "sessionId": "prague-primer-1",
+   "number": 2,
+   "title": "Kings, emperors and windows",
+   "summary": "Prague's golden age, and its habit of throwing people out of windows.",
+   "file": "audio/f553832a153d-prague-primer-1-02.mp3",
+   "dur": 78,
+   "size": 468212,
+   "sha256": "f553832a153d3407c368953b59f48e0eb263ce25dcefe5e8b0ef79f23a2c2646"
+  },
+  {
+   "id": "prague-primer-1-03",
+   "sessionId": "prague-primer-1",
+   "number": 3,
+   "title": "Occupation and communism",
+   "summary": "Sir Laurence on the Nazi occupation and the communist years.",
+   "file": "audio/055df58f4eab-prague-primer-1-03.mp3",
+   "dur": 79,
+   "size": 473684,
+   "sha256": "055df58f4eab3d13c9f999450b1cd5206957ca789bf2762bd093b2213f5dffd1"
+  },
+  {
+   "id": "prague-primer-1-04",
+   "sessionId": "prague-primer-1",
+   "number": 4,
+   "title": "What we'll be getting up to",
+   "summary": "A preview of four days over Christmas.",
+   "file": "audio/a54cdcc51525-prague-primer-1-04.mp3",
+   "dur": 52,
+   "size": 315140,
+   "sha256": "a54cdcc515253fb92458450bab97850820a05999e6e50a6c2557d25cee0605c0"
+  },
+  {
+   "id": "prague-primer-1-05",
+   "sessionId": "prague-primer-1",
+   "number": 5,
+   "title": "Things to spot, and a few words",
+   "summary": "Little Prague details, and some Czech to use.",
+   "file": "audio/74339f0e5fbb-prague-primer-1-05.mp3",
+   "dur": 49,
+   "size": 293252,
+   "sha256": "74339f0e5fbb3bcc4f7a10d2a409bc6f5117d42d3e7b1d03ce7ccc5bec75f154"
+  },
+  {
+   "id": "prague-castle-courtyard-1-01",
+   "sessionId": "prague-castle-courtyard-1",
+   "number": 1,
+   "title": "It's not cold",
+   "summary": "Rick and Lisa arrive at the castle.",
+   "file": "audio/605184d389f4-prague-castle-courtyard-1-01.mp3",
+   "dur": 28,
+   "size": 166820,
+   "sha256": "605184d389f4fef988e95224271763f159fc71ef7706b6fafd0855f954dd02e1"
+  },
+  {
+   "id": "prague-castle-courtyard-1-02",
+   "sessionId": "prague-castle-courtyard-1",
+   "number": 2,
+   "title": "A thousand years on a hill",
+   "summary": "How old and how big the castle is.",
+   "file": "audio/f8959fa1c043-prague-castle-courtyard-1-02.mp3",
+   "dur": 60,
+   "size": 360500,
+   "sha256": "f8959fa1c04358e1db52dd6dca0db8c6abfbb5a8ec86ab616ad1f442b1aacc10"
+  },
+  {
+   "id": "prague-castle-courtyard-1-03",
+   "sessionId": "prague-castle-courtyard-1",
+   "number": 3,
+   "title": "The guards",
+   "summary": "The uniforms with an Oscar connection.",
+   "file": "audio/513377060458-prague-castle-courtyard-1-03.mp3",
+   "dur": 63,
+   "size": 377060,
+   "sha256": "513377060458f44cb800b010965fd151ab6f6d3d66fc02e7d03856811fce4270"
+  },
+  {
+   "id": "st-vitus-cathedral-1-01",
+   "sessionId": "st-vitus-cathedral-1",
+   "number": 1,
+   "title": "Look up",
+   "summary": "An unexpected guide, and the west front's long story.",
+   "file": "audio/3cb4c16bc364-st-vitus-cathedral-1-01.mp3",
+   "dur": 60,
+   "size": 360068,
+   "sha256": "3cb4c16bc3644c5a54d4c185ce956bafe9b8f9ad8c70b12067dba9bd70b97bf1"
+  },
+  {
+   "id": "st-vitus-cathedral-1-02",
+   "sessionId": "st-vitus-cathedral-1",
+   "number": 2,
+   "title": "Good King Wenceslas",
+   "summary": "The real man behind the Christmas carol, and seven keys.",
+   "file": "audio/d52736a44e75-st-vitus-cathedral-1-02.mp3",
+   "dur": 73,
+   "size": 440996,
+   "sha256": "d52736a44e7505f003c8c4b3afe1da4d40f6c3a988329e7b1ad0e66b7852ad9b"
+  },
+  {
+   "id": "st-vitus-cathedral-1-03",
+   "sessionId": "st-vitus-cathedral-1",
+   "number": 3,
+   "title": "Out the window",
+   "summary": "The most famous fall in Czech history.",
+   "file": "audio/e9711259e1db-st-vitus-cathedral-1-03.mp3",
+   "dur": 66,
+   "size": 396500,
+   "sha256": "e9711259e1db85993fe46c6cc1d38e4784064cf5ead21246617399572b2d7e4d"
+  },
+  {
+   "id": "golden-lane-1-01",
+   "sessionId": "golden-lane-1",
+   "number": 1,
+   "title": "Little houses",
+   "summary": "Why the houses are so small.",
+   "file": "audio/e182be2255dd-golden-lane-1-01.mp3",
+   "dur": 28,
+   "size": 169268,
+   "sha256": "e182be2255dd8f5df4045862c539c52b979b6bbb56b0bb920dd5b5717a513748"
+  },
+  {
+   "id": "golden-lane-1-02",
+   "sessionId": "golden-lane-1",
+   "number": 2,
+   "title": "The emperor's alchemists",
+   "summary": "Rudolf the Second's court of wonders.",
+   "file": "audio/bfdeb58d2c65-golden-lane-1-02.mp3",
+   "dur": 48,
+   "size": 287348,
+   "sha256": "bfdeb58d2c65eec8674569b1db8fe090b6e6dc0a611afabcaca925a7824297a8"
+  },
+  {
+   "id": "golden-lane-1-03",
+   "sessionId": "golden-lane-1",
+   "number": 3,
+   "title": "Who lived here",
+   "summary": "The writer at number twenty-two, and the fortune teller.",
+   "file": "audio/59a23f9c202c-golden-lane-1-03.mp3",
+   "dur": 49,
+   "size": 294260,
+   "sha256": "59a23f9c202cf96df089f7c90014307d228ddec479c8812148e2616de66c33c9"
+  },
+  {
+   "id": "golden-lane-1-04",
+   "sessionId": "golden-lane-1",
+   "number": 4,
+   "title": "A word about this tour",
+   "summary": "Indy checks in, and someone else does too.",
+   "file": "audio/811c094676c9-golden-lane-1-04.mp3",
+   "dur": 28,
+   "size": 170276,
+   "sha256": "811c094676c909c0a61c33334788c7dea14defc2ab5c4dd64b6b12f6f73ee7a4"
+  },
+  {
+   "id": "nerudova-street-1-01",
+   "sessionId": "nerudova-street-1",
+   "number": 1,
+   "title": "Territorial markings",
+   "summary": "Why every house has a picture.",
+   "file": "audio/01ce92b738b1-nerudova-street-1-01.mp3",
+   "dur": 48,
+   "size": 288644,
+   "sha256": "01ce92b738b110ecaaacf7130521442c30f5614c857a46a81075160da42b9e48"
+  },
+  {
+   "id": "nerudova-street-1-02",
+   "sessionId": "nerudova-street-1",
+   "number": 2,
+   "title": "The poet",
+   "summary": "Who the street is named after, and a famous borrowed name.",
+   "file": "audio/e7c7304d2049-nerudova-street-1-02.mp3",
+   "dur": 27,
+   "size": 160484,
+   "sha256": "e7c7304d204965cfcf67786b609000bfc61e069f5e39585ea69fb2ad36154841"
+  },
+  {
+   "id": "nerudova-street-1-03",
+   "sessionId": "nerudova-street-1",
+   "number": 3,
+   "title": "Spotting game, and the descent",
+   "summary": "Find the signs, and follow Dad. Mostly.",
+   "file": "audio/1a7e8a1c8c7d-nerudova-street-1-03.mp3",
+   "dur": 32,
+   "size": 190580,
+   "sha256": "1a7e8a1c8c7d58b95608737432e29bb159f6123f8d5220a107f92f8d0058e52b"
+  },
+  {
+   "id": "old-town-hall-orloj-1-01",
+   "sessionId": "old-town-hall-orloj-1",
+   "number": 1,
+   "title": "Six hundred years of ticking",
+   "summary": "What you are looking at.",
+   "file": "audio/85ab3e62b102-old-town-hall-orloj-1-01.mp3",
+   "dur": 54,
+   "size": 327092,
+   "sha256": "85ab3e62b10276c4cd5c02899daed4ee20b5ef9529059fc87aa2c89b547f21b3"
+  },
+  {
+   "id": "old-town-hall-orloj-1-02",
+   "sessionId": "old-town-hall-orloj-1",
+   "number": 2,
+   "title": "The figures",
+   "summary": "Death and his companions.",
+   "file": "audio/a3ef3232a3f3-old-town-hall-orloj-1-02.mp3",
+   "dur": 60,
+   "size": 361076,
+   "sha256": "a3ef3232a3f3e335bdac40d19354cf966b12674c88f324c33e39e2dd13e48340"
+  },
+  {
+   "id": "old-town-hall-orloj-1-03",
+   "sessionId": "old-town-hall-orloj-1",
+   "number": 3,
+   "title": "The legend of Hanuš",
+   "summary": "The story of the clockmaker.",
+   "file": "audio/fc5e52bdb7a1-old-town-hall-orloj-1-03.mp3",
+   "dur": 29,
+   "size": 173732,
+   "sha256": "fc5e52bdb7a1b976b7ab4739b14d74fc41a2c95a133d650b6059efbce431c3ec"
+  },
+  {
+   "id": "old-town-hall-orloj-1-04",
+   "sessionId": "old-town-hall-orloj-1",
+   "number": 4,
+   "title": "Crosses in the ground",
+   "summary": "Find the white crosses in the pavement.",
+   "file": "audio/c09df19d21d7-old-town-hall-orloj-1-04.mp3",
+   "dur": 24,
+   "size": 146228,
+   "sha256": "c09df19d21d75a4a84ca8af52314c6c8d25071874648938d8fdf07a50b509297"
+  },
+  {
+   "id": "old-town-hall-tower-1-01",
+   "sessionId": "old-town-hall-tower-1",
+   "number": 1,
+   "title": "Up on the platform",
+   "summary": "Where you are, and what to watch for.",
+   "file": "audio/5339b4654812-old-town-hall-tower-1-01.mp3",
+   "dur": 68,
+   "size": 408884,
+   "sha256": "5339b46548121d1487001feb6a149408645b2a29ba293d2209fea12b6d2a4d02"
+  },
+  {
+   "id": "old-town-hall-tower-1-02",
+   "sessionId": "old-town-hall-tower-1",
+   "number": 2,
+   "title": "East: the square and the spires",
+   "summary": "Týn Church, the palace, and the monument in the middle.",
+   "file": "audio/35dfd5754ab1-old-town-hall-tower-1-02.mp3",
+   "dur": 61,
+   "size": 364100,
+   "sha256": "35dfd5754ab192bb44a847feedba5e3572b65805c3cacae9fd22f029766cbd65"
+  },
+  {
+   "id": "old-town-hall-tower-1-03",
+   "sessionId": "old-town-hall-tower-1",
+   "number": 3,
+   "title": "West: the river and the castle",
+   "summary": "Charles Bridge, the castle, and a small tower on a distant hill.",
+   "file": "audio/9cdf3743d2cb-old-town-hall-tower-1-03.mp3",
+   "dur": 64,
+   "size": 382676,
+   "sha256": "9cdf3743d2cb84a858afe901ad26f5a787d52ac55c918ef13a572cdabd84d60e"
+  },
+  {
+   "id": "old-town-hall-tower-1-04",
+   "sessionId": "old-town-hall-tower-1",
+   "number": 4,
+   "title": "Sunset",
+   "summary": "The sun goes down, and the lights come on.",
+   "file": "audio/992e5127da89-old-town-hall-tower-1-04.mp3",
+   "dur": 76,
+   "size": 456260,
+   "sha256": "992e5127da89c4a024d1409c83c6243e597be092cd6f66d5d2e690498b5f4164"
+  },
+  {
+   "id": "charles-bridge-1-01",
+   "sessionId": "charles-bridge-1",
+   "number": 1,
+   "title": "A magic number",
+   "summary": "When the bridge was begun, and why that matters.",
+   "file": "audio/0725945bac99-charles-bridge-1-01.mp3",
+   "dur": 67,
+   "size": 399668,
+   "sha256": "0725945bac99621bdac67e050bc9e811968a8b4129758d0ef2d86dc6b9eb2fc5"
+  },
+  {
+   "id": "charles-bridge-1-02",
+   "sessionId": "charles-bridge-1",
+   "number": 2,
+   "title": "The saints",
+   "summary": "The statues, and the one you touch for luck.",
+   "file": "audio/98d40d695df5-charles-bridge-1-02.mp3",
+   "dur": 43,
+   "size": 258116,
+   "sha256": "98d40d695df58b56832abd9014cda31c221850cc536440be19acaef961b765f2"
+  },
+  {
+   "id": "charles-bridge-1-03",
+   "sessionId": "charles-bridge-1",
+   "number": 3,
+   "title": "The lamplighter",
+   "summary": "The man with the long pole.",
+   "file": "audio/11db44ee1cfa-charles-bridge-1-03.mp3",
+   "dur": 41,
+   "size": 249188,
+   "sha256": "11db44ee1cfa8f0e81f2f79b32d5323795a0c16307de7b967404a3a8c3b7a4be"
+  },
+  {
+   "id": "charles-bridge-1-04",
+   "sessionId": "charles-bridge-1",
+   "number": 4,
+   "title": "Maximum tourist",
+   "summary": "The man with the camera on the stick.",
+   "file": "audio/33d4d8aa61bf-charles-bridge-1-04.mp3",
+   "dur": 24,
+   "size": 143204,
+   "sha256": "33d4d8aa61bf14940f6538f5fdfb3a4f675c1922a4ff4bf1aa77b20c9329fbe4"
+  },
+  {
+   "id": "old-town-square-tree-1-01",
+   "sessionId": "old-town-square-tree-1",
+   "number": 1,
+   "title": "The spires",
+   "summary": "Týn Church and its two towers.",
+   "file": "audio/0430b682e436-old-town-square-tree-1-01.mp3",
+   "dur": 39,
+   "size": 237524,
+   "sha256": "0430b682e4367256ae2fb60113f49491417c2f5773de4c941075ba73ec8ae977"
+  },
+  {
+   "id": "old-town-square-tree-1-02",
+   "sessionId": "old-town-square-tree-1",
+   "number": 2,
+   "title": "The astronomer's nose",
+   "summary": "Who is buried inside, and what happened to his nose.",
+   "file": "audio/8da03be36b80-old-town-square-tree-1-02.mp3",
+   "dur": 43,
+   "size": 258404,
+   "sha256": "8da03be36b808263462ca58a2744a2b7fa0d59e2d198b6776a86300f3fc56054"
+  },
+  {
+   "id": "old-town-square-tree-1-03",
+   "sessionId": "old-town-square-tree-1",
+   "number": 3,
+   "title": "The square at Christmas",
+   "summary": "The tree and the old square.",
+   "file": "audio/66dec5705b4a-old-town-square-tree-1-03.mp3",
+   "dur": 40,
+   "size": 242132,
+   "sha256": "66dec5705b4aedbb41292301b82b9fc095b02ebce2adea8098b3f9b3683bdc8d"
+  },
+  {
+   "id": "josefov-1-01",
+   "sessionId": "josefov-1",
+   "number": 1,
+   "title": "The oldest synagogue",
+   "summary": "The building in front of you.",
+   "file": "audio/b12ff0892f02-josefov-1-01.mp3",
+   "dur": 37,
+   "size": 224708,
+   "sha256": "b12ff0892f02f3eb4f679cbfa5c3c313d4d4c2af79fb58115087a73c2d310205"
+  },
+  {
+   "id": "josefov-1-02",
+   "sessionId": "josefov-1",
+   "number": 2,
+   "title": "The Golem",
+   "summary": "The legend of the clay man.",
+   "file": "audio/e96da4a8125b-josefov-1-02.mp3",
+   "dur": 36,
+   "size": 218372,
+   "sha256": "e96da4a8125be52ac4d3140fe63b9760a7d19ea34e27ce5690510e9056d6d01a"
+  },
+  {
+   "id": "josefov-1-03",
+   "sessionId": "josefov-1",
+   "number": 3,
+   "title": "The cemetery and the names",
+   "summary": "What the quarter remembers.",
+   "file": "audio/2d5d258531d4-josefov-1-03.mp3",
+   "dur": 48,
+   "size": 288644,
+   "sha256": "2d5d258531d464cc1ad6ec68c1bb8486ecc5f589c331b50230e6c5d11c67e259"
+  },
+  {
+   "id": "municipal-house-1-01",
+   "sessionId": "municipal-house-1",
+   "number": 1,
+   "title": "Merry Christmas",
+   "summary": "A gentleman reappears.",
+   "file": "audio/95dc10b69925-municipal-house-1-01.mp3",
+   "dur": 26,
+   "size": 155732,
+   "sha256": "95dc10b6992554095ed62b5a045d9c538afb20f49af54fa696f5a58c278858f6"
+  },
+  {
+   "id": "municipal-house-1-02",
+   "sessionId": "municipal-house-1",
+   "number": 2,
+   "title": "A palace for the people",
+   "summary": "The building and its mosaic.",
+   "file": "audio/b496f0cce2a0-municipal-house-1-02.mp3",
+   "dur": 78,
+   "size": 467636,
+   "sha256": "b496f0cce2a0a6648f192d96b3dacc6ec07111ec8badbae2383bc3c286f93d67"
+  },
+  {
+   "id": "municipal-house-1-03",
+   "sessionId": "municipal-house-1",
+   "number": 3,
+   "title": "Lunch",
+   "summary": "A few words about how the family eats.",
+   "file": "audio/20d40befd9a2-municipal-house-1-03.mp3",
+   "dur": 39,
+   "size": 234212,
+   "sha256": "20d40befd9a2625f64c722e0a01d9048c3cb7ef9fb6ec126ebc2d2eabc4a5812"
+  },
+  {
+   "id": "petrin-tower-1-01",
+   "sessionId": "petrin-tower-1",
+   "number": 1,
+   "title": "I came back",
+   "summary": "Arnold returns for the steps.",
+   "file": "audio/a7e69a0e5cef-petrin-tower-1-01.mp3",
+   "dur": 34,
+   "size": 206132,
+   "sha256": "a7e69a0e5cef6ba7fea2693327bac7462a78abf13b63967854a2ba48aae01b5b"
+  },
+  {
+   "id": "petrin-tower-1-02",
+   "sessionId": "petrin-tower-1",
+   "number": 2,
+   "title": "The steps",
+   "summary": "How many.",
+   "file": "audio/3a9d9e060685-petrin-tower-1-02.mp3",
+   "dur": 18,
+   "size": 105620,
+   "sha256": "3a9d9e060685c8be6fdd2867a4f9fe9958c982306b490fad3c77a9a21211a83e"
+  },
+  {
+   "id": "petrin-tower-1-03",
+   "sessionId": "petrin-tower-1",
+   "number": 3,
+   "title": "The Hunger Wall",
+   "summary": "The old wall running down the hill.",
+   "file": "audio/0e2003dcc43d-petrin-tower-1-03.mp3",
+   "dur": 23,
+   "size": 138308,
+   "sha256": "0e2003dcc43d9a6914de64faca0a6bdc95a26149aaabc93b3f85359db03ab5bd"
+  },
+  {
+   "id": "petrin-tower-1-04",
+   "sessionId": "petrin-tower-1",
+   "number": 4,
+   "title": "The view, and the photo",
+   "summary": "What to find from the top, and Mum takes charge.",
+   "file": "audio/f20ec66e929e-petrin-tower-1-04.mp3",
+   "dur": 39,
+   "size": 234356,
+   "sha256": "f20ec66e929e455189f5155a0174c33b0780965414efb8b91b5f3f892d9d6923"
+  },
+  {
+   "id": "petrin-tower-1-05",
+   "sessionId": "petrin-tower-1",
+   "number": 5,
+   "title": "From the top: north to the castle",
+   "summary": "Find the castle, the cathedral spire, and the green dome below.",
+   "file": "audio/3f97e288ad5d-petrin-tower-1-05.mp3",
+   "dur": 58,
+   "size": 348548,
+   "sha256": "3f97e288ad5d6e81115fd51fa7d59071df91f897895afddae9f8bdecd324f82d"
+  },
+  {
+   "id": "petrin-tower-1-06",
+   "sessionId": "petrin-tower-1",
+   "number": 6,
+   "title": "From the top: east to the river and the Old Town",
+   "summary": "The Vltava, Charles Bridge, and a tower you have already climbed.",
+   "file": "audio/1d6063abfe2c-petrin-tower-1-06.mp3",
+   "dur": 49,
+   "size": 293252,
+   "sha256": "1d6063abfe2c480fa5f2ae0e048719b1628f5d80613d9f2eb3aa250db4389144"
+  },
+  {
+   "id": "petrin-tower-1-07",
+   "sessionId": "petrin-tower-1",
+   "number": 7,
+   "title": "From the top: south, and the other tower",
+   "summary": "The old fortress, the other television tower, and the hills beyond.",
+   "file": "audio/07851727cfbd-petrin-tower-1-07.mp3",
+   "dur": 58,
+   "size": 349988,
+   "sha256": "07851727cfbdfc1ac6dd453bfdf8f5362c6648141a9591de56a6b5958286e46f"
+  },
+  {
+   "id": "petrin-tower-1-08",
+   "sessionId": "petrin-tower-1",
+   "number": 8,
+   "title": "Going down",
+   "summary": "The funicular, the mirror maze, and the stairs.",
+   "file": "audio/5af5064ed3aa-petrin-tower-1-08.mp3",
+   "dur": 36,
+   "size": 215924,
+   "sha256": "5af5064ed3aa0555da18f4bc7684637d730c6fcf4d1a30ac23abd33ac491e7f8"
+  },
+  {
+   "id": "st-nicholas-lesser-town-1-01",
+   "sessionId": "st-nicholas-lesser-town-1",
+   "number": 1,
+   "title": "Look at that dome",
+   "summary": "The style and the builders.",
+   "file": "audio/be52dc1b6809-st-nicholas-lesser-town-1-01.mp3",
+   "dur": 45,
+   "size": 269204,
+   "sha256": "be52dc1b6809472aba80118bbf8f6be5557ddde7501d5d72684bb232401769eb"
+  },
+  {
+   "id": "st-nicholas-lesser-town-1-02",
+   "sessionId": "st-nicholas-lesser-town-1",
+   "number": 2,
+   "title": "Mozart",
+   "summary": "The music.",
+   "file": "audio/384ee7d7c8eb-st-nicholas-lesser-town-1-02.mp3",
+   "dur": 22,
+   "size": 129956,
+   "sha256": "384ee7d7c8eb67da37d96facd4c1d3286badae107a430c28420a7e64298b7d51"
+  },
+  {
+   "id": "st-nicholas-lesser-town-1-03",
+   "sessionId": "st-nicholas-lesser-town-1",
+   "number": 3,
+   "title": "The spies in the tower",
+   "summary": "A secret from the Cold War.",
+   "file": "audio/dd72c7c2ed5c-st-nicholas-lesser-town-1-03.mp3",
+   "dur": 22,
+   "size": 132692,
+   "sha256": "dd72c7c2ed5cf3503415fc9af31aa74b092f6ca95ccce424e86eadd9f2ec2bde"
+  },
+  {
+   "id": "night-train-prague-krakow-1-01",
+   "sessionId": "night-train-prague-krakow-1",
+   "number": 1,
+   "title": "All aboard",
+   "summary": "Settling in for the night.",
+   "file": "audio/c775f24c9005-night-train-prague-krakow-1-01.mp3",
+   "dur": 32,
+   "size": 194612,
+   "sha256": "c775f24c9005f3cf4c90edb9666eac73d4ea2c43cd99d1abdabd80994c432f64"
+  },
+  {
+   "id": "night-train-prague-krakow-1-02",
+   "sessionId": "night-train-prague-krakow-1",
+   "number": 2,
+   "title": "Poland in a nutshell",
+   "summary": "A few things to know before you wake up.",
+   "file": "audio/aa4ef711f9d2-night-train-prague-krakow-1-02.mp3",
+   "dur": 49,
+   "size": 293108,
+   "sha256": "aa4ef711f9d27c3fb2259bf56f4b5c5804efc9eadefa5bba2d00e59a3edbd6d7"
+  },
+  {
+   "id": "night-train-prague-krakow-1-03",
+   "sessionId": "night-train-prague-krakow-1",
+   "number": 3,
+   "title": "Who sleeps first",
+   "summary": "A bet.",
+   "file": "audio/2a7b931ee322-night-train-prague-krakow-1-03.mp3",
+   "dur": 16,
+   "size": 99572,
+   "sha256": "2a7b931ee32251ed9db93fee4bcec77c6d88bce02334ac6efd9fde14116fa085"
+  },
+  {
+   "id": "krakow-primer-1-01",
+   "sessionId": "krakow-primer-1",
+   "number": 1,
+   "title": "Good morning, Poland",
+   "summary": "The big picture.",
+   "file": "audio/6d132c94d0ef-krakow-primer-1-01.mp3",
+   "dur": 45,
+   "size": 272516,
+   "sha256": "6d132c94d0ef083ad5813d01fc8020140711e7066280c01a276d74bca1962bb8"
+  },
+  {
+   "id": "krakow-primer-1-02",
+   "sessionId": "krakow-primer-1",
+   "number": 2,
+   "title": "A dragon, a trumpet and a university",
+   "summary": "Kraków's legends and its golden age.",
+   "file": "audio/c537917d741b-krakow-primer-1-02.mp3",
+   "dur": 69,
+   "size": 415508,
+   "sha256": "c537917d741b9e644cfbe72b64bd95a734669f32a980599a7849518e4deb2ca2"
+  },
+  {
+   "id": "krakow-primer-1-03",
+   "sessionId": "krakow-primer-1",
+   "number": 3,
+   "title": "War, and the years after",
+   "summary": "Sir Laurence on the occupation, and what followed.",
+   "file": "audio/152a5db9ee0d-krakow-primer-1-03.mp3",
+   "dur": 80,
+   "size": 481316,
+   "sha256": "152a5db9ee0d6fe49bb897486a390cb3e6816799f05dc8f24ddaa83a4c15e5a2"
+  },
+  {
+   "id": "krakow-primer-1-04",
+   "sessionId": "krakow-primer-1",
+   "number": 4,
+   "title": "What we'll be getting up to",
+   "summary": "A preview of three days.",
+   "file": "audio/a625ee138254-krakow-primer-1-04.mp3",
+   "dur": 40,
+   "size": 239252,
+   "sha256": "a625ee13825438e8acc2daec70ba776cbd48e93a49a5974a6f2983b461e9a756"
+  },
+  {
+   "id": "krakow-primer-1-05",
+   "sessionId": "krakow-primer-1",
+   "number": 5,
+   "title": "Things to spot, and a few words",
+   "summary": "Little Kraków details, and some Polish to use.",
+   "file": "audio/0198e710b0cb-krakow-primer-1-05.mp3",
+   "dur": 36,
+   "size": 217652,
+   "sha256": "0198e710b0cb7f13fb15928575d53188dcc7eed1580bba00c1f7d4396504d5d7"
+  },
+  {
+   "id": "krakow-market-square-1-01",
+   "sessionId": "krakow-market-square-1",
+   "number": 1,
+   "title": "Dzień dobry",
+   "summary": "Welcome to the square.",
+   "file": "audio/c19ad9ef90d3-krakow-market-square-1-01.mp3",
+   "dur": 52,
+   "size": 311252,
+   "sha256": "c19ad9ef90d3bbf8e6c80d4674bec651e7a1b6b689c49c3d959138aa113a390f"
+  },
+  {
+   "id": "krakow-market-square-1-02",
+   "sessionId": "krakow-market-square-1",
+   "number": 2,
+   "title": "The Cloth Hall",
+   "summary": "The long building in the middle.",
+   "file": "audio/c72c31ca05a1-krakow-market-square-1-02.mp3",
+   "dur": 47,
+   "size": 284756,
+   "sha256": "c72c31ca05a15945c5cf7451a6cd44ecd8e89904b7cbf170effe44c32a02ee81"
+  },
+  {
+   "id": "krakow-market-square-1-03",
+   "sessionId": "krakow-market-square-1",
+   "number": 3,
+   "title": "The trumpet",
+   "summary": "The tune that stops in the middle.",
+   "file": "audio/6ddd054e9837-krakow-market-square-1-03.mp3",
+   "dur": 70,
+   "size": 419684,
+   "sha256": "6ddd054e9837074f2cfc6baaf47ff04645139e57edcd6a1068d24048a0628c1c"
+  },
+  {
+   "id": "krakow-market-square-1-04",
+   "sessionId": "krakow-market-square-1",
+   "number": 4,
+   "title": "The ice cream",
+   "summary": "Lisa directs a shot.",
+   "file": "audio/a8f425631aea-krakow-market-square-1-04.mp3",
+   "dur": 32,
+   "size": 191444,
+   "sha256": "a8f425631aeadec728ee739967ef64b7cec87d9101edddcbf474dc73fea86d94"
+  },
+  {
+   "id": "schindler-factory-1-01",
+   "sessionId": "schindler-factory-1",
+   "number": 1,
+   "title": "The gate",
+   "summary": "Oskar Schindler and his workers.",
+   "file": "audio/33a4c54ea7b1-schindler-factory-1-01.mp3",
+   "dur": 69,
+   "size": 412772,
+   "sha256": "33a4c54ea7b1ce7d85e07fa3a79d29f1bdfc4f5b10cba80d47ff8ea5a95510e0"
+  },
+  {
+   "id": "ghetto-heroes-square-1-01",
+   "sessionId": "ghetto-heroes-square-1",
+   "number": 1,
+   "title": "The ghetto",
+   "summary": "What happened in this district.",
+   "file": "audio/4919ad6ed3e4-ghetto-heroes-square-1-01.mp3",
+   "dur": 40,
+   "size": 242276,
+   "sha256": "4919ad6ed3e420cb3103bdb524464dd906d6b3ffd2e243f3b823cf3defa8191a"
+  },
+  {
+   "id": "ghetto-heroes-square-1-02",
+   "sessionId": "ghetto-heroes-square-1",
+   "number": 2,
+   "title": "The chairs",
+   "summary": "The memorial in front of you.",
+   "file": "audio/73ff87ac1aae-ghetto-heroes-square-1-02.mp3",
+   "dur": 32,
+   "size": 191588,
+   "sha256": "73ff87ac1aaeec7820bb8328db5987c44dd88df7dc13fcfc5f363b001df057db"
+  },
+  {
+   "id": "eagle-pharmacy-1-01",
+   "sessionId": "eagle-pharmacy-1",
+   "number": 1,
+   "title": "The man who stayed",
+   "summary": "Tadeusz Pankiewicz.",
+   "file": "audio/a2792e60db22-eagle-pharmacy-1-01.mp3",
+   "dur": 48,
+   "size": 291236,
+   "sha256": "a2792e60db2235b9322ba67b28ac6db9659337731340132746cdba3bca96ed61"
+  },
+  {
+   "id": "ghetto-wall-1-01",
+   "sessionId": "ghetto-wall-1",
+   "number": 1,
+   "title": "The wall",
+   "summary": "Look at the top edge.",
+   "file": "audio/ff56317d2353-ghetto-wall-1-01.mp3",
+   "dur": 30,
+   "size": 180500,
+   "sha256": "ff56317d235307d47e5a3bbe8b79742c5e393cf1205b331d0c61715b38b7c8df"
+  },
+  {
+   "id": "ride-to-auschwitz-1-01",
+   "sessionId": "ride-to-auschwitz-1",
+   "number": 1,
+   "title": "Where you are going",
+   "summary": "What Auschwitz was.",
+   "file": "audio/612e696fc7aa-ride-to-auschwitz-1-01.mp3",
+   "dur": 56,
+   "size": 338468,
+   "sha256": "612e696fc7aa9844b70006c659e4022c88f5e14865d3b368a8921bc8a5455f9e"
+  },
+  {
+   "id": "ride-to-auschwitz-1-02",
+   "sessionId": "ride-to-auschwitz-1",
+   "number": 2,
+   "title": "What you will see",
+   "summary": "The two camps.",
+   "file": "audio/927bcea615a7-ride-to-auschwitz-1-02.mp3",
+   "dur": 44,
+   "size": 266468,
+   "sha256": "927bcea615a7a0791158a103aa1521a8f6016d4814a617086bcb4c039f7f05bc"
+  },
+  {
+   "id": "ride-to-auschwitz-1-03",
+   "sessionId": "ride-to-auschwitz-1",
+   "number": 3,
+   "title": "How to be there",
+   "summary": "A few thoughts for the day.",
+   "file": "audio/e35c0ad29eb0-ride-to-auschwitz-1-03.mp3",
+   "dur": 28,
+   "size": 165668,
+   "sha256": "e35c0ad29eb0c826097e65be3faaf6b6275a7f7a63426d95456e1ba028f623ba"
+  },
+  {
+   "id": "wawel-1-01",
+   "sessionId": "wawel-1",
+   "number": 1,
+   "title": "The royal hill",
+   "summary": "Why this hill matters to Poland.",
+   "file": "audio/d32b0a295dbe-wawel-1-01.mp3",
+   "dur": 50,
+   "size": 300884,
+   "sha256": "d32b0a295dbe98af62adb6c100bdab71c9b96458d1b3fa0d78503cc09bf30389"
+  },
+  {
+   "id": "wawel-1-02",
+   "sessionId": "wawel-1",
+   "number": 2,
+   "title": "The bones by the door",
+   "summary": "The cathedral, the dragon bones, and the great bell.",
+   "file": "audio/1c8d7f25b735-wawel-1-02.mp3",
+   "dur": 66,
+   "size": 396212,
+   "sha256": "1c8d7f25b735c02e5e8f322d47dadfef85d65d7894db8029a16a04d54b4e2bbd"
+  },
+  {
+   "id": "wawel-1-03",
+   "sessionId": "wawel-1",
+   "number": 3,
+   "title": "The dragon",
+   "summary": "The legend, briefly, before the real thing.",
+   "file": "audio/65f00da0be35-wawel-1-03.mp3",
+   "dur": 40,
+   "size": 242564,
+   "sha256": "65f00da0be3502d1a1fe95396124061a92ccd87113e97eab3c0d7428b7556ada"
+  },
+  {
+   "id": "wawel-dragon-1-01",
+   "sessionId": "wawel-dragon-1",
+   "number": 1,
+   "title": "Smok",
+   "summary": "The statue and the cave.",
+   "file": "audio/8e8f26146b0b-wawel-dragon-1-01.mp3",
+   "dur": 47,
+   "size": 284468,
+   "sha256": "8e8f26146b0b947b6b05eff8b260fe44b8ff6605f064917b44327da07fa331d0"
+  },
+  {
+   "id": "wawel-dragon-1-02",
+   "sessionId": "wawel-dragon-1",
+   "number": 2,
+   "title": "The display",
+   "summary": "The adult male prepares his camera.",
+   "file": "audio/e04c5584d340-wawel-dragon-1-02.mp3",
+   "dur": 38,
+   "size": 228596,
+   "sha256": "e04c5584d340309b9d09b58148368dd5740e70c23449aa58c4889874354902d4"
+  },
+  {
+   "id": "night-train-krakow-budapest-1-01",
+   "sessionId": "night-train-krakow-budapest-1",
+   "number": 1,
+   "title": "The night shift",
+   "summary": "Settling in.",
+   "file": "audio/ef101d86ed6b-night-train-krakow-budapest-1-01.mp3",
+   "dur": 21,
+   "size": 127796,
+   "sha256": "ef101d86ed6bbac66f99dd6f55c48ea04d1fe56d4da76f8d69988b9e1d644f8c"
+  },
+  {
+   "id": "night-train-krakow-budapest-1-02",
+   "sessionId": "night-train-krakow-budapest-1",
+   "number": 2,
+   "title": "A very different language",
+   "summary": "Hungarian, and the Magyars.",
+   "file": "audio/84e3ca6e2fcf-night-train-krakow-budapest-1-02.mp3",
+   "dur": 31,
+   "size": 189284,
+   "sha256": "84e3ca6e2fcfda13ba0e7b07b2a5492e090247f834460e3fb6bc51de5da305c9"
+  },
+  {
+   "id": "night-train-krakow-budapest-1-03",
+   "sessionId": "night-train-krakow-budapest-1",
+   "number": 3,
+   "title": "Hungarian inventions",
+   "summary": "Things you didn't know came from Hungary.",
+   "file": "audio/c2c4659a2504-night-train-krakow-budapest-1-03.mp3",
+   "dur": 33,
+   "size": 198644,
+   "sha256": "c2c4659a2504bce4122e84852b918275761195ccd4b223bed155bf2b238e5792"
+  },
+  {
+   "id": "budapest-primer-1-01",
+   "sessionId": "budapest-primer-1",
+   "number": 1,
+   "title": "Good morning, Hungary",
+   "summary": "The big picture.",
+   "file": "audio/e19161e84280-budapest-primer-1-01.mp3",
+   "dur": 52,
+   "size": 313988,
+   "sha256": "e19161e84280b1195d9102ed4e1b0299eea8733ed7b484e5ddb316ae078ef4c2"
+  },
+  {
+   "id": "budapest-primer-1-02",
+   "sessionId": "budapest-primer-1",
+   "number": 2,
+   "title": "Magyars, Turks and an empire",
+   "summary": "How Hungary began, and Budapest's grand years.",
+   "file": "audio/8eec223cd8e4-budapest-primer-1-02.mp3",
+   "dur": 81,
+   "size": 483764,
+   "sha256": "8eec223cd8e4069a19ecc1417d384df60080b41b3a708bb46015cde2cbf954bd"
+  },
+  {
+   "id": "budapest-primer-1-03",
+   "sessionId": "budapest-primer-1",
+   "number": 3,
+   "title": "War and uprising",
+   "summary": "Sir Laurence on nineteen forty-four, and nineteen fifty-six.",
+   "file": "audio/a67e6b7a6e14-budapest-primer-1-03.mp3",
+   "dur": 77,
+   "size": 463028,
+   "sha256": "a67e6b7a6e14a904314e5f065d15c872d689c8bd3a216db9dcbf2483f2b5188d"
+  },
+  {
+   "id": "budapest-primer-1-04",
+   "sessionId": "budapest-primer-1",
+   "number": 4,
+   "title": "What we'll be getting up to",
+   "summary": "A preview of the Budapest days, including New Year's Eve.",
+   "file": "audio/6d81f39d5d70-budapest-primer-1-04.mp3",
+   "dur": 47,
+   "size": 283172,
+   "sha256": "6d81f39d5d70c9bb6ee9719f7e50a764ef9e8bf4e57ae86c1dbcd2dca52f5684"
+  },
+  {
+   "id": "budapest-primer-1-05",
+   "sessionId": "budapest-primer-1",
+   "number": 5,
+   "title": "Things to spot, and a few words",
+   "summary": "Little Budapest details, and some Hungarian to use.",
+   "file": "audio/ba1311d5cc80-budapest-primer-1-05.mp3",
+   "dur": 29,
+   "size": 172868,
+   "sha256": "ba1311d5cc80f7bdd6b232117182696ad986e1b4c1ae4a944ac520e290499104"
+  },
+  {
+   "id": "chain-bridge-1-01",
+   "sessionId": "chain-bridge-1",
+   "number": 1,
+   "title": "A count stuck on the wrong bank",
+   "summary": "Why the bridge was built.",
+   "file": "audio/94d1eca178b4-chain-bridge-1-01.mp3",
+   "dur": 55,
+   "size": 330260,
+   "sha256": "94d1eca178b47d678c8cd4fe2b4ba8bd76fadf68814111eb39691e7fbd13a227"
+  },
+  {
+   "id": "chain-bridge-1-02",
+   "sessionId": "chain-bridge-1",
+   "number": 2,
+   "title": "The British connection",
+   "summary": "Two engineers called Clark.",
+   "file": "audio/720ec7734229-chain-bridge-1-02.mp3",
+   "dur": 31,
+   "size": 187844,
+   "sha256": "720ec7734229d0c4937649feb400edcf235dbf540264a5586a1d91c941c28242"
+  },
+  {
+   "id": "chain-bridge-1-03",
+   "sessionId": "chain-bridge-1",
+   "number": 3,
+   "title": "The lions' tongues",
+   "summary": "An old Budapest legend.",
+   "file": "audio/4f644b90b40f-chain-bridge-1-03.mp3",
+   "dur": 29,
+   "size": 177044,
+   "sha256": "4f644b90b40f7aa1c3a20409751e452f9ce5b0bc1cc2dd482e5c6d12c5e18251"
+  },
+  {
+   "id": "chain-bridge-1-04",
+   "sessionId": "chain-bridge-1",
+   "number": 4,
+   "title": "Destroyed and rebuilt",
+   "summary": "What happened in nineteen forty-five.",
+   "file": "audio/7113609a6b23-chain-bridge-1-04.mp3",
+   "dur": 27,
+   "size": 164516,
+   "sha256": "7113609a6b2392c48abf1cc301dd9cf9b1d28c996da48bb655e1dffefff31629"
+  },
+  {
+   "id": "fishermans-bastion-1-01",
+   "sessionId": "fishermans-bastion-1",
+   "number": 1,
+   "title": "A castle that isn't",
+   "summary": "What the bastion really is.",
+   "file": "audio/b24561311ae2-fishermans-bastion-1-01.mp3",
+   "dur": 46,
+   "size": 276692,
+   "sha256": "b24561311ae258ce845ab17dedab5bd03c9f3d421f572da094e3ab6cf7b69fb2"
+  },
+  {
+   "id": "fishermans-bastion-1-02",
+   "sessionId": "fishermans-bastion-1",
+   "number": 2,
+   "title": "Matthias Church",
+   "summary": "The church with the patterned roof.",
+   "file": "audio/50d5aea992de-fishermans-bastion-1-02.mp3",
+   "dur": 26,
+   "size": 159332,
+   "sha256": "50d5aea992de36ef43024ab2cac0f16edb8eb849d181693904f092a66f5163af"
+  },
+  {
+   "id": "fishermans-bastion-1-03",
+   "sessionId": "fishermans-bastion-1",
+   "number": 3,
+   "title": "The photo",
+   "summary": "The best view in town, and Mum takes charge.",
+   "file": "audio/15f64233f7af-fishermans-bastion-1-03.mp3",
+   "dur": 22,
+   "size": 133268,
+   "sha256": "15f64233f7af2598878eca8521c79b48df35c3ea3b7027e995d5aba01cbe6e2f"
+  },
+  {
+   "id": "fishermans-bastion-1-04",
+   "sessionId": "fishermans-bastion-1",
+   "number": 4,
+   "title": "Which way is which",
+   "summary": "Parliament, Margaret Island, Gellért Hill and the Chain Bridge, from the terrace.",
+   "file": "audio/a78e0b3ffaa5-fishermans-bastion-1-04.mp3",
+   "dur": 67,
+   "size": 400964,
+   "sha256": "a78e0b3ffaa5c1f5aa17adecb648fc77fccf64c1b10fbd3173e75300c5205681"
+  },
+  {
+   "id": "danube-cruise-1-01",
+   "sessionId": "danube-cruise-1",
+   "number": 1,
+   "title": "The great river",
+   "summary": "The Danube in a nutshell.",
+   "file": "audio/e0e902c210f2-danube-cruise-1-01.mp3",
+   "dur": 68,
+   "size": 408884,
+   "sha256": "e0e902c210f29f48d797d714859c61cab2555606db22cdf037f65155f2314b86"
+  },
+  {
+   "id": "danube-cruise-1-02",
+   "sessionId": "danube-cruise-1",
+   "number": 2,
+   "title": "A river at night",
+   "summary": "What to look for.",
+   "file": "audio/6560d4d2bbc1-danube-cruise-1-02.mp3",
+   "dur": 47,
+   "size": 282884,
+   "sha256": "6560d4d2bbc17c9fa71e0071773d1815be3dc421365e7bf10fd8003bcabf8c9b"
+  },
+  {
+   "id": "danube-cruise-1-03",
+   "sessionId": "danube-cruise-1",
+   "number": 3,
+   "title": "Heading north: the Chain Bridge and the castle hill",
+   "summary": "Under the Chain Bridge, then the castle, the church and the white towers on the Buda side.",
+   "file": "audio/be8ad625ae4f-danube-cruise-1-03.mp3",
+   "dur": 58,
+   "size": 349988,
+   "sha256": "be8ad625ae4fd5dbd8aebedc3199a9df613d8dde3f0c95eb7f5e3e7569ce274b"
+  },
+  {
+   "id": "danube-cruise-1-04",
+   "sessionId": "danube-cruise-1",
+   "number": 4,
+   "title": "Heading north: the shoes and Parliament",
+   "summary": "A quiet moment at the shoes, then the Parliament on the Pest bank.",
+   "file": "audio/cc986d017c8b-danube-cruise-1-04.mp3",
+   "dur": 57,
+   "size": 345380,
+   "sha256": "cc986d017c8b39b7c23e2a818ad140854afb5ec172f258f6c277ddef9077ba69"
+  },
+  {
+   "id": "danube-cruise-1-05",
+   "sessionId": "danube-cruise-1",
+   "number": 5,
+   "title": "Heading north: Margaret Bridge and the island",
+   "summary": "A bridge with a bend in it, and the island named after a princess.",
+   "file": "audio/daa4c1b9acea-danube-cruise-1-05.mp3",
+   "dur": 68,
+   "size": 410756,
+   "sha256": "daa4c1b9acea3541dd5dc9b932818e123acbc83caa6aa3ce574d70cdb29a1513"
+  },
+  {
+   "id": "danube-cruise-1-06",
+   "sessionId": "danube-cruise-1",
+   "number": 6,
+   "title": "Heading south: the hill, and the bridges",
+   "summary": "Gellért Hill, Elisabeth Bridge, Liberty Bridge, and the last look back.",
+   "file": "audio/1fb3c5121cee-danube-cruise-1-06.mp3",
+   "dur": 120,
+   "size": 720068,
+   "sha256": "1fb3c5121ceee705109fbdb51e51f6ce66aacce25c74858fc0afeba891fff30a"
+  },
+  {
+   "id": "hungarian-parliament-1-01",
+   "sessionId": "hungarian-parliament-1",
+   "number": 1,
+   "title": "Big, very big",
+   "summary": "The building in front of you.",
+   "file": "audio/ac4cb31748f3-hungarian-parliament-1-01.mp3",
+   "dur": 51,
+   "size": 306068,
+   "sha256": "ac4cb31748f39b2cf0ff10d70c04b87d39478ae93c3114b033efd29155f378d7"
+  },
+  {
+   "id": "hungarian-parliament-1-02",
+   "sessionId": "hungarian-parliament-1",
+   "number": 2,
+   "title": "The magic number",
+   "summary": "Why the dome is ninety-six metres tall.",
+   "file": "audio/811260b549b7-hungarian-parliament-1-02.mp3",
+   "dur": 49,
+   "size": 294836,
+   "sha256": "811260b549b7da8ee55bd39f9b65da66cc3514a9f315526afa14843f55bdc312"
+  },
+  {
+   "id": "hungarian-parliament-1-03",
+   "sessionId": "hungarian-parliament-1",
+   "number": 3,
+   "title": "The crown that went to America",
+   "summary": "The Holy Crown of Hungary.",
+   "file": "audio/737c8b2e7edb-hungarian-parliament-1-03.mp3",
+   "dur": 48,
+   "size": 287924,
+   "sha256": "737c8b2e7edbb342601d0b58cac1138db2cf95050eb2e431b7852288e3218310"
+  },
+  {
+   "id": "hungarian-parliament-1-04",
+   "sessionId": "hungarian-parliament-1",
+   "number": 4,
+   "title": "It's not cold",
+   "summary": "The usual weather report.",
+   "file": "audio/6c738ce9bb6a-hungarian-parliament-1-04.mp3",
+   "dur": 35,
+   "size": 211748,
+   "sha256": "6c738ce9bb6a6ce73fe5fc03aa672c91c95c011a37b1ff93eabdc0e1e78bc71c"
+  },
+  {
+   "id": "shoes-on-the-danube-1-01",
+   "sessionId": "shoes-on-the-danube-1",
+   "number": 1,
+   "title": "The shoes",
+   "summary": "The memorial and its meaning.",
+   "file": "audio/de10489fdf55-shoes-on-the-danube-1-01.mp3",
+   "dur": 64,
+   "size": 385268,
+   "sha256": "de10489fdf559f2db21971b23fa3d0c7ec9d9478f154e426d7f7025a3e8c7358"
+  },
+  {
+   "id": "batthyany-ter-1-01",
+   "sessionId": "batthyany-ter-1",
+   "number": 1,
+   "title": "The view",
+   "summary": "The best way to see Parliament.",
+   "file": "audio/35d011469061-batthyany-ter-1-01.mp3",
+   "dur": 75,
+   "size": 451364,
+   "sha256": "35d011469061d62db683d96864697fc79c351e6cf18598d921bcc4a43badce46"
+  },
+  {
+   "id": "batthyany-ter-1-02",
+   "sessionId": "batthyany-ter-1",
+   "number": 2,
+   "title": "Reading the river",
+   "summary": "What lies up and down the river from the Buda bank.",
+   "file": "audio/4759859e2157-batthyany-ter-1-02.mp3",
+   "dur": 84,
+   "size": 505220,
+   "sha256": "4759859e2157c7e36bc6ab606fb7289c2376d5197f89bf7a99ead653c8481012"
+  },
+  {
+   "id": "vajdahunyad-castle-1-01",
+   "sessionId": "vajdahunyad-castle-1",
+   "number": 1,
+   "title": "A temporary castle",
+   "summary": "Why this castle exists.",
+   "file": "audio/499f632727ef-vajdahunyad-castle-1-01.mp3",
+   "dur": 52,
+   "size": 313268,
+   "sha256": "499f632727ef63fcedc975ff0d57fca7537486217d566c873b2fe9a875470256"
+  },
+  {
+   "id": "vajdahunyad-castle-1-02",
+   "sessionId": "vajdahunyad-castle-1",
+   "number": 2,
+   "title": "The man with no face",
+   "summary": "The statue of Anonymus.",
+   "file": "audio/44ee939f3357-vajdahunyad-castle-1-02.mp3",
+   "dur": 29,
+   "size": 172148,
+   "sha256": "44ee939f3357feda079beac05bd102857d9572ac8950389ee7a4b37048cba427"
+  },
+  {
+   "id": "vajdahunyad-castle-1-03",
+   "sessionId": "vajdahunyad-castle-1",
+   "number": 3,
+   "title": "The rink",
+   "summary": "Skating in front of a castle.",
+   "file": "audio/5a1891e0f271-vajdahunyad-castle-1-03.mp3",
+   "dur": 22,
+   "size": 133124,
+   "sha256": "5a1891e0f27124f3557c6d4a6e36a874b8625f62051693ce04c665a21f3be564"
+  },
+  {
+   "id": "heroes-square-1-01",
+   "sessionId": "heroes-square-1",
+   "number": 1,
+   "title": "The column and the chieftains",
+   "summary": "What the monument shows.",
+   "file": "audio/b923d16d4832-heroes-square-1-01.mp3",
+   "dur": 50,
+   "size": 302036,
+   "sha256": "b923d16d48322013acf5bad17bde06b6e8aa4fbed1bd894bef129f657ac6bdd7"
+  },
+  {
+   "id": "heroes-square-1-02",
+   "sessionId": "heroes-square-1",
+   "number": 2,
+   "title": "The oldest metro",
+   "summary": "What's under the road.",
+   "file": "audio/a79a5cf25cb3-heroes-square-1-02.mp3",
+   "dur": 34,
+   "size": 204980,
+   "sha256": "a79a5cf25cb3ab322faa64d394140d8e66545b255f0e42e7f073cdb3d3231116"
+  },
+  {
+   "id": "szechenyi-baths-1-01",
+   "sessionId": "szechenyi-baths-1",
+   "number": 1,
+   "title": "Hot water from underground",
+   "summary": "The springs beneath Budapest.",
+   "file": "audio/c908d71800fb-szechenyi-baths-1-01.mp3",
+   "dur": 54,
+   "size": 325364,
+   "sha256": "c908d71800fbfaf319595baaf07cffde7241896b567a254da1490690c010fff1"
+  },
+  {
+   "id": "szechenyi-baths-1-02",
+   "sessionId": "szechenyi-baths-1",
+   "number": 2,
+   "title": "Chess in the water",
+   "summary": "The famous chess players.",
+   "file": "audio/ae16c9312176-szechenyi-baths-1-02.mp3",
+   "dur": 43,
+   "size": 255668,
+   "sha256": "ae16c93121765a3a713329ca9ee15cd1aef42fc27898120c8ae621d677598289"
+  },
+  {
+   "id": "szechenyi-baths-1-03",
+   "sessionId": "szechenyi-baths-1",
+   "number": 3,
+   "title": "Goodbye from Rick and Lisa",
+   "summary": "A last word from your guides for Central Europe.",
+   "file": "audio/c37960418c7e-szechenyi-baths-1-03.mp3",
+   "dur": 50,
+   "size": 299876,
+   "sha256": "c37960418c7e51cf06ed3107f377b42b5f4244f0abd74ac09c7caec69b7a754e"
+  },
+  {
+   "id": "egypt-primer-1-01",
+   "sessionId": "egypt-primer-1",
+   "number": 1,
+   "title": "A gift of the river",
+   "summary": "Indy introduces Egypt and the Nile.",
+   "file": "audio/573de74d47ac-egypt-primer-1-01.mp3",
+   "dur": 63,
+   "size": 380948,
+   "sha256": "573de74d47acda46393a90c340617271b1e3a25012f8d087d1131c5f330e2a00"
+  },
+  {
+   "id": "egypt-primer-1-02",
+   "sessionId": "egypt-primer-1",
+   "number": 2,
+   "title": "Pharaohs and pyramids",
+   "summary": "Three thousand years of kings in one go.",
+   "file": "audio/89823e1d712f-egypt-primer-1-02.mp3",
+   "dur": 96,
+   "size": 573620,
+   "sha256": "89823e1d712f1765e2e46af9b702aa63d35f811370208757b9c4b6fc1e6ea9b1"
+  },
+  {
+   "id": "egypt-primer-1-03",
+   "sessionId": "egypt-primer-1",
+   "number": 3,
+   "title": "Reading the walls",
+   "summary": "Hieroglyphs, and the stone you saw in London.",
+   "file": "audio/b867b0fbb2cf-egypt-primer-1-03.mp3",
+   "dur": 61,
+   "size": 363668,
+   "sha256": "b867b0fbb2cf6d6b2bf1b7810a1d7fa1ce4d05797ba5612008e24bf2ee02c93c"
+  },
+  {
+   "id": "egypt-primer-1-04",
+   "sessionId": "egypt-primer-1",
+   "number": 4,
+   "title": "What we'll be getting up to",
+   "summary": "A preview of twelve days, from Cairo to Luxor.",
+   "file": "audio/b39a3d9da1e6-egypt-primer-1-04.mp3",
+   "dur": 80,
+   "size": 482612,
+   "sha256": "b39a3d9da1e670bdbfaaf02e679e08822bb3ce3d27cd8ae14bf23e5acc260178"
+  },
+  {
+   "id": "egypt-primer-1-05",
+   "sessionId": "egypt-primer-1",
+   "number": 5,
+   "title": "Things to spot, and a few words",
+   "summary": "Little Egypt details, and some Arabic to use.",
+   "file": "audio/414bf1adbd54-egypt-primer-1-05.mp3",
+   "dur": 45,
+   "size": 270356,
+   "sha256": "414bf1adbd544ab674ae0db28bbe9c479353c81eca32714bcd822607a5a3bb0c"
+  },
+  {
+   "id": "saqqara-dahshur-1-01",
+   "sessionId": "saqqara-dahshur-1",
+   "number": 1,
+   "title": "First day in the field",
+   "summary": "Indy checks everyone made it in.",
+   "file": "audio/87f99d8ea0c9-saqqara-dahshur-1-01.mp3",
+   "dur": 36,
+   "size": 219236,
+   "sha256": "87f99d8ea0c92ca46b2bd7adcea3806179aa81a66975018d457cd4fc3a00294f"
+  },
+  {
+   "id": "saqqara-dahshur-1-02",
+   "sessionId": "saqqara-dahshur-1",
+   "number": 2,
+   "title": "The first pyramid",
+   "summary": "Saqqara and the Step Pyramid of Djoser.",
+   "file": "audio/fb381f877dd4-saqqara-dahshur-1-02.mp3",
+   "dur": 85,
+   "size": 508820,
+   "sha256": "fb381f877dd4716ce6e9d0a31c5eb8686959e96b2026645364979ded1dda2b44"
+  },
+  {
+   "id": "saqqara-dahshur-1-03",
+   "sessionId": "saqqara-dahshur-1",
+   "number": 3,
+   "title": "The learning curve",
+   "summary": "Sneferu's pyramids at Dahshur.",
+   "file": "audio/6757192f8412-saqqara-dahshur-1-03.mp3",
+   "dur": 78,
+   "size": 466772,
+   "sha256": "6757192f8412d8c7544ab9804f342089363e698c08447d3deb1378af33ff78a8"
+  },
+  {
+   "id": "saqqara-dahshur-1-04",
+   "sessionId": "saqqara-dahshur-1",
+   "number": 4,
+   "title": "Inside",
+   "summary": "A word about going inside, and snakes.",
+   "file": "audio/c21d71cb7ba1-saqqara-dahshur-1-04.mp3",
+   "dur": 25,
+   "size": 150116,
+   "sha256": "c21d71cb7ba1246fa98a6211179401dcd102ccf797240eed44c2b6040365bbfc"
+  },
+  {
+   "id": "giza-1-01",
+   "sessionId": "giza-1",
+   "number": 1,
+   "title": "The last wonder of the world",
+   "summary": "The Great Pyramid.",
+   "file": "audio/d4cd38514612-giza-1-01.mp3",
+   "dur": 64,
+   "size": 384692,
+   "sha256": "d4cd385146121bf9f089208414aa6b934e1f94448e9d058c23a38e6eaa17d474"
+  },
+  {
+   "id": "giza-1-02",
+   "sessionId": "giza-1",
+   "number": 2,
+   "title": "Who built it?",
+   "summary": "Workers, not slaves.",
+   "file": "audio/afbee7ecff0e-giza-1-02.mp3",
+   "dur": 38,
+   "size": 226580,
+   "sha256": "afbee7ecff0e7e19999543e57228226b33e0b049e6b6dbfc5535856fd8d48f16"
+  },
+  {
+   "id": "giza-1-03",
+   "sessionId": "giza-1",
+   "number": 3,
+   "title": "The Sphinx's nose",
+   "summary": "The story everyone gets wrong.",
+   "file": "audio/c52971a2eace-giza-1-03.mp3",
+   "dur": 43,
+   "size": 261572,
+   "sha256": "c52971a2eacea05b9195257b7c3039209a9974edda44a4b80dad5256edfd9962"
+  },
+  {
+   "id": "giza-1-04",
+   "sessionId": "giza-1",
+   "number": 4,
+   "title": "Maximum tourist",
+   "summary": "A word about filming at Giza.",
+   "file": "audio/a15d05939ab4-giza-1-04.mp3",
+   "dur": 60,
+   "size": 357620,
+   "sha256": "a15d05939ab4a27fc2c6b41a14bd9982dcb4de2ed178e05ff99644a9835328a9"
+  },
+  {
+   "id": "giza-1-05",
+   "sessionId": "giza-1",
+   "number": 5,
+   "title": "Khan el-Khalili",
+   "summary": "The great bazaar of old Cairo.",
+   "file": "audio/9c4e2eb65b0b-giza-1-05.mp3",
+   "dur": 31,
+   "size": 184820,
+   "sha256": "9c4e2eb65b0b3ef8a8ef732d78b7fc88adccd696f28a2223d9dad3234c860ea0"
+  },
+  {
+   "id": "grand-egyptian-museum-1-01",
+   "sessionId": "grand-egyptian-museum-1",
+   "number": 1,
+   "title": "Finally, a museum",
+   "summary": "Indy is delighted, and two museum specialists turn up.",
+   "file": "audio/797d6f854c60-grand-egyptian-museum-1-01.mp3",
+   "dur": 70,
+   "size": 421124,
+   "sha256": "797d6f854c60ea529c35f29714e5f3f4080392e614749cf63c4ff7de91490e72"
+  },
+  {
+   "id": "grand-egyptian-museum-1-02",
+   "sessionId": "grand-egyptian-museum-1",
+   "number": 2,
+   "title": "Ramesses in the hall",
+   "summary": "The giant statue at the entrance.",
+   "file": "audio/8f33e479d4ce-grand-egyptian-museum-1-02.mp3",
+   "dur": 48,
+   "size": 286484,
+   "sha256": "8f33e479d4ced5bea7889e0accfdf96b1557d59663f37dc5cfaa69e86577d69e"
+  },
+  {
+   "id": "grand-egyptian-museum-1-03",
+   "sessionId": "grand-egyptian-museum-1",
+   "number": 3,
+   "title": "The boy king",
+   "summary": "Tutankhamun's treasures.",
+   "file": "audio/432a3e87c2ef-grand-egyptian-museum-1-03.mp3",
+   "dur": 55,
+   "size": 330260,
+   "sha256": "432a3e87c2ef2328c534772afa5b4ea03bce7a04b80ec471ba7757d38f738c09"
+  },
+  {
+   "id": "grand-egyptian-museum-1-04",
+   "sessionId": "grand-egyptian-museum-1",
+   "number": 4,
+   "title": "The boat and the parade",
+   "summary": "Khufu's boat, and the mummies' journey.",
+   "file": "audio/c68b20f17418-grand-egyptian-museum-1-04.mp3",
+   "dur": 71,
+   "size": 423716,
+   "sha256": "c68b20f17418edc25f785a12dbc27580780abbe77b26770f77a7517c8fe9016c"
+  },
+  {
+   "id": "aswan-nubia-1-01",
+   "sessionId": "aswan-nubia-1",
+   "number": 1,
+   "title": "Down south",
+   "summary": "Where Aswan is, and why it mattered.",
+   "file": "audio/e76c510e414b-aswan-nubia-1-01.mp3",
+   "dur": 45,
+   "size": 270356,
+   "sha256": "e76c510e414bc26f36845ab269b5e506cf76514e403b5f1c49cb2d0abbc1d2e7"
+  },
+  {
+   "id": "aswan-nubia-1-02",
+   "sessionId": "aswan-nubia-1",
+   "number": 2,
+   "title": "Nubia and the black pharaohs",
+   "summary": "The kingdom to the south.",
+   "file": "audio/26b0374da615-aswan-nubia-1-02.mp3",
+   "dur": 36,
+   "size": 216356,
+   "sha256": "26b0374da615029a29e4127e607e9114543b931328bcd353aa3b81396a69ce65"
+  },
+  {
+   "id": "aswan-nubia-1-03",
+   "sessionId": "aswan-nubia-1",
+   "number": 3,
+   "title": "The great dam",
+   "summary": "How a dam changed Nubia forever.",
+   "file": "audio/4261b7b152c5-aswan-nubia-1-03.mp3",
+   "dur": 51,
+   "size": 306788,
+   "sha256": "4261b7b152c52ce866cca79898bbe7d1032196ea1f091f81d941f6c5ad3e4b6c"
+  },
+  {
+   "id": "aswan-nubia-1-04",
+   "sessionId": "aswan-nubia-1",
+   "number": 4,
+   "title": "The village",
+   "summary": "What to look for.",
+   "file": "audio/b8418c172486-aswan-nubia-1-04.mp3",
+   "dur": 35,
+   "size": 209156,
+   "sha256": "b8418c172486eef44ea87f5cb1aa51bb359ac4d169ec231da319b3aebeb1155e"
+  },
+  {
+   "id": "abu-simbel-1-01",
+   "sessionId": "abu-simbel-1",
+   "number": 1,
+   "title": "Rise and shine",
+   "summary": "About this start time.",
+   "file": "audio/e5d3919925b7-abu-simbel-1-01.mp3",
+   "dur": 31,
+   "size": 187700,
+   "sha256": "e5d3919925b7b2fb3539ce272e97dc0b7b9fa43d92d47efee0fe442610f61e5a"
+  },
+  {
+   "id": "abu-simbel-1-02",
+   "sessionId": "abu-simbel-1",
+   "number": 2,
+   "title": "The desert road",
+   "summary": "Where you're going.",
+   "file": "audio/8e1277d0deaf-abu-simbel-1-02.mp3",
+   "dur": 25,
+   "size": 151268,
+   "sha256": "8e1277d0deaffd4c80db8f3ae2868493eba50aef10eabc577f22eff1c32e01eb"
+  },
+  {
+   "id": "abu-simbel-1-03",
+   "sessionId": "abu-simbel-1",
+   "number": 3,
+   "title": "Ramesses the big",
+   "summary": "The four giant statues.",
+   "file": "audio/8d416ce1e9bc-abu-simbel-1-03.mp3",
+   "dur": 64,
+   "size": 387284,
+   "sha256": "8d416ce1e9bcc399237a689126ca38474ec58b83cf7e572cfecd6296818fb8cc"
+  },
+  {
+   "id": "abu-simbel-1-04",
+   "sessionId": "abu-simbel-1",
+   "number": 4,
+   "title": "The queen",
+   "summary": "The small temple.",
+   "file": "audio/4aeb32703d6b-abu-simbel-1-04.mp3",
+   "dur": 27,
+   "size": 165524,
+   "sha256": "4aeb32703d6b408dde47dab93de955232d8eb4774ab96a0a3fe7ea89936ed76b"
+  },
+  {
+   "id": "abu-simbel-1-05",
+   "sessionId": "abu-simbel-1",
+   "number": 5,
+   "title": "Lost and moved",
+   "summary": "Sand, rediscovery, and the great move.",
+   "file": "audio/6622719c9b74-abu-simbel-1-05.mp3",
+   "dur": 75,
+   "size": 450644,
+   "sha256": "6622719c9b74edaf8fe75f23b4c7d6745f43e18213d74834c57e52eea49da6c3"
+  },
+  {
+   "id": "philae-1-01",
+   "sessionId": "philae-1",
+   "number": 1,
+   "title": "The island of Isis",
+   "summary": "The temple and its goddess.",
+   "file": "audio/0582dfd9a643-philae-1-01.mp3",
+   "dur": 41,
+   "size": 245156,
+   "sha256": "0582dfd9a64340a785cb97c7b594aeb61a753487198e8a8f8ab55a15353b5e48"
+  },
+  {
+   "id": "philae-1-02",
+   "sessionId": "philae-1",
+   "number": 2,
+   "title": "The last hieroglyphs",
+   "summary": "Where the old religion ended.",
+   "file": "audio/aac1ef40bc4c-philae-1-02.mp3",
+   "dur": 52,
+   "size": 312260,
+   "sha256": "aac1ef40bc4c405d0b8577326200b4a16bcfb585904bc551580fc1c16545a52f"
+  },
+  {
+   "id": "philae-1-03",
+   "sessionId": "philae-1",
+   "number": 3,
+   "title": "Moved to save it",
+   "summary": "The temple's rescue.",
+   "file": "audio/d194ff6d4982-philae-1-03.mp3",
+   "dur": 30,
+   "size": 182228,
+   "sha256": "d194ff6d4982ef5e04530f26309946a6efdee8f4ce88e8ff6f54e24d446c2506"
+  },
+  {
+   "id": "philae-1-04",
+   "sessionId": "philae-1",
+   "number": 4,
+   "title": "The Unfinished Obelisk",
+   "summary": "The biggest obelisk that never was.",
+   "file": "audio/52960bcc8dad-philae-1-04.mp3",
+   "dur": 52,
+   "size": 311540,
+   "sha256": "52960bcc8daddc2a7e737afae527ebd588fb1d9e845147bb5356bedfb1e539c7"
+  },
+  {
+   "id": "kom-ombo-edfu-1-01",
+   "sessionId": "kom-ombo-edfu-1",
+   "number": 1,
+   "title": "A temple for two",
+   "summary": "Kom Ombo.",
+   "file": "audio/22db706edfb9-kom-ombo-edfu-1-01.mp3",
+   "dur": 113,
+   "size": 676724,
+   "sha256": "22db706edfb91e927420e1c567366938ae7d1e986b115102d65426276f1ad850"
+  },
+  {
+   "id": "kom-ombo-edfu-1-02",
+   "sessionId": "kom-ombo-edfu-1",
+   "number": 2,
+   "title": "The temple under the sand",
+   "summary": "Edfu.",
+   "file": "audio/f9000d1f2a2f-kom-ombo-edfu-1-02.mp3",
+   "dur": 72,
+   "size": 434084,
+   "sha256": "f9000d1f2a2fb2d84cd9f44c6607e10893e68663e4bc53535da4ee2b7dfb9297"
+  },
+  {
+   "id": "nile-sailing-1-01",
+   "sessionId": "nile-sailing-1",
+   "number": 1,
+   "title": "Leaving Aswan",
+   "summary": "The islands and the hilltops you pass first.",
+   "file": "audio/09cbf8b403e4-nile-sailing-1-01.mp3",
+   "dur": 94,
+   "size": 567140,
+   "sha256": "09cbf8b403e43e7ff1437ad03fc37541269f20dadf53318e0c93d0bc40df0ade"
+  },
+  {
+   "id": "nile-sailing-1-02",
+   "sessionId": "nile-sailing-1",
+   "number": 2,
+   "title": "The gift of the river",
+   "summary": "Why Egypt is a green line in the desert, and what the dam changed.",
+   "file": "audio/86d134135a1e-nile-sailing-1-02.mp3",
+   "dur": 90,
+   "size": 540356,
+   "sha256": "86d134135a1e7c390c18cd396b814d753ab6c8226016ef70b121ee6ae670f9cd"
+  },
+  {
+   "id": "nile-sailing-1-03",
+   "sessionId": "nile-sailing-1",
+   "number": 3,
+   "title": "Life on the banks",
+   "summary": "What the people along the river are doing.",
+   "file": "audio/75edef3a9f19-nile-sailing-1-03.mp3",
+   "dur": 70,
+   "size": 422420,
+   "sha256": "75edef3a9f191451a941c0417410fa3dc0dd15bc5ea993293b996d1edbf57623"
+  },
+  {
+   "id": "nile-sailing-1-04",
+   "sessionId": "nile-sailing-1",
+   "number": 4,
+   "title": "The lock at Esna",
+   "summary": "How a ship goes down a river, and what to do while you wait.",
+   "file": "audio/dd9460427833-nile-sailing-1-04.mp3",
+   "dur": 72,
+   "size": 431492,
+   "sha256": "dd9460427833d98616c6864a1bf7ec06b6bf940366df5512c78ebc06a259afcf"
+  },
+  {
+   "id": "nile-sailing-1-05",
+   "sessionId": "nile-sailing-1",
+   "number": 5,
+   "title": "If your ship stops at Esna",
+   "summary": "In case Esna replaces Edfu on the itinerary.",
+   "file": "audio/461bdee5b9bc-nile-sailing-1-05.mp3",
+   "dur": 85,
+   "size": 511844,
+   "sha256": "461bdee5b9bce41baaf4a3ff37719e81247884f71266dc575b274c243ac84986"
+  },
+  {
+   "id": "nile-sailing-1-06",
+   "sessionId": "nile-sailing-1",
+   "number": 6,
+   "title": "Into Luxor",
+   "summary": "The last stretch of the river, and the arrival.",
+   "file": "audio/ffdf7fe6668b-nile-sailing-1-06.mp3",
+   "dur": 56,
+   "size": 336164,
+   "sha256": "ffdf7fe6668b1cdf011fda051691809d2a6b5b10bfe5ece9318a3b6d02a072c0"
+  },
+  {
+   "id": "karnak-luxor-1-01",
+   "sessionId": "karnak-luxor-1",
+   "number": 1,
+   "title": "Thebes",
+   "summary": "The great city of the New Kingdom.",
+   "file": "audio/9b641ea9cb02-karnak-luxor-1-01.mp3",
+   "dur": 13,
+   "size": 77396,
+   "sha256": "9b641ea9cb023cb048d9b97ca6e27ee768ef18675d6f00c94398e05d0d7df850"
+  },
+  {
+   "id": "karnak-luxor-1-02",
+   "sessionId": "karnak-luxor-1",
+   "number": 2,
+   "title": "Karnak",
+   "summary": "The biggest temple complex in the world.",
+   "file": "audio/f2e1fb6a2f81-karnak-luxor-1-02.mp3",
+   "dur": 77,
+   "size": 464036,
+   "sha256": "f2e1fb6a2f8141972ab19d5288488959794c4b3f20864151bbbf81f32076a477"
+  },
+  {
+   "id": "karnak-luxor-1-03",
+   "sessionId": "karnak-luxor-1",
+   "number": 3,
+   "title": "Luxor Temple",
+   "summary": "The temple in the middle of town.",
+   "file": "audio/9d5a7bece675-karnak-luxor-1-03.mp3",
+   "dur": 60,
+   "size": 363380,
+   "sha256": "9d5a7bece675a3e0c93f288ca560b08e67ba9bfa2ab33401476205ab124b0b46"
+  },
+  {
+   "id": "valley-of-the-kings-1-01",
+   "sessionId": "valley-of-the-kings-1",
+   "number": 1,
+   "title": "Hide the treasure",
+   "summary": "Why the kings stopped building pyramids.",
+   "file": "audio/38e14f717846-valley-of-the-kings-1-01.mp3",
+   "dur": 143,
+   "size": 856148,
+   "sha256": "38e14f717846bf20768cd20dd02ea653a71a26e875884e023fb00cd5517b2c16"
+  },
+  {
+   "id": "valley-of-the-kings-1-02",
+   "sessionId": "valley-of-the-kings-1",
+   "number": 2,
+   "title": "The woman who was king",
+   "summary": "Hatshepsut and her temple.",
+   "file": "audio/6616f0cbf0cc-valley-of-the-kings-1-02.mp3",
+   "dur": 48,
+   "size": 288068,
+   "sha256": "6616f0cbf0cc2b310d39b80928665762dbc670e876258901bc025cfc89c68d00"
+  },
+  {
+   "id": "valley-of-the-kings-1-03",
+   "sessionId": "valley-of-the-kings-1",
+   "number": 3,
+   "title": "The singing statues",
+   "summary": "The Colossi of Memnon.",
+   "file": "audio/e67c5518218d-valley-of-the-kings-1-03.mp3",
+   "dur": 47,
+   "size": 283460,
+   "sha256": "e67c5518218d10606a496497cabcb76811955c4cd2c532299e05d6235aacac34"
+  },
+  {
+   "id": "valley-of-the-queens-deir-el-medina-1-01",
+   "sessionId": "valley-of-the-queens-deir-el-medina-1",
+   "number": 1,
+   "title": "The most beautiful tomb",
+   "summary": "Nefertari.",
+   "file": "audio/6007465b0189-valley-of-the-queens-deir-el-medina-1-01.mp3",
+   "dur": 33,
+   "size": 197924,
+   "sha256": "6007465b01894ec17940e736f9135bd9ff2d0055a1506597659f955bcb836ea9"
+  },
+  {
+   "id": "valley-of-the-queens-deir-el-medina-1-02",
+   "sessionId": "valley-of-the-queens-deir-el-medina-1",
+   "number": 2,
+   "title": "The tomb builders",
+   "summary": "Deir el-Medina, and their excuses.",
+   "file": "audio/6b6d6cd1c290-valley-of-the-queens-deir-el-medina-1-02.mp3",
+   "dur": 77,
+   "size": 462740,
+   "sha256": "6b6d6cd1c2900314a255e9475364a5422d6759fd763c2119a7ddc779ab8453c0"
+  },
+  {
+   "id": "valley-of-the-queens-deir-el-medina-1-03",
+   "sessionId": "valley-of-the-queens-deir-el-medina-1",
+   "number": 3,
+   "title": "Medinet Habu",
+   "summary": "Ramesses the Third's battle temple.",
+   "file": "audio/4813b806d481-valley-of-the-queens-deir-el-medina-1-03.mp3",
+   "dur": 27,
+   "size": 160772,
+   "sha256": "4813b806d48133ae8b1e0b34598646200c03f468f81418b96b7052fe78e20756"
+  },
+  {
+   "id": "valley-of-the-queens-deir-el-medina-1-04",
+   "sessionId": "valley-of-the-queens-deir-el-medina-1",
+   "number": 4,
+   "title": "The fallen king",
+   "summary": "The Ramesseum and a famous poem.",
+   "file": "audio/cf94b7436626-valley-of-the-queens-deir-el-medina-1-04.mp3",
+   "dur": 70,
+   "size": 420260,
+   "sha256": "cf94b74366260043a994c3640a421076f51bced3f8e08407b2da67eddca52973"
+  },
+  {
+   "id": "istanbul-primer-1-01",
+   "sessionId": "istanbul-primer-1",
+   "number": 1,
+   "title": "Between two continents",
+   "summary": "Indy introduces Istanbul.",
+   "file": "audio/b9e01e863206-istanbul-primer-1-01.mp3",
+   "dur": 42,
+   "size": 255092,
+   "sha256": "b9e01e863206a352c079d8909ab4a18ed1401dc8e7642fadd0b8ce447c7e6ff4"
+  },
+  {
+   "id": "istanbul-primer-1-02",
+   "sessionId": "istanbul-primer-1",
+   "number": 2,
+   "title": "Three names",
+   "summary": "Byzantium, Constantinople, Istanbul.",
+   "file": "audio/317f1d124102-istanbul-primer-1-02.mp3",
+   "dur": 87,
+   "size": 525380,
+   "sha256": "317f1d12410212f4e515faeee7077bfb6c05b103c0c39c63f8cf6ceb2a18b845"
+  },
+  {
+   "id": "istanbul-primer-1-03",
+   "sessionId": "istanbul-primer-1",
+   "number": 3,
+   "title": "Gallipoli",
+   "summary": "Sir Laurence on the campaign that ties this country to home.",
+   "file": "audio/fa9bdeb0c0d8-istanbul-primer-1-03.mp3",
+   "dur": 60,
+   "size": 361076,
+   "sha256": "fa9bdeb0c0d8d87699c6e37dfa197f3bc19613d83f26217f5f02cdb4af861e79"
+  },
+  {
+   "id": "istanbul-primer-1-04",
+   "sessionId": "istanbul-primer-1",
+   "number": 4,
+   "title": "What we'll be getting up to",
+   "summary": "A preview of the last days of the trip.",
+   "file": "audio/8b626dede867-istanbul-primer-1-04.mp3",
+   "dur": 41,
+   "size": 244148,
+   "sha256": "8b626dede867491c6877c45bbb8070dbcc5c93afebbb1a4e01df6cd775c3fc2d"
+  },
+  {
+   "id": "istanbul-primer-1-05",
+   "sessionId": "istanbul-primer-1",
+   "number": 5,
+   "title": "Things to spot, and a few words",
+   "summary": "Little Istanbul details, and some Turkish to use.",
+   "file": "audio/8d1df08a5fa7-istanbul-primer-1-05.mp3",
+   "dur": 57,
+   "size": 342932,
+   "sha256": "8d1df08a5fa79b4becc9de9f448be6b169871fd90ee5a9c6778e510d97f9898b"
+  },
+  {
+   "id": "suleymaniye-mosque-1-01",
+   "sessionId": "suleymaniye-mosque-1",
+   "number": 1,
+   "title": "Two continents",
+   "summary": "Where you are.",
+   "file": "audio/38330d34c852-suleymaniye-mosque-1-01.mp3",
+   "dur": 54,
+   "size": 322196,
+   "sha256": "38330d34c852c5c5bd392b00e04671d3f9c45dc01b7ee625ee2f6820d19e5d50"
+  },
+  {
+   "id": "suleymaniye-mosque-1-02",
+   "sessionId": "suleymaniye-mosque-1",
+   "number": 2,
+   "title": "Sinan's masterpiece",
+   "summary": "The mosque and its architect.",
+   "file": "audio/46e4c4b8e946-suleymaniye-mosque-1-02.mp3",
+   "dur": 72,
+   "size": 431348,
+   "sha256": "46e4c4b8e946fd80ad83c92188513874b7943f9c44baa6dff88a8bfe86ad2dca"
+  },
+  {
+   "id": "suleymaniye-mosque-1-03",
+   "sessionId": "suleymaniye-mosque-1",
+   "number": 3,
+   "title": "The view",
+   "summary": "The Golden Horn and the city.",
+   "file": "audio/c5fc5837b1a1-suleymaniye-mosque-1-03.mp3",
+   "dur": 59,
+   "size": 354308,
+   "sha256": "c5fc5837b1a1ee937b3d609211b1c986c65c60aaf7ad219b3ca231e580594a6f"
+  },
+  {
+   "id": "suleymaniye-mosque-1-04",
+   "sessionId": "suleymaniye-mosque-1",
+   "number": 4,
+   "title": "The terrace, left to right",
+   "summary": "What you are looking at across the Golden Horn, and the best light.",
+   "file": "audio/9a3a26114f1c-suleymaniye-mosque-1-04.mp3",
+   "dur": 112,
+   "size": 671540,
+   "sha256": "9a3a26114f1cc3214ec14e7ffa150e78ede9a7721061185aa9746de44c94802f"
+  },
+  {
+   "id": "hagia-sophia-1-01",
+   "sessionId": "hagia-sophia-1",
+   "number": 1,
+   "title": "A riot and a church",
+   "summary": "Why Hagia Sophia was built.",
+   "file": "audio/5b583b090b65-hagia-sophia-1-01.mp3",
+   "dur": 52,
+   "size": 314708,
+   "sha256": "5b583b090b651ae84d702d1a097f95321bbe594c8e82ba0808dda1b6875628eb"
+  },
+  {
+   "id": "hagia-sophia-1-02",
+   "sessionId": "hagia-sophia-1",
+   "number": 2,
+   "title": "The dome",
+   "summary": "How it was built, and what people said.",
+   "file": "audio/39312e7e7a2d-hagia-sophia-1-02.mp3",
+   "dur": 47,
+   "size": 282308,
+   "sha256": "39312e7e7a2d23d99d7aaffad03faf361d0d365c11763848de38ef15d55c1d3a"
+  },
+  {
+   "id": "hagia-sophia-1-03",
+   "sessionId": "hagia-sophia-1",
+   "number": 3,
+   "title": "Many lives",
+   "summary": "Church, mosque, museum, mosque.",
+   "file": "audio/0791dadf4834-hagia-sophia-1-03.mp3",
+   "dur": 72,
+   "size": 430772,
+   "sha256": "0791dadf48341ae9be9bbeab92d192743685ee2557003677a3d23c3d55e55725"
+  },
+  {
+   "id": "hagia-sophia-1-04",
+   "sessionId": "hagia-sophia-1",
+   "number": 4,
+   "title": "One more thing",
+   "summary": "A short word before you head in.",
+   "file": "audio/8d4022ca3da3-hagia-sophia-1-04.mp3",
+   "dur": 129,
+   "size": 775220,
+   "sha256": "8d4022ca3da3e03cb7e13ce3b6ae56d2bab07ddf5a553a71868be018f749d6fe"
+  },
+  {
+   "id": "topkapi-palace-1-01",
+   "sessionId": "topkapi-palace-1",
+   "number": 1,
+   "title": "The imperial gate",
+   "summary": "Where you are standing.",
+   "file": "audio/62443718df54-topkapi-palace-1-01.mp3",
+   "dur": 47,
+   "size": 281876,
+   "sha256": "62443718df5404b1fd725abcb481903c6394883c18feb7f9f2430777eabfe9aa"
+  },
+  {
+   "id": "topkapi-palace-1-02",
+   "sessionId": "topkapi-palace-1",
+   "number": 2,
+   "title": "The secret window",
+   "summary": "The Imperial Council Hall.",
+   "file": "audio/0e814b44fdf2-topkapi-palace-1-02.mp3",
+   "dur": 54,
+   "size": 324500,
+   "sha256": "0e814b44fdf2f3370b81a5404d2bd16fd2819d04af5066e954b5b8c34718bf14"
+  },
+  {
+   "id": "topkapi-palace-1-03",
+   "sessionId": "topkapi-palace-1",
+   "number": 3,
+   "title": "A word from the wildlife",
+   "summary": "Someone notices the palace's real residents.",
+   "file": "audio/34845a1a7195-topkapi-palace-1-03.mp3",
+   "dur": 50,
+   "size": 302036,
+   "sha256": "34845a1a7195bf1b6e3cf60a7242662c1c604a3438ec989a2b58e57be3f5370b"
+  },
+  {
+   "id": "topkapi-palace-1-04",
+   "sessionId": "topkapi-palace-1",
+   "number": 4,
+   "title": "The treasury",
+   "summary": "The diamond and the dagger.",
+   "file": "audio/011a4bdf7e8f-topkapi-palace-1-04.mp3",
+   "dur": 57,
+   "size": 342932,
+   "sha256": "011a4bdf7e8f42193b64ae9869ce5a178a8836572a68393cf29f3d03fb3f9b5b"
+  },
+  {
+   "id": "basilica-cistern-1-01",
+   "sessionId": "basilica-cistern-1",
+   "number": 1,
+   "title": "Underground",
+   "summary": "What the cistern was for.",
+   "file": "audio/2d911f10e88c-basilica-cistern-1-01.mp3",
+   "dur": 54,
+   "size": 326372,
+   "sha256": "2d911f10e88cb39f604dd6f37fdba45e432fffc6600c1a8d9a6ec7c5bbe1fe8b"
+  },
+  {
+   "id": "basilica-cistern-1-02",
+   "sessionId": "basilica-cistern-1",
+   "number": 2,
+   "title": "The Medusa heads",
+   "summary": "The two strange heads.",
+   "file": "audio/973aa7e2cb0a-basilica-cistern-1-02.mp3",
+   "dur": 48,
+   "size": 286484,
+   "sha256": "973aa7e2cb0a85b28a9bbf62a063b571bbed2dc7e0bfd5f841923c03a4286bfc"
+  },
+  {
+   "id": "grand-bazaar-1-01",
+   "sessionId": "grand-bazaar-1",
+   "number": 1,
+   "title": "The maze",
+   "summary": "The bazaar's story.",
+   "file": "audio/570302407df0-grand-bazaar-1-01.mp3",
+   "dur": 45,
+   "size": 269780,
+   "sha256": "570302407df070ee724de1cfa3fa35cb2b69b5df9f3db47fcfd8fa87a56b307c"
+  },
+  {
+   "id": "grand-bazaar-1-02",
+   "sessionId": "grand-bazaar-1",
+   "number": 2,
+   "title": "Navigation",
+   "summary": "A word about finding your way out.",
+   "file": "audio/d2c236a6ce36-grand-bazaar-1-02.mp3",
+   "dur": 32,
+   "size": 193316,
+   "sha256": "d2c236a6ce36d4c034f7fcbedae955ed25a1eaa263a81b22f54369bb51fd0950"
+  },
+  {
+   "id": "grand-bazaar-1-03",
+   "sessionId": "grand-bazaar-1",
+   "number": 3,
+   "title": "How to haggle",
+   "summary": "The rules of the game.",
+   "file": "audio/eaffc5e34eab-grand-bazaar-1-03.mp3",
+   "dur": 57,
+   "size": 341924,
+   "sha256": "eaffc5e34eabd33b4d4e7c5966acfefa2e890a851526cb14eb55bb0fc14b1f5d"
+  },
+  {
+   "id": "grand-bazaar-1-04",
+   "sessionId": "grand-bazaar-1",
+   "number": 4,
+   "title": "The final reckoning",
+   "summary": "How did the money go?",
+   "file": "audio/2ad5e5496943-grand-bazaar-1-04.mp3",
+   "dur": 58,
+   "size": 349124,
+   "sha256": "2ad5e54969433dab61b64b81b5201b7db52e975f96f2cab6671e0f0a4669ca5c"
+  },
+  {
+   "id": "gallipoli-ride-out-1-01",
+   "sessionId": "gallipoli-ride-out-1",
+   "number": 1,
+   "title": "Why Gallipoli",
+   "summary": "The plan.",
+   "file": "audio/78da3524123e-gallipoli-ride-out-1-01.mp3",
+   "dur": 68,
+   "size": 408164,
+   "sha256": "78da3524123eb0f9beda92acbd40947fb1faee9aeefba2f87a98b1b752b8987e"
+  },
+  {
+   "id": "gallipoli-ride-out-1-02",
+   "sessionId": "gallipoli-ride-out-1",
+   "number": 2,
+   "title": "The landing",
+   "summary": "The twenty-fifth of April.",
+   "file": "audio/7ce8707e6d80-gallipoli-ride-out-1-02.mp3",
+   "dur": 68,
+   "size": 410900,
+   "sha256": "7ce8707e6d80590b373cfec291e1bd6cfcadfec7735f1e37d45e96cbce51cadc"
+  },
+  {
+   "id": "gallipoli-ride-out-1-03",
+   "sessionId": "gallipoli-ride-out-1",
+   "number": 3,
+   "title": "Eight months",
+   "summary": "The months that followed.",
+   "file": "audio/7ac30d474411-gallipoli-ride-out-1-03.mp3",
+   "dur": 68,
+   "size": 408308,
+   "sha256": "7ac30d47441162f42c37925c0301abc327a36c2a5e1629ff4de515c00623961c"
+  },
+  {
+   "id": "gallipoli-ride-out-1-04",
+   "sessionId": "gallipoli-ride-out-1",
+   "number": 4,
+   "title": "The end",
+   "summary": "The evacuation, and the cost.",
+   "file": "audio/a37c45fc1d9a-gallipoli-ride-out-1-04.mp3",
+   "dur": 67,
+   "size": 401684,
+   "sha256": "a37c45fc1d9a7fe2c65c465cfcb93d5eabe317320c98d12238e7133013dc725d"
+  },
+  {
+   "id": "gallipoli-ride-home-1-01",
+   "sessionId": "gallipoli-ride-home-1",
+   "number": 1,
+   "title": "Our sons as well",
+   "summary": "Atatürk's words to the mothers.",
+   "file": "audio/d443fc812a78-gallipoli-ride-home-1-01.mp3",
+   "dur": 58,
+   "size": 349412,
+   "sha256": "d443fc812a78087b736297a0087702e8626faae25a927281d2be728a390c5f15"
+  },
+  {
+   "id": "gallipoli-ride-home-1-02",
+   "sessionId": "gallipoli-ride-home-1",
+   "number": 2,
+   "title": "The Ode",
+   "summary": "The words of remembrance.",
+   "file": "audio/64d062d556a2-gallipoli-ride-home-1-02.mp3",
+   "dur": 27,
+   "size": 160628,
+   "sha256": "64d062d556a219f1d0b2a8f43b2dd57c87af97c4688d2670774b7a5989fbdf24"
+  },
+  {
+   "id": "blue-mosque-1-01",
+   "sessionId": "blue-mosque-1",
+   "number": 1,
+   "title": "The young sultan",
+   "summary": "Who built it.",
+   "file": "audio/08131379a0ef-blue-mosque-1-01.mp3",
+   "dur": 42,
+   "size": 254228,
+   "sha256": "08131379a0ef9bd25241d4c738f7b71d4b315a1b450e09441081162700159557"
+  },
+  {
+   "id": "blue-mosque-1-02",
+   "sessionId": "blue-mosque-1",
+   "number": 2,
+   "title": "The six-minaret scandal",
+   "summary": "A story about too many towers.",
+   "file": "audio/9b14570db577-blue-mosque-1-02.mp3",
+   "dur": 39,
+   "size": 237380,
+   "sha256": "9b14570db5779bc8b8e059dc829a1dc357e060640da9795201097776e2688050"
+  },
+  {
+   "id": "blue-mosque-1-03",
+   "sessionId": "blue-mosque-1",
+   "number": 3,
+   "title": "Inside the blue",
+   "summary": "What to look for inside.",
+   "file": "audio/7f36a92aec14-blue-mosque-1-03.mp3",
+   "dur": 45,
+   "size": 271796,
+   "sha256": "7f36a92aec14372c1d3e3907c1c98e6f2889531e199ad99e9a8a92fd64ee5e63"
+  },
+  {
+   "id": "hippodrome-obelisk-1-01",
+   "sessionId": "hippodrome-obelisk-1",
+   "number": 1,
+   "title": "An old friend",
+   "summary": "Something you've seen before.",
+   "file": "audio/a40c0cd4dede-hippodrome-obelisk-1-01.mp3",
+   "dur": 74,
+   "size": 447620,
+   "sha256": "a40c0cd4dede86f214ba54ae7414371c7827ace60d9168c2a76445c9aa9ec9d2"
+  },
+  {
+   "id": "hippodrome-obelisk-1-02",
+   "sessionId": "hippodrome-obelisk-1",
+   "number": 2,
+   "title": "The serpent column",
+   "summary": "The twisted bronze column.",
+   "file": "audio/6d94120a8c8f-hippodrome-obelisk-1-02.mp3",
+   "dur": 30,
+   "size": 177908,
+   "sha256": "6d94120a8c8f5b86b61b674c2a79af4d23807e75bd2fee9ec3e3e85c847606ae"
+  },
+  {
+   "id": "hippodrome-obelisk-1-03",
+   "sessionId": "hippodrome-obelisk-1",
+   "number": 3,
+   "title": "Maximum tourist, one last time",
+   "summary": "The whole cast signs off the trip.",
+   "file": "audio/9ec186ab7379-hippodrome-obelisk-1-03.mp3",
+   "dur": 110,
+   "size": 658868,
+   "sha256": "9ec186ab737946897056423179d0c7253bc00636725aa4230517fd468c81be62"
+  }
+ ]
+}
